@@ -1,0 +1,18 @@
+Source Document,N,Pct_OBS,Pct_MNAR,Modal_Val,Modal_Actor,Category
+AIDM / RP1008,29,75.86206896551724,24.137931034482758,Income,Carrier,Industry Schema
+AIDX v22.1,13,92.3076923076923,7.6923076923076925,Cost,Airport,Industry Schema
+ATPCO (composite),13,15.384615384615385,84.61538461538461,Market,Carrier,Industry Schema
+ATPCO (composite) / 14 CFR 221,1,100.0,0.0,Income,Carrier,Industry Schema
+Amadeus Flight Offers Search API (OpenAPI),15,100.0,0.0,Income,Carrier,Vendor API
+GTAA Aeronautical Fees 2025,8,100.0,0.0,Cost,Airport,Airport Document
+Heathrow Conditions of Use 2025/26,8,100.0,0.0,Market,Regulator,Airport Document
+IATA EMD Resolution 725,9,100.0,0.0,Income,Carrier,Industry Schema
+IATA IAWG IFRS 15 Loyalty Guide,5,60.0,40.0,Income,Carrier,Industry Schema
+IATA Interline Checklist,11,63.63636363636363,36.36363636363637,Income,Industry Body,Industry Schema
+IATA SGHA 2023,7,28.57142857142857,71.42857142857143,Cost,Vendor,Industry Schema
+IATA SSIM (public structure),9,100.0,0.0,Cost,Carrier,Industry Schema
+PANYNJ Schedule of Charges 2024,6,100.0,0.0,Cost,Airport,Airport Document
+PCI DSS v4.0.1,13,30.76923076923077,69.23076923076923,Risk,Vendor,Industry Schema
+SIS IS-XML,21,57.14285714285714,42.857142857142854,Income,Industry Body,Industry Schema
+SITA AIDX API (developer.aero),1,100.0,0.0,Risk,Vendor,Vendor API
+SITA BagJourney API,6,66.66666666666666,33.33333333333333,Risk,Vendor,Vendor API

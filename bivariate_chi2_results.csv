@@ -1,0 +1,8 @@
+Test,Chi2,df,p,V,Strength,N,min_exp,cells_lt5,Sig
+Actor Type × Data Access,47.566,5,0.0,0.521,strong,175,0.57,3,True
+MAS Function × Data Access,25.355,3,1.3e-05,0.381,strong,175,4.0,2,True
+Valuation Type × Data Access,13.346,4,0.009704,0.276,moderate-strong,175,5.14,0,True
+Source Category × Data Access,17.071,2,0.000196,0.312,strong,175,6.29,0,True
+Actor Type × Valuation Type,81.472,20,0.0,0.341,strong,175,0.21,15,True
+MAS Function × Valuation Type,67.254,12,0.0,0.358,strong,175,1.44,10,True
+Actor Type × MAS Function,94.416,15,0.0,0.424,strong,175,0.16,14,True
