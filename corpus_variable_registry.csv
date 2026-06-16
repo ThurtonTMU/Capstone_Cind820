@@ -1,0 +1,176 @@
+Variable Name,Source Document,Source Category,MAS Function,Actor,Actor Type,Valuation Type,Data Type,AIDM Domain,Notes,Data Access
+Settlement Amount,SIS IS-XML,Industry Schema,Distribution / GDS,Amadeus (SIS),Vendor,Income,Numeric,Settlement with Orders,Net amount due between two parties after billing and proration,MNAR
+Proration Value,SIS IS-XML,Industry Schema,Distribution / GDS,Amadeus (SIS),Vendor,Income,Numeric,Settlement with Orders,Portion of through-fare allocated to each carrier segment,MNAR
+Five Day Rate (FDR),SIS IS-XML,Industry Schema,Distribution / GDS,IATA,Industry Body,Market,Numeric,Settlement with Orders,Currency conversion rate averaged over 5 banking days ending 25th of month,OBSERVED
+Billing Period,SIS IS-XML,Industry Schema,Distribution / GDS,IATA,Industry Body,Cost,Date Range,Settlement with Orders,Monthly time window for interline billings,OBSERVED
+Charge Category Code,SIS IS-XML,Industry Schema,Distribution / GDS,IATA,Industry Body,Market,Categorical,Settlement with Orders,IS-XML classification of charge type (PAX/cargo/misc),OBSERVED
+Charge Code,SIS IS-XML,Industry Schema,Distribution / GDS,IATA,Industry Body,Market,Categorical,Settlement with Orders,Sub-classification of specific charge type,OBSERVED
+F12 File Total,SIS IS-XML,Industry Schema,Distribution / GDS,Amadeus (SIS),Vendor,Income,Numeric,Settlement with Orders,Sum of invoice totals uploaded for weekly ICH clearing,MNAR
+Reject Amount,SIS IS-XML,Industry Schema,Distribution / GDS,Amadeus (SIS),Vendor,Risk,Numeric,Settlement with Orders,Value of invoices rejected by billed carrier,MNAR
+Dispute Amount,SIS IS-XML,Industry Schema,Distribution / GDS,Amadeus (SIS),Vendor,Risk,Numeric,Settlement with Orders,Value of invoices under formal dispute between carriers,MNAR
+Credit Note Value,SIS IS-XML,Industry Schema,Distribution / GDS,Amadeus (SIS),Vendor,Cost,Numeric,Settlement with Orders,Adjustment issued to correct or reverse earlier billing,MNAR
+VAT Amount,SIS IS-XML,Industry Schema,Distribution / GDS,IATA,Industry Body,Cost,Numeric,Settlement with Orders,Tax component of invoice — jurisdiction-specific,MNAR
+Auto-Billing Uplift,SIS IS-XML,Industry Schema,Distribution / GDS,Amadeus (SIS),Vendor,Income,String/Numeric,Settlement with Orders,Carrier-submitted uplifts triggering automated billing,MNAR
+NFP (Neutral Fare Proration),SIS IS-XML,Industry Schema,Distribution / GDS,Amadeus (SIS),Vendor,Income,Numeric,Settlement with Orders,Third-party proration value used in First and Final settlement,MNAR
+BilledMember,SIS IS-XML,Industry Schema,Distribution / GDS,IATA,Industry Body,Income,String (AN 3),Settlement with Orders,Member prefix (e.g. 220 for Lufthansa — 001 for American Airlines),OBSERVED
+InvoiceNumber,SIS IS-XML,Industry Schema,Distribution / GDS,IATA,Industry Body,Income,String (AN 10),Settlement with Orders,Unique invoice identifier per billing period,OBSERVED
+BillingCategory,SIS IS-XML,Industry Schema,Distribution / GDS,IATA,Industry Body,Market,Categorical (AN 1),Settlement with Orders,M = Miscellaneous invoice type,OBSERVED
+LineItem/ChargeCode,SIS IS-XML,Industry Schema,Distribution / GDS,IATA,Industry Body,Market,String,Settlement with Orders,Charge code at line item level,OBSERVED
+LineItem/ChargeAmount,SIS IS-XML,Industry Schema,Distribution / GDS,IATA,Industry Body,Income,Numeric,Settlement with Orders,Base amount at line item level,OBSERVED
+LineItem/TotalNetAmount,SIS IS-XML,Industry Schema,Distribution / GDS,IATA,Industry Body,Income,Numeric,Settlement with Orders,Total net amount per line item (base + add-on + tax + VAT),OBSERVED
+InvoiceSummary/TotalLineItemAmount,SIS IS-XML,Industry Schema,Distribution / GDS,IATA,Industry Body,Income,Numeric,Settlement with Orders,Sum of all line item base amounts,OBSERVED
+InvoiceHeader/PaymentTerms/CurrencyCode,SIS IS-XML,Industry Schema,Distribution / GDS,IATA,Industry Body,Market,String (ISO 4217),Settlement with Orders,Currency of billing,OBSERVED
+Interline Billing Basis,IATA Interline Checklist,Industry Schema,Distribution / GDS,IATA,Industry Body,Income,Categorical,Settlement with Orders,Foundation rule for how interline charges are calculated,OBSERVED
+Ticket Type,IATA Interline Checklist,Industry Schema,Distribution / GDS,IATA,Industry Body,Income,Categorical,Order Management,original / involuntary reroute / group / FFP,OBSERVED
+Journey Type,IATA Interline Checklist,Industry Schema,Distribution / GDS,IATA,Industry Body,Market,Categorical,Order Management,stopover / transfer / seasonality,OBSERVED
+Amount to be Prorated,IATA Interline Checklist,Industry Schema,Distribution / GDS,Carrier,Carrier,Income,Numeric,Settlement with Orders,Actual dollar value subject to proration formula,MNAR
+Fare Owner,IATA Interline Checklist,Industry Schema,Distribution / GDS,Carrier,Carrier,Income,String (IATA code),Shopping,Carrier holding the fare basis code used to price,MNAR
+Fare Type,IATA Interline Checklist,Industry Schema,Distribution / GDS,IATA,Industry Body,Market,Categorical,Shopping,normal / special / promotional / negotiated,OBSERVED
+Sector Type,IATA Interline Checklist,Industry Schema,Distribution / GDS,IATA,Industry Body,Market,Categorical,Flights,domestic / international / transborder,OBSERVED
+Class of Service,IATA Interline Checklist,Industry Schema,Distribution / GDS,Carrier,Carrier,Income,String (code),Shopping,Booking class code determining fare level and proration weight,MNAR
+Settlement Method,IATA Interline Checklist,Industry Schema,Distribution / GDS,Amadeus (SIS),Vendor,Cost,Categorical,Settlement with Orders,SIS / bilateral / ICH — agreed settlement channel,MNAR
+EMD (Electronic Miscellaneous Document),IATA Interline Checklist,Industry Schema,Distribution / GDS,IATA,Industry Body,Income,String/Numeric,Order Management,Document recording ancillary service charges for interline billing,OBSERVED
+Excess Baggage Proration Method,IATA Interline Checklist,Industry Schema,Distribution / GDS,IATA,Industry Body,Income,Categorical,Baggage,Rule for splitting excess baggage charges between carriers,OBSERVED
+Fare Basis Code,ATPCO (composite),Industry Schema,Revenue Management,Carrier,Carrier,Market,String (alphanumeric),Shopping,Alpha-numeric identifier linking fare to rules — ATPCO public taxonomy,MNAR
+Rule Number,ATPCO (composite),Industry Schema,Revenue Management,Carrier,Carrier,Market,String (numeric),Shopping,Reference to specific fare rule record,MNAR
+Tariff Type (public/private),ATPCO (composite),Industry Schema,Revenue Management,Carrier,Carrier,Option,Categorical,Shopping,public / private / negotiated,MNAR
+Category 25 — Fare By Rule,ATPCO (composite),Industry Schema,Revenue Management,ATPCO,Industry Body,Option/Income,Algorithm,Shopping,Creates fare records from base fare — algorithm is dark zone,MNAR
+Category 35 — Negotiated Fare,ATPCO (composite),Industry Schema,Revenue Management,Carrier,Carrier,Option,Categorical,Shopping,Private fares for corporate/agency accounts,MNAR
+Category 16 — Penalties (display text),ATPCO (composite),Industry Schema,Revenue Management,Carrier,Carrier,Risk,String (text),Shopping,Display-only text — NOT automated for pricing,OBSERVED
+Category 31 — Voluntary Changes,ATPCO (composite),Industry Schema,Revenue Management,Carrier,Carrier,Risk/Cost,Algorithm,Order Management,AUTOMATED — rules for passenger-initiated changes,MNAR
+Category 33 — Voluntary Refunds,ATPCO (composite),Industry Schema,Revenue Management,Carrier,Carrier,Risk/Cost,Algorithm,Order Management,AUTOMATED — rules for passenger-initiated refunds,MNAR
+YQ/YR Surcharge,ATPCO (composite),Industry Schema,Revenue Management,Carrier,Carrier,Cost,Numeric,Shopping,Carrier-imposed fuel and other surcharges — not government taxes,MNAR
+HIP (Highest Intermediate Point),ATPCO (composite),Industry Schema,Revenue Management,ATPCO,Industry Body,Income,Numeric,Shopping,Fare construction check — intermediate point fare must not exceed through fare,MNAR
+MPM (Maximum Permitted Mileage),ATPCO (composite),Industry Schema,Revenue Management,IATA,Industry Body,Market,Numeric (miles),Shopping,Maximum mileage permitted for a fare basis code,MNAR
+Add-On / Proportional Fare,ATPCO (composite) / 14 CFR 221,Industry Schema,Revenue Management,Carrier,Carrier,Income,Numeric,Shopping,Amount published for use only in combination with other fares — 14 CFR 221,OBSERVED
+Advance Purchase Requirement,ATPCO (composite),Industry Schema,Revenue Management,Carrier,Carrier,Option,Categorical,Shopping,Category 5 — API-accessible in structured form,OBSERVED
+Combinability Indicator,ATPCO (composite),Industry Schema,Revenue Management,Carrier,Carrier,Market,Categorical,Shopping,Whether fare can be combined with other fares,MNAR
+Offer,AIDM / RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income/Market,Object,Shopping,Proposal to sell a specific set of products under specific conditions for a price,OBSERVED
+Price (Base Amount),AIDM / RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Numeric,Shopping,Base amount before taxes and fees,OBSERVED
+Price (Total Amount),AIDM / RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Numeric,Shopping,Total amount including all fees and taxes,OBSERVED
+Order,AIDM / RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Object,Order Management,Confirmed purchase of travel products under specified terms and conditions,OBSERVED
+Order Item (Grand Total Amount),AIDM / RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Numeric,Order Management,Total price for all included services for all passengers and segments,OBSERVED
+Penalty (Amount),AIDM / RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Risk,Numeric,Shopping,Fee for failure to meet agreed conditions — change or cancellation,OBSERVED
+Fee (Amount),AIDM / RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Numeric,Shopping,Amount added on to a charge for a specific product purpose or service,OBSERVED
+Commission (Amount),AIDM / RP1008,Industry Schema,Distribution / GDS,Travel Agent,Vendor,Cost,Numeric,Settlement with Orders,Remuneration paid to agent in relation to a commercial transaction,MNAR
+RBD (Booking Class Code),AIDM / RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Option,String (code),Shopping,Categorization used to facilitate access to inventory and application of filed fares,MNAR
+Cancel Restrictions (Allowed Modification Indicator),AIDM / RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Risk,Boolean,Shopping,Whether cancellation modification is permitted under this fare,OBSERVED
+Change Restrictions (Allowed Modification Indicator),AIDM / RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Risk,Boolean,Shopping,Whether change modification is permitted under this fare,OBSERVED
+Price Guarantee Time Limit,AIDM / RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Option,DateTime,Order Management,Deadline by which price is guaranteed — expires after this time,OBSERVED
+Payment Time Limit,AIDM / RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Option,DateTime,Payments,Deadline by which payment commitment must be received,OBSERVED
+Interline Settlement Information / Settlement Amount,AIDM / RP1008,Industry Schema,Distribution / GDS,IATA,Industry Body,Income,Numeric,Settlements,Value of product or service as it pertains to interline transactions,MNAR
+Interline Settlement Information / Method Code,AIDM / RP1008,Industry Schema,Distribution / GDS,IATA,Industry Body,Market,Categorical,Settlements,Method code for settlement — ICH / ACH / bilateral,OBSERVED
+Tax (Filed Amount),AIDM / RP1008,Industry Schema,Revenue Management,Regulator,Regulator,Cost,Numeric,Taxes,Filed tax amount — compulsory contribution to state revenue,OBSERVED
+Tax Code,AIDM / RP1008,Industry Schema,Revenue Management,Regulator,Regulator,Cost,String (code),Taxes,Identifies the specific tax — e.g. XF (PFC) / ZP (federal segment tax),OBSERVED
+Tax (Refund Indicator),AIDM / RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Risk,Boolean,Taxes,Whether tax is refundable on cancellation,OBSERVED
+Loyalty Program Account Identifier,AIDM / RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Option,String,Loyalty Accounts,Account identifier within a rewards program,OBSERVED
+Loyalty Program Account Tier Code,AIDM / RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Market,Categorical,Loyalty Accounts,Tier level determining benefit access,OBSERVED
+Loyalty Redemption (Loyalty Currency Amount),AIDM / RP1008,Industry Schema,Revenue Management,Passenger,Passenger,Option,Numeric,Payments,Virtual currency used in exchange for goods or services,OBSERVED
+Qualifying Balance Amount,AIDM / RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Market,Numeric,Loyalty Accounts,Points required to attain or retain status tier,OBSERVED
+Payment Card (Card Number),AIDM / RP1008,Industry Schema,Fraud / Payment,Passenger,Passenger,Risk,String (masked),Payments,Device enabling cardholder to make payment by electronic funds transfer,MNAR
+Payment Information (Payment Status Code),AIDM / RP1008,Industry Schema,Fraud / Payment,Vendor,Vendor,Risk,Categorical,Payments,Status of payment settlement,MNAR
+Settlement Data (Net Clearance Amount),AIDM / RP1008,Industry Schema,Fraud / Payment,Amadeus (SIS),Vendor,Income,Numeric,Payments,Net amount to be cleared as result of payment commitment,MNAR
+Clearance (Status Code),AIDM / RP1008,Industry Schema,Fraud / Payment,Amadeus (SIS),Vendor,Risk,Categorical,Payments,Status of fund transfer between payer and payee,MNAR
+Flight Leg (Arrival Date Time),AIDM / RP1008,Industry Schema,Distribution / GDS,IATA,Industry Body,Cost,DateTime (UTC),Flights,Actual on-blocks time — triggers ground resource activation,OBSERVED
+Flight Leg (Departure Date Time),AIDM / RP1008,Industry Schema,Distribution / GDS,IATA,Industry Body,Cost,DateTime (UTC),Flights,Scheduled off-blocks time — baseline for delay calculation,OBSERVED
+Transport Service Leg (Status Code),AIDM / RP1008,Industry Schema,Distribution / GDS,IATA,Industry Body,Risk,Categorical,Flights,Operational status of flight leg,OBSERVED
+FlightLegNotifRQ (message),AIDX v22.1,Industry Schema,Distribution / GDS,IATA,Industry Body,Cost/Risk,XML message,Flights,Primary AIDX message — carrier pushes flight status to airport systems,OBSERVED
+Delay Code (IATA AHM730),AIDX v22.1,Industry Schema,Distribution / GDS,Carrier,Carrier,Risk,String (IATA code),Flights,Standardized code classifying reason for delay,OBSERVED
+Delay Duration (minutes),AIDX v22.1,Industry Schema,Distribution / GDS,Carrier,Carrier,Risk,Numeric (minutes),Flights,Total delay in minutes — input to compensation calculation,OBSERVED
+Scheduled Time of Departure (STD),AIDX v22.1,Industry Schema,Distribution / GDS,Carrier,Carrier,Cost,DateTime (UTC),Flights,Filed schedule time — baseline for all delay calculations,OBSERVED
+Actual Time of Departure (ATD),AIDX v22.1,Industry Schema,Distribution / GDS,Airport,Airport,Risk,DateTime (UTC),Flights,Wheels-up time — triggers delay code assignment,OBSERVED
+Actual Time of Arrival (ATA),AIDX v22.1,Industry Schema,Distribution / GDS,Airport,Airport,Cost,DateTime (UTC),Flights,Wheels-down time — triggers ground resource activation,OBSERVED
+TPA_Extension (IROPs),AIDX v22.1,Industry Schema,Distribution / GDS,Carrier,Carrier,Cost/Risk,XML (custom),Order Management,Custom fields for IROPs — rebooking triggers and compensation flags,MNAR
+ELDT (Estimated Landing Time),AIDX v22.1,Industry Schema,Distribution / GDS,IATA,Industry Body,Cost,DateTime (UTC),Flights,CDM milestone — estimated landing time,OBSERVED
+TSAT (Target Start Up Approval Time),AIDX v22.1,Industry Schema,Distribution / GDS,Airport,Airport,Cost,DateTime (UTC),Flights,CDM milestone — airport-assigned departure slot time,OBSERVED
+AOBT (Actual Off-Block Time),AIDX v22.1,Industry Schema,Distribution / GDS,Airport,Airport,Cost,DateTime (UTC),Flights,CDM milestone — actual gate departure — triggers taxi cost,OBSERVED
+TOBT (Target Off-Block Time),AIDX v22.1,Industry Schema,Distribution / GDS,Carrier,Carrier,Option,DateTime (UTC),Flights,CDM milestone — airline's requested departure time,OBSERVED
+Gate Assignment,AIDX v22.1,Industry Schema,Distribution / GDS,Airport,Airport,Cost/Market,String,Flights,Terminal gate allocated — determines ground handling cost,OBSERVED
+Passenger Count (ops),AIDX v22.1,Industry Schema,Distribution / GDS,Airport,Airport,Income,Numeric,Parties,Actual passengers on flight for ground preparation,OBSERVED
+PAN (Primary Account Number),PCI DSS v4.0.1,Industry Schema,Fraud / Payment,Vendor (Stripe),Vendor,Risk,String (masked),Payments,Unique payment card number identifying issuer and cardholder account — storage restricted,MNAR
+Cardholder Name,PCI DSS v4.0.1,Industry Schema,Fraud / Payment,Vendor (Stripe),Vendor,Risk,String,Payments,Name on payment card — must be stored minimally per Req. 3.2,MNAR
+Expiration Date,PCI DSS v4.0.1,Industry Schema,Fraud / Payment,Vendor (Stripe),Vendor,Risk,Date,Payments,Card expiration date — storage kept to minimum,MNAR
+Service Code,PCI DSS v4.0.1,Industry Schema,Fraud / Payment,Vendor (Stripe),Vendor,Risk,String (3-4 digit),Payments,Defines service attributes and usage restrictions — storage kept to minimum,MNAR
+Full Track Data,PCI DSS v4.0.1,Industry Schema,Fraud / Payment,Vendor (Stripe),Vendor,Risk,String,Payments,Magnetic stripe data — CANNOT be stored after authorization,MNAR
+Card Verification Code,PCI DSS v4.0.1,Industry Schema,Fraud / Payment,Vendor (Stripe),Vendor,Risk,String (masked),Payments,CVV/CVC — CANNOT be stored after authorization,MNAR
+PIN / PIN Block,PCI DSS v4.0.1,Industry Schema,Fraud / Payment,Vendor (Stripe),Vendor,Risk,Encrypted,Payments,PIN data — CANNOT be stored after authorization,MNAR
+Cardholder Data Environment (CDE),PCI DSS v4.0.1,Industry Schema,Fraud / Payment,Carrier,Carrier,Risk,Object,Payments,System components storing processing or transmitting cardholder data,MNAR
+Network Security Controls,PCI DSS v4.0.1,Industry Schema,Fraud / Payment,Carrier,Carrier,Cost,Object,Payments,Req. 1 — firewalls enforcing policy between network segments,MNAR
+Multi-Factor Authentication,PCI DSS v4.0.1,Industry Schema,Fraud / Payment,Carrier,Carrier,Cost,Boolean/Process,Payments,Req. 8 — at least two authentication factors required for CDE access,OBSERVED
+Encryption Requirement,PCI DSS v4.0.1,Industry Schema,Fraud / Payment,Carrier,Carrier,Cost,Boolean,Payments,Req. 3.5 — stored PAN must be rendered unreadable (strong cryptography),OBSERVED
+Audit Log,PCI DSS v4.0.1,Industry Schema,Fraud / Payment,Carrier,Carrier,Risk,Object,Payments,Req. 10 — log and monitor all access to system components and cardholder data,OBSERVED
+Incident Response Plan,PCI DSS v4.0.1,Industry Schema,Fraud / Payment,Carrier,Carrier,Risk,Document,Payments,Req. 12 — mandatory for all entities processing cardholder data,OBSERVED
+Landing Fee (CAD/tonne MTOW),GTAA Aeronautical Fees 2025,Airport Document,Revenue Management,GTAA (YYZ),Airport,Cost,Numeric,Flights,Fee per landing based on Maximum Take-Off Weight — Canada,OBSERVED
+Airport Improvement Fee (AIF) — Departing,GTAA Aeronautical Fees 2025,Airport Document,Revenue Management,GTAA (YYZ),Airport,Cost,Numeric,Parties,Per-passenger fee collected by carrier on GTAA behalf — departing,OBSERVED
+Airport Improvement Fee (AIF) — Connecting,GTAA Aeronautical Fees 2025,Airport Document,Revenue Management,GTAA (YYZ),Airport,Cost,Numeric,Parties,Lower AIF rate for connecting passengers,OBSERVED
+AIF in lieu (per seat),GTAA Aeronautical Fees 2025,Airport Document,Revenue Management,GTAA (YYZ),Airport,Cost/Risk,Numeric,Parties,Fee for carriers not signing AIF agreement — AIF rate × seats,OBSERVED
+Aircraft Parking Fee (YYZ),GTAA Aeronautical Fees 2025,Airport Document,Revenue Management,GTAA (YYZ),Airport,Cost,Numeric,Flights,Hourly fee for aircraft on GTAA parking positions,OBSERVED
+Apron Fee (YYZ),GTAA Aeronautical Fees 2025,Airport Document,Revenue Management,GTAA (YYZ),Airport,Cost,Numeric,Flights,Fee for use of apron surfaces adjacent to terminal,OBSERVED
+Slot Holding Fee (YYZ),GTAA Aeronautical Fees 2025,Airport Document,Revenue Management,GTAA (YYZ),Airport,Option,Numeric,Flights,Fee based on initial state slot holding — invoiced twice annually,OBSERVED
+Inflation Adjustment Rate (YYZ),GTAA Aeronautical Fees 2025,Airport Document,Revenue Management,GTAA (YYZ),Airport,Market,Numeric (%),Parties,Annual fee increase factor — 4% example for 2023,OBSERVED
+Public Landing Area Charge (EWR),PANYNJ Schedule of Charges 2024,Airport Document,Revenue Management,Port Authority NY/NJ,Airport,Cost,Numeric,Flights,Fee for landing at EWR for non-signatory airlines,OBSERVED
+Ramp and Apron Charge (EWR),PANYNJ Schedule of Charges 2024,Airport Document,Revenue Management,Port Authority NY/NJ,Airport,Cost,Numeric,Flights,$500 first 15 min / $1000 each additional 15 min,OBSERVED
+Aircraft Parking / Storage Charge (EWR),PANYNJ Schedule of Charges 2024,Airport Document,Revenue Management,Port Authority NY/NJ,Airport,Cost,Numeric,Flights,Fee for aircraft stored in public parking area,OBSERVED
+Federal Inspection Space Charge (EWR),PANYNJ Schedule of Charges 2024,Airport Document,Revenue Management,Port Authority NY/NJ,Airport,Cost,Numeric,Parties,Per-passenger fee for use of international arrivals facility,OBSERVED
+Passenger Facility Charge (PFC — EWR),PANYNJ Schedule of Charges 2024,Airport Document,Revenue Management,FAA / PANYNJ,Regulator,Cost,Numeric,Parties,FAA-approved per-passenger infrastructure fee,OBSERVED
+Non-Signatory Rate Premium (EWR),PANYNJ Schedule of Charges 2024,Airport Document,Revenue Management,Port Authority NY/NJ,Airport,Market,Numeric (%),Parties,Higher rate applied to airlines without use agreement,OBSERVED
+Maximum Allowable Yield (MAY/pax — LHR),Heathrow Conditions of Use 2025/26,Airport Document,Revenue Management,CAA (regulator),Regulator,Market,Numeric (GBP/pax),Parties,CAA-regulated price cap per passenger — £23.73 (2025),OBSERVED
+Airport Charge per Passenger (LHR),Heathrow Conditions of Use 2025/26,Airport Document,Revenue Management,Heathrow Airport Ltd,Airport,Income,Numeric,Parties,Actual charge levied per passenger within MAY cap,OBSERVED
+K Factor (LHR),Heathrow Conditions of Use 2025/26,Airport Document,Revenue Management,CAA (regulator),Regulator,Market,Numeric,Parties,Annual correction factor for over/under-recovery vs MAY,OBSERVED
+CPI Adjustment (LHR),Heathrow Conditions of Use 2025/26,Airport Document,Revenue Management,CAA (regulator),Regulator,Market,Numeric (%),Parties,Consumer Price Index applied to MAY — 3.249% (2025),OBSERVED
+WACC (LHR — 4.01%),Heathrow Conditions of Use 2025/26,Airport Document,Revenue Management,CAA (regulator),Regulator,Market,Numeric (%),Parties,Weighted Average Cost of Capital — input to AK Factor calculation,OBSERVED
+Airfield Charge per ATM (LHR),Heathrow Conditions of Use 2025/26,Airport Document,Revenue Management,Heathrow Airport Ltd,Airport,Cost,Numeric,Flights,Fee per aircraft movement on airfield,OBSERVED
+SAF Incentive (LHR),Heathrow Conditions of Use 2025/26,Airport Document,Revenue Management,Heathrow Airport Ltd,Airport,Option,Numeric,Flights,Discount/credit for sustainable aviation fuel use,OBSERVED
+H7 Regulatory Period (LHR),Heathrow Conditions of Use 2025/26,Airport Document,Revenue Management,CAA (regulator),Regulator,Market,Date Range,Parties,CAA price control period Jan 2022 — Dec 2026,OBSERVED
+grandTotal,Amadeus Flight Offers Search API (OpenAPI),Vendor API,Revenue Management,Amadeus,Vendor,Income,Numeric (string),Shopping,Total amount paid by user including fees and selected additional services,OBSERVED
+base (price),Amadeus Flight Offers Search API (OpenAPI),Vendor API,Revenue Management,Carrier,Carrier,Income,Numeric (string),Shopping,Base fare amount before taxes and fees,OBSERVED
+fees (SUPPLIER / TICKETING),Amadeus Flight Offers Search API (OpenAPI),Vendor API,Revenue Management,Amadeus,Vendor,Cost,Array (numeric),Shopping,Supplier and ticketing fees added to base fare,OBSERVED
+currency,Amadeus Flight Offers Search API (OpenAPI),Vendor API,Revenue Management,Carrier,Carrier,Market,String (ISO 4217),Shopping,Currency of the flight offer price,OBSERVED
+numberOfBookableSeats,Amadeus Flight Offers Search API (OpenAPI),Vendor API,Revenue Management,Carrier,Carrier,Option,Numeric (integer),Shopping,Available seats at this price — inventory control output,OBSERVED
+lastTicketingDate,Amadeus Flight Offers Search API (OpenAPI),Vendor API,Revenue Management,Carrier,Carrier,Option,Date (ISO 8601),Shopping,Latest date by which ticket must be issued,OBSERVED
+fareDetailsBySegment (cabin),Amadeus Flight Offers Search API (OpenAPI),Vendor API,Revenue Management,Carrier,Carrier,Market,Categorical,Shopping,Cabin class — ECONOMY / PREMIUM_ECONOMY / BUSINESS / FIRST,OBSERVED
+fareDetailsBySegment (fareBasis),Amadeus Flight Offers Search API (OpenAPI),Vendor API,Revenue Management,Carrier,Carrier,Market,String,Shopping,Fare basis code for this segment,OBSERVED
+fareDetailsBySegment (brandedFare),Amadeus Flight Offers Search API (OpenAPI),Vendor API,Revenue Management,Carrier,Carrier,Market,String,Shopping,Branded fare family name (e.g. FLEX / SAVER),OBSERVED
+fareDetailsBySegment (class),Amadeus Flight Offers Search API (OpenAPI),Vendor API,Revenue Management,Carrier,Carrier,Option,String (single char),Shopping,Booking class (RBD) for this segment,OBSERVED
+includedCheckedBags (quantity),Amadeus Flight Offers Search API (OpenAPI),Vendor API,Revenue Management,Carrier,Carrier,Income,Numeric,Baggage,Number of free checked bags included in fare,OBSERVED
+chargeableSeatNumber,Amadeus Flight Offers Search API (OpenAPI),Vendor API,Revenue Management,Amadeus,Vendor,Income,String,Shopping,Seat selected by passenger — triggers seat fee charge,OBSERVED
+additionalServices (type/amount),Amadeus Flight Offers Search API (OpenAPI),Vendor API,Revenue Management,Amadeus,Vendor,Income,Array (object),Shopping,Ancillary services available with price — bags / seats / upgrades,OBSERVED
+instantTicketingRequired,Amadeus Flight Offers Search API (OpenAPI),Vendor API,Revenue Management,Carrier,Carrier,Risk,Boolean,Shopping,Whether ticket must be issued immediately — controls payment timing,OBSERVED
+source (GDS),Amadeus Flight Offers Search API (OpenAPI),Vendor API,Distribution / GDS,Amadeus,Vendor,Market,Categorical,Shopping,Content source — GDS vs NDC vs carrier direct,OBSERVED
+Flight Leg Status (AIDX via SITA),SITA AIDX API (developer.aero),Vendor API,Distribution / GDS,SITA,Vendor,Risk,Categorical,Flights,Current operational state pushed via SITA FLIFO system,OBSERVED
+Bag Tag Number,SITA BagJourney API,Vendor API,Distribution / GDS,SITA,Vendor,Risk,String,Baggage,Unique identifier for tracked bag — maps to passenger PNR,OBSERVED
+Bag Status (CHECKED_IN / LOADED / MISHANDLED),SITA BagJourney API,Vendor API,Distribution / GDS,SITA,Vendor,Risk,Categorical,Baggage,Real-time baggage status — CHECKED_IN / SCREENED / LOADED_ON_AIRCRAFT / MISHANDLED etc,OBSERVED
+Bag Event Code,SITA BagJourney API,Vendor API,Distribution / GDS,SITA,Vendor,Risk,Categorical,Baggage,SCREENING_FAILED / OFFLOADED / REROUTED / REFLIGHTED — triggers cost liability,OBSERVED
+PNR (Passenger Name Record),SITA BagJourney API,Vendor API,Distribution / GDS,Carrier,Carrier,Risk,String,Parties,Booking reference linking bag to passenger — data sovereignty variable,MNAR
+frequent_flyer (bag event),SITA BagJourney API,Vendor API,Revenue Management,Carrier,Carrier,Option,String,Loyalty Accounts,FFP number associated with bag — links baggage to loyalty account,MNAR
+Outbound / Inbound Flight Info,SITA BagJourney API,Vendor API,Distribution / GDS,SITA,Vendor,Cost,Object,Flights,Flight details for bag routing — dest_airport / flight / airline,OBSERVED
+Flight Number (SSIM Chapter 7),IATA SSIM (public structure),Industry Schema,Workforce Management,Carrier,Carrier,Cost,Numeric (4 digit),Flights,Flight identifier — primary input to crew scheduling and pairing,OBSERVED
+Service Type Code (SSIM),IATA SSIM (public structure),Industry Schema,Workforce Management,Carrier,Carrier,Market,Categorical (1 char),Flights,J/S/U/F/V/M/Q/G/B/A — cabin service type — determines crew configuration,OBSERVED
+Aircraft Type Code (SSIM),IATA SSIM (public structure),Industry Schema,Workforce Management,Carrier,Carrier,Cost,String (IATA code),Flights,Aircraft type — determines crew certification requirements and count,OBSERVED
+Period of Operation (SSIM),IATA SSIM (public structure),Industry Schema,Workforce Management,Carrier,Carrier,Cost,Date Range,Flights,Start/end dates of schedule validity — drives crew demand planning,OBSERVED
+Days of Operation (SSIM),IATA SSIM (public structure),Industry Schema,Workforce Management,Carrier,Carrier,Cost,Binary (7-digit),Flights,Days of week flight operates — 1234567 = daily,OBSERVED
+Departure Time / Arrival Time (SSIM),IATA SSIM (public structure),Industry Schema,Workforce Management,Carrier,Carrier,Cost,Time (HHMM local),Flights,Schedule times — determine crew duty period and rest requirements,OBSERVED
+Codeshare Indicator (SSIM),IATA SSIM (public structure),Industry Schema,Workforce Management,Carrier,Carrier,Market,Categorical,Flights,Whether flight is operated or marketed — affects crew cost allocation,OBSERVED
+Release Sell Date (SSIM),IATA SSIM (public structure),Industry Schema,Revenue Management,Carrier,Carrier,Option,Date,Shopping,Date when schedule data becomes publicly available — controls distribution,OBSERVED
+Minimum Connect Time (SSIM),IATA SSIM (public structure),Industry Schema,Distribution / GDS,Airport,Airport,Market/Cost,Numeric (minutes),Flights,Minimum time required between connecting flights at airport,OBSERVED
+Transaction Price (IFRS 15 via IATA IAWG),IATA IAWG IFRS 15 Loyalty Guide,Industry Schema,Revenue Management,Carrier,Carrier,Income,Numeric,Shopping,Total consideration received for ticket + points bundle — IFRS 15 allocation input,OBSERVED
+SSP — Points Component,IATA IAWG IFRS 15 Loyalty Guide,Industry Schema,Revenue Management,Carrier,Carrier,Option,Numeric,Order Management,Standalone selling price of points issued at sale — deferred revenue basis,OBSERVED
+Deferred Revenue Liability,IATA IAWG IFRS 15 Loyalty Guide,Industry Schema,Revenue Management,Carrier,Carrier,Cost/Risk,Numeric,Payments,Balance sheet liability for unredeemed points — IFRS 15 contract liability,OBSERVED
+Breakage Estimate,IATA IAWG IFRS 15 Loyalty Guide,Industry Schema,Revenue Management,Carrier,Carrier,Income,Numeric (%),Order Management,Expected % of points never redeemed — recognized as revenue when certain,MNAR
+Partner Airline Agency Fee,IATA IAWG IFRS 15 Loyalty Guide,Industry Schema,Distribution / GDS,Carrier,Carrier,Cost,Numeric,Settlement with Orders,Payment to partner airline for redemption flights — agent relationship,MNAR
+Service Charge Rate (SGHA),IATA SGHA 2023,Industry Schema,Workforce Management,Ground Handler,Vendor,Cost,Numeric,Flights,Per-service fee for each ground handling category,MNAR
+Payment Terms — 30 days (SGHA),IATA SGHA 2023,Industry Schema,Workforce Management,IATA,Industry Body,Cost,Numeric (days),Settlement with Orders,Settlement due 30 days after date of invoicing — SGHA standard term,OBSERVED
+Liability Limit (SGHA),IATA SGHA 2023,Industry Schema,Workforce Management,Ground Handler,Vendor,Risk,Numeric,Flights,Maximum handler liability for loss or damage per occurrence,MNAR
+Minimum Wage Adjustment (SGHA),IATA SGHA 2023,Industry Schema,Workforce Management,Ground Handler,Vendor,Risk/Cost,Categorical,Flights,Right to request fee adjustment if minimum wage legislation changes,MNAR
+Audit Right (SGHA),IATA SGHA 2023,Industry Schema,Workforce Management,Carrier,Carrier,Risk,Boolean,Parties,Carrier right to audit handler and sub-contractors,OBSERVED
+Section 2 Passenger Services Fee (SGHA),IATA SGHA 2023,Industry Schema,Workforce Management,Ground Handler,Vendor,Cost/Income,Numeric,Parties,Check-in / boarding / arrivals handling charge — variable by airline,MNAR
+Baggage Handling Rate (SGHA),IATA SGHA 2023,Industry Schema,Workforce Management,Ground Handler,Vendor,Cost,Numeric,Baggage,Per-bag or per-flight baggage handling fee,MNAR
+EMD Number,IATA EMD Resolution 725,Industry Schema,Revenue Management,IATA,Industry Body,Income,String (numeric),Order Management,Unique document identifier — like e-ticket number for ancillary services,OBSERVED
+Service Code (EMD),IATA EMD Resolution 725,Industry Schema,Revenue Management,IATA,Industry Body,Income/Market,String (RFIC/RFISC),Order Management,IATA code classifying the ancillary service type,OBSERVED
+Ancillary Charge Amount,IATA EMD Resolution 725,Industry Schema,Revenue Management,Carrier,Carrier,Income,Numeric,Order Management,Fee charged for ancillary service,OBSERVED
+EMD-A (Associated),IATA EMD Resolution 725,Industry Schema,Revenue Management,Carrier,Carrier,Income,String/Reference,Order Management,EMD linked to specific flight PNR / Order,OBSERVED
+EMD-S (Standalone),IATA EMD Resolution 725,Industry Schema,Revenue Management,Carrier,Carrier,Income,String/Reference,Order Management,EMD issued independently of specific flight segment,OBSERVED
+Change Fee (EMD),IATA EMD Resolution 725,Industry Schema,Revenue Management,Carrier,Carrier,Income/Risk,Numeric,Order Management,Penalty for modifying booking — collected via EMD,OBSERVED
+Upgrade Fee (EMD),IATA EMD Resolution 725,Industry Schema,Revenue Management,Carrier,Carrier,Income/Option,Numeric,Shopping,Charge for cabin class upgrade — optional service,OBSERVED
+Refund Amount (EMD),IATA EMD Resolution 725,Industry Schema,Revenue Management,Carrier,Carrier,Cost/Risk,Numeric,Payments,Value returned to passenger on cancellation of ancillary service,OBSERVED
+Coupon Status (EMD),IATA EMD Resolution 725,Industry Schema,Revenue Management,Carrier,Carrier,Income,Categorical,Order Management,open / used / refunded / void — lifecycle state of EMD coupon,OBSERVED
