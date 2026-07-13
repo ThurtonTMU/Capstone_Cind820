@@ -1,0 +1,260 @@
+Variable,Agent
+Fare Basis Code,ATPCO_Filing_Agent
+Fare Basis Code,GDS_Agent
+Rule Number,ATPCO_Filing_Agent
+Tariff Type (public/private),ATPCO_Filing_Agent
+Category 25 — Fare By Rule,ATPCO_Filing_Agent
+Category 35 — Negotiated Fare,ATPCO_Filing_Agent
+Category 35 — Negotiated Fare,GDS_Agent
+Category 16 — Penalties (display text),ATPCO_Filing_Agent
+Category 31 — Voluntary Changes,ATPCO_Filing_Agent
+Category 31 — Voluntary Changes,Passenger_Recovery_Agent
+Category 33 — Voluntary Refunds,ATPCO_Filing_Agent
+Category 33 — Voluntary Refunds,Passenger_Recovery_Agent
+YQ/YR Surcharge,ATPCO_Filing_Agent
+YQ/YR Surcharge,RMS_Agent
+HIP (Highest Intermediate Point),ATPCO_Filing_Agent
+HIP (Highest Intermediate Point),Interline_Settlement_Agent
+MPM (Maximum Permitted Mileage),ATPCO_Filing_Agent
+MPM (Maximum Permitted Mileage),Interline_Settlement_Agent
+Add-On / Proportional Fare,ATPCO_Filing_Agent
+Add-On / Proportional Fare,Interline_Settlement_Agent
+Advance Purchase Requirement,ATPCO_Filing_Agent
+Advance Purchase Requirement,RMS_Agent
+Combinability Indicator,ATPCO_Filing_Agent
+Combinability Indicator,GDS_Agent
+Offer,RMS_Agent
+Offer,Execution_Engine
+Price (Base Amount),RMS_Agent
+Price (Base Amount),Execution_Engine
+Price (Total Amount),Execution_Engine
+Price (Total Amount),GDS_Agent
+grandTotal,GDS_Agent
+grandTotal,Execution_Engine
+base (price),RMS_Agent
+base (price),Execution_Engine
+fees (SUPPLIER / TICKETING),GDS_Agent
+fees (SUPPLIER / TICKETING),Execution_Engine
+currency,GDS_Agent
+currency,Interline_Settlement_Agent
+numberOfBookableSeats,RMS_Agent
+numberOfBookableSeats,Execution_Engine
+lastTicketingDate,Execution_Engine
+lastTicketingDate,GDS_Agent
+fareDetailsBySegment (cabin),GDS_Agent
+fareDetailsBySegment (fareBasis),GDS_Agent
+fareDetailsBySegment (fareBasis),Interline_Settlement_Agent
+fareDetailsBySegment (brandedFare),GDS_Agent
+fareDetailsBySegment (class),GDS_Agent
+RBD (Booking Class Code),Execution_Engine
+RBD (Booking Class Code),GDS_Agent
+additionalServices (type/amount),GDS_Agent
+additionalServices (type/amount),Execution_Engine
+chargeableSeatNumber,GDS_Agent
+instantTicketingRequired,GDS_Agent
+instantTicketingRequired,Execution_Engine
+Cancel Restrictions (Allowed Modification Indicator),RMS_Agent
+Cancel Restrictions (Allowed Modification Indicator),GDS_Agent
+Change Restrictions (Allowed Modification Indicator),RMS_Agent
+Change Restrictions (Allowed Modification Indicator),GDS_Agent
+Transaction Price (IFRS 15 via IATA IAWG),RMS_Agent
+Transaction Price (IFRS 15 via IATA IAWG),Loyalty_Agent
+Fare Owner,ATPCO_Filing_Agent
+Fare Owner,Interline_Settlement_Agent
+Fare Type,ATPCO_Filing_Agent
+Fare Type,GDS_Agent
+Class of Service,ATPCO_Filing_Agent
+Class of Service,Interline_Settlement_Agent
+Order,Responsible_Airline_Agent
+Order Item (Grand Total Amount),Responsible_Airline_Agent
+Order Item (Grand Total Amount),Interline_Settlement_Agent
+Price Guarantee Time Limit,RMS_Agent
+Price Guarantee Time Limit,GDS_Agent
+Payment Time Limit,Responsible_Airline_Agent
+Payment Time Limit,Payment_Clearance_Agent
+EMD (Electronic Miscellaneous Document),Responsible_Airline_Agent
+EMD (Electronic Miscellaneous Document),Interline_Settlement_Agent
+Tax (Filed Amount),Airport_Charge_Agent
+Tax (Filed Amount),GDS_Agent
+Tax Code,Airport_Charge_Agent
+Tax Code,GDS_Agent
+Tax (Refund Indicator),Responsible_Airline_Agent
+Tax (Refund Indicator),Payment_Clearance_Agent
+Penalty (Amount),RMS_Agent
+Penalty (Amount),Responsible_Airline_Agent
+Fee (Amount),RMS_Agent
+Fee (Amount),Responsible_Airline_Agent
+Interline Settlement Information / Settlement Amount,Interline_Settlement_Agent
+Interline Settlement Information / Method Code,Interline_Settlement_Agent
+SSP — Points Component,Loyalty_Agent
+Deferred Revenue Liability,Loyalty_Agent
+Deferred Revenue Liability,Payment_Clearance_Agent
+Breakage Estimate,Loyalty_Agent
+Loyalty Program Account Identifier,Loyalty_Agent
+Loyalty Program Account Tier Code,Loyalty_Agent
+Loyalty Redemption (Loyalty Currency Amount),Loyalty_Agent
+Loyalty Redemption (Loyalty Currency Amount),Transaction_Stream_Agent
+Qualifying Balance Amount,Loyalty_Agent
+Partner Airline Agency Fee,Interline_Settlement_Agent
+Partner Airline Agency Fee,Loyalty_Agent
+Landing Fee (CAD/tonne MTOW),Airport_Charge_Agent
+Airport Improvement Fee (AIF) — Departing,Airport_Charge_Agent
+Airport Improvement Fee (AIF) — Connecting,Airport_Charge_Agent
+AIF in lieu (per seat),Airport_Charge_Agent
+Inflation Adjustment Rate (YYZ),Airport_Charge_Agent
+Public Landing Area Charge (EWR),Airport_Charge_Agent
+Ramp and Apron Charge (EWR),Airport_Charge_Agent
+Aircraft Parking / Storage Charge (EWR),Airport_Charge_Agent
+Federal Inspection Space Charge (EWR),Airport_Charge_Agent
+Passenger Facility Charge (PFC — EWR),Airport_Charge_Agent
+Non-Signatory Rate Premium (EWR),Airport_Charge_Agent
+Maximum Allowable Yield (MAY/pax — LHR),Airport_Charge_Agent
+Airport Charge per Passenger (LHR),Airport_Charge_Agent
+K Factor (LHR),Airport_Charge_Agent
+CPI Adjustment (LHR),Airport_Charge_Agent
+WACC (LHR — 4.01%),Airport_Charge_Agent
+H7 Regulatory Period (LHR),Airport_Charge_Agent
+Aircraft Parking Fee (YYZ),Airport_Charge_Agent
+Apron Fee (YYZ),Airport_Charge_Agent
+Slot Holding Fee (YYZ),Airport_Charge_Agent
+Slot Holding Fee (YYZ),CDM_Airport_Agent
+Airfield Charge per ATM (LHR),Airport_Charge_Agent
+SAF Incentive (LHR),Airport_Charge_Agent
+Settlement Amount,Interline_Settlement_Agent
+Proration Value,Interline_Settlement_Agent
+Five Day Rate (FDR),Interline_Settlement_Agent
+Billing Period,Interline_Settlement_Agent
+Charge Category Code,Interline_Settlement_Agent
+Charge Code,Interline_Settlement_Agent
+F12 File Total,Interline_Settlement_Agent
+Reject Amount,Interline_Settlement_Agent
+Reject Amount,Payment_Clearance_Agent
+Dispute Amount,Interline_Settlement_Agent
+Dispute Amount,Payment_Clearance_Agent
+Credit Note Value,Interline_Settlement_Agent
+Credit Note Value,Payment_Clearance_Agent
+VAT Amount,Interline_Settlement_Agent
+Auto-Billing Uplift,Interline_Settlement_Agent
+NFP (Neutral Fare Proration),Interline_Settlement_Agent
+BilledMember,Interline_Settlement_Agent
+InvoiceNumber,Interline_Settlement_Agent
+BillingCategory,Interline_Settlement_Agent
+LineItem/ChargeCode,Interline_Settlement_Agent
+LineItem/ChargeAmount,Interline_Settlement_Agent
+LineItem/TotalNetAmount,Interline_Settlement_Agent
+InvoiceSummary/TotalLineItemAmount,Interline_Settlement_Agent
+InvoiceHeader/PaymentTerms/CurrencyCode,Interline_Settlement_Agent
+Interline Billing Basis,Interline_Settlement_Agent
+Amount to be Prorated,Interline_Settlement_Agent
+Settlement Method,Interline_Settlement_Agent
+Commission (Amount),GDS_Agent
+Commission (Amount),Interline_Settlement_Agent
+Sector Type,Interline_Settlement_Agent
+Sector Type,Schedule_Agent
+TOBT (Target Off-Block Time),CDM_Airport_Agent
+TOBT (Target Off-Block Time),Aircraft_Recovery_Agent
+TSAT (Target Start Up Approval Time),CDM_Airport_Agent
+AOBT (Actual Off-Block Time),CDM_Airport_Agent
+AOBT (Actual Off-Block Time),Aircraft_Recovery_Agent
+ELDT (Estimated Landing Time),CDM_Airport_Agent
+Gate Assignment,CDM_Airport_Agent
+Gate Assignment,Aircraft_Recovery_Agent
+Flight Leg (Arrival Date Time),CDM_Airport_Agent
+Flight Leg (Arrival Date Time),Schedule_Agent
+Flight Leg (Departure Date Time),CDM_Airport_Agent
+Flight Leg (Departure Date Time),Schedule_Agent
+Transport Service Leg (Status Code),CDM_Airport_Agent
+Transport Service Leg (Status Code),Aircraft_Recovery_Agent
+FlightLegNotifRQ (message),CDM_Airport_Agent
+Flight Leg Status (AIDX via SITA),CDM_Airport_Agent
+Flight Leg Status (AIDX via SITA),Aircraft_Recovery_Agent
+Outbound / Inbound Flight Info,CDM_Airport_Agent
+Outbound / Inbound Flight Info,Crew_Recovery_Agent
+Delay Code (IATA AHM730),Aircraft_Recovery_Agent
+Delay Code (IATA AHM730),Crew_Recovery_Agent
+Delay Code (IATA AHM730),Passenger_Recovery_Agent
+Delay Duration (minutes),Aircraft_Recovery_Agent
+Delay Duration (minutes),Passenger_Recovery_Agent
+Scheduled Time of Departure (STD),Schedule_Agent
+Scheduled Time of Departure (STD),Aircraft_Recovery_Agent
+Actual Time of Departure (ATD),Aircraft_Recovery_Agent
+Actual Time of Departure (ATD),CDM_Airport_Agent
+Actual Time of Arrival (ATA),Aircraft_Recovery_Agent
+Actual Time of Arrival (ATA),Ground_Handler_Agent
+TPA_Extension (IROPs),Aircraft_Recovery_Agent
+TPA_Extension (IROPs),Coordinator_Agent
+Passenger Count (ops),Passenger_Recovery_Agent
+Passenger Count (ops),Ground_Handler_Agent
+PAN (Primary Account Number),Transaction_Stream_Agent
+PAN (Primary Account Number),Card_Network_Agent
+Cardholder Name,Transaction_Stream_Agent
+Expiration Date,Transaction_Stream_Agent
+Service Code,Transaction_Stream_Agent
+Full Track Data,Transaction_Stream_Agent
+Full Track Data,Card_Network_Agent
+Card Verification Code,Transaction_Stream_Agent
+Card Verification Code,Card_Network_Agent
+PIN / PIN Block,Transaction_Stream_Agent
+Cardholder Data Environment (CDE),Transaction_Stream_Agent
+Network Security Controls,Transaction_Stream_Agent
+Multi-Factor Authentication,Transaction_Stream_Agent
+Encryption Requirement,Transaction_Stream_Agent
+Payment Card (Card Number),Transaction_Stream_Agent
+Payment Card (Card Number),Card_Network_Agent
+Payment Information (Payment Status Code),Payment_Clearance_Agent
+Settlement Data (Net Clearance Amount),Payment_Clearance_Agent
+Clearance (Status Code),Payment_Clearance_Agent
+Audit Log,Transaction_Stream_Agent
+Audit Log,Payment_Clearance_Agent
+Incident Response Plan,Transaction_Stream_Agent
+Incident Response Plan,Payment_Clearance_Agent
+PNR (Passenger Name Record),Responsible_Airline_Agent
+PNR (Passenger Name Record),Transaction_Stream_Agent
+Flight Number (SSIM Chapter 7),Schedule_Agent
+Flight Number (SSIM Chapter 7),Crew_Scheduling_Agent
+Service Type Code (SSIM),Schedule_Agent
+Service Type Code (SSIM),Crew_Scheduling_Agent
+Aircraft Type Code (SSIM),Schedule_Agent
+Aircraft Type Code (SSIM),Crew_Scheduling_Agent
+Period of Operation (SSIM),Schedule_Agent
+Days of Operation (SSIM),Schedule_Agent
+Departure Time / Arrival Time (SSIM),Schedule_Agent
+Departure Time / Arrival Time (SSIM),Crew_Scheduling_Agent
+Codeshare Indicator (SSIM),Schedule_Agent
+Codeshare Indicator (SSIM),GDS_Agent
+Release Sell Date (SSIM),Schedule_Agent
+Release Sell Date (SSIM),GDS_Agent
+Minimum Connect Time (SSIM),Schedule_Agent
+Minimum Connect Time (SSIM),CDM_Airport_Agent
+Service Charge Rate (SGHA),Ground_Handler_Agent
+Payment Terms — 30 days (SGHA),Ground_Handler_Agent
+Payment Terms — 30 days (SGHA),Interline_Settlement_Agent
+Liability Limit (SGHA),Ground_Handler_Agent
+Minimum Wage Adjustment (SGHA),Ground_Handler_Agent
+Audit Right (SGHA),Ground_Handler_Agent
+Section 2 Passenger Services Fee (SGHA),Ground_Handler_Agent
+Section 2 Passenger Services Fee (SGHA),Airport_Charge_Agent
+Baggage Handling Rate (SGHA),Ground_Handler_Agent
+Bag Tag Number,Ground_Handler_Agent
+Bag Status (CHECKED_IN / LOADED / MISHANDLED),Ground_Handler_Agent
+Bag Event Code,Ground_Handler_Agent
+frequent_flyer (bag event),Ground_Handler_Agent
+frequent_flyer (bag event),Loyalty_Agent
+EMD Number,Responsible_Airline_Agent
+Service Code (EMD),Responsible_Airline_Agent
+Ancillary Charge Amount,Responsible_Airline_Agent
+Ancillary Charge Amount,GDS_Agent
+EMD-A (Associated),Responsible_Airline_Agent
+EMD-S (Standalone),Responsible_Airline_Agent
+Change Fee (EMD),Responsible_Airline_Agent
+Change Fee (EMD),Payment_Clearance_Agent
+Upgrade Fee (EMD),Responsible_Airline_Agent
+Upgrade Fee (EMD),GDS_Agent
+Refund Amount (EMD),Responsible_Airline_Agent
+Refund Amount (EMD),Payment_Clearance_Agent
+Coupon Status (EMD),Responsible_Airline_Agent
+Excess Baggage Proration Method,Interline_Settlement_Agent
+Excess Baggage Proration Method,Ground_Handler_Agent
+includedCheckedBags (quantity),GDS_Agent
+includedCheckedBags (quantity),Ground_Handler_Agent
+source (GDS),GDS_Agent

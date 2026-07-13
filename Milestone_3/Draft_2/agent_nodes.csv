@@ -1,0 +1,20 @@
+Agent,function,schema_source,actor_types,primary_valuation
+RMS_Agent,Revenue Management,Bondoux et al. 2020 (JRPM),"['Carrier', 'Vendor']",Income/Option
+Execution_Engine,Revenue Management,Bondoux et al. 2020 (JRPM),"['Carrier', 'Vendor']",Market/Option
+ATPCO_Filing_Agent,Revenue Management,ATPCO Composite; 14 CFR 221,"['Carrier', 'Industry Body', 'Regulator']",Market/Cost
+Loyalty_Agent,Revenue Management,IATA IAWG IFRS 15 Loyalty Guide,"['Carrier', 'Passenger']",Option/Income
+Airport_Charge_Agent,Revenue Management,GTAA 2025; PANYNJ 2024; Heathrow CoU 2025/26,"['Airport', 'Regulator', 'Carrier']",Cost/Market
+Responsible_Airline_Agent,Distribution / GDS,IATA ONE Order Transition Study 2021,"['Carrier', 'Industry Body']",Income/Market
+GDS_Agent,Distribution / GDS,IATA ONE Order Transition Study 2021; Amadeus OpenAPI,"['Vendor', 'Industry Body']",Market/Income
+Interline_Settlement_Agent,Distribution / GDS,IATA SIS IS-XML; IATA Interline Checklist,"['Industry Body', 'Vendor', 'Carrier']",Income/Cost
+CDM_Airport_Agent,Distribution / GDS,AIDX v22.1; IATA SSIM,"['Airport', 'Carrier', 'Industry Body']",Cost/Option
+Aircraft_Recovery_Agent,Disruption Management,Castro & Oliveira MASDIMA (2011-2024),"['Carrier', 'Airport']",Cost/Risk
+Crew_Recovery_Agent,Disruption Management,Castro & Oliveira MASDIMA (2011-2024),"['Carrier', 'Vendor']",Cost/Risk
+Passenger_Recovery_Agent,Disruption Management,Castro & Oliveira MASDIMA (2011-2024),"['Carrier', 'Industry Body']",Risk/Cost
+Coordinator_Agent,Disruption Management,Castro & Oliveira MASDIMA (2011-2024),['Carrier'],Cost/Risk
+Transaction_Stream_Agent,Fraud / Payment,IMF Note 2026/004; arXiv:2606.17555,"['Vendor', 'Carrier']",Risk
+Card_Network_Agent,Fraud / Payment,PCI DSS v4.0.1; IMF Note 2026/004,['Vendor'],Risk
+Payment_Clearance_Agent,Fraud / Payment,PCI DSS v4.0.1; IATA SIS IS-XML,"['Vendor', 'Carrier']",Income/Risk
+Crew_Scheduling_Agent,Workforce Management,"ScienceDirect 2025 crew pairing graph; Xu, Wandelt & Sun 2024","['Carrier', 'Vendor']",Cost/Market
+Ground_Handler_Agent,Workforce Management,IATA SGHA 2023,"['Vendor', 'Carrier']",Cost/Risk
+Schedule_Agent,Workforce Management,IATA SSIM Chapter 7,"['Carrier', 'Industry Body']",Cost/Market
