@@ -1,0 +1,21 @@
+Source,Target,Edge_Type,Valuation_Payload,Data_Access,Access_Score,Competing_Valuation,Competing_Score,Hammond_Risk,Hammond_Score,Governance_Stress_Score,Function
+RMS_Agent,Loyalty_Agent,TRIGGERS,Option/Cost,MNAR,2,True,1,Collusion,3,6,Revenue Management
+RMS_Agent,Execution_Engine,PASSES_TO,Income/Option,MNAR,2,True,1,Conflict,2,5,Revenue Management
+Payment_Clearance_Agent,Interline_Settlement_Agent,TRIGGERS,Income/Cost,MNAR,2,False,0,Collusion,3,5,Fraud / Payment
+GDS_Agent,Interline_Settlement_Agent,TRIGGERS,Income/Cost,MNAR,2,True,1,Conflict,2,5,Distribution / GDS
+Transaction_Stream_Agent,Card_Network_Agent,PASSES_TO,Risk,MNAR,2,False,0,Conflict,2,4,Fraud / Payment
+Ground_Handler_Agent,Crew_Scheduling_Agent,CONSTRAINS,Cost/Risk,MNAR,2,False,0,Conflict,2,4,Workforce Management
+Crew_Recovery_Agent,Passenger_Recovery_Agent,CONSTRAINS,Risk/Cost,PARTIAL,1,True,1,Conflict,2,4,Disruption Management
+Responsible_Airline_Agent,Interline_Settlement_Agent,TRIGGERS,Income/Cost,MNAR,2,False,0,Conflict,2,4,Distribution / GDS
+Card_Network_Agent,Payment_Clearance_Agent,PASSES_TO,Income/Risk,MNAR,2,True,1,Miscoordination,1,4,Fraud / Payment
+ATPCO_Filing_Agent,RMS_Agent,CONSTRAINS,Market/Cost,PARTIAL,1,True,1,Miscoordination,1,3,Revenue Management
+Crew_Scheduling_Agent,Crew_Recovery_Agent,CONSTRAINS,Cost/Risk,MNAR,2,False,0,Miscoordination,1,3,Workforce Management
+Airport_Charge_Agent,RMS_Agent,CONSTRAINS,Cost/Market,OBSERVED,0,True,1,,0,1,Revenue Management
+Passenger_Recovery_Agent,Coordinator_Agent,PASSES_TO,Risk/Cost,OBSERVED,0,True,1,,0,1,Disruption Management
+Aircraft_Recovery_Agent,Crew_Recovery_Agent,CONSTRAINS,Cost/Risk,OBSERVED,0,False,0,Miscoordination,1,1,Disruption Management
+CDM_Airport_Agent,Aircraft_Recovery_Agent,CONSTRAINS,Cost/Option,OBSERVED,0,False,0,Miscoordination,1,1,Distribution / GDS
+GDS_Agent,Responsible_Airline_Agent,PASSES_TO,Income/Market,OBSERVED,0,True,1,,0,1,Distribution / GDS
+Execution_Engine,GDS_Agent,PASSES_TO,Market/Income,OBSERVED,0,False,0,,0,0,Revenue Management
+Aircraft_Recovery_Agent,Coordinator_Agent,PASSES_TO,Cost/Risk,OBSERVED,0,False,0,,0,0,Disruption Management
+Crew_Recovery_Agent,Coordinator_Agent,PASSES_TO,Cost/Risk,OBSERVED,0,False,0,,0,0,Disruption Management
+Schedule_Agent,Crew_Scheduling_Agent,CONSTRAINS,Cost/Market,OBSERVED,0,False,0,,0,0,Workforce Management

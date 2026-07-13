@@ -1,0 +1,20 @@
+Agent,Function,N_Variables,N_MNAR,MNAR_Rate_Pct,N_Valuation_Types,N_Actor_Types,Valuation_Mix,Actor_Mix,Dominant_Valuation,Governance_Complexity
+Card_Network_Agent,Fraud / Payment,4,4,100.0,1,2,Risk:4,Vendor:3; Passenger:1,Risk,3
+Coordinator_Agent,Disruption Management,1,1,100.0,1,1,Cost:1,Carrier:1,Cost,2
+ATPCO_Filing_Agent,Revenue Management,17,13,76.5,5,2,Market:5; Income:4; Option:4; Risk:3; Cost:1,Carrier:13; Industry Body:4,Market,7
+Transaction_Stream_Agent,Fraud / Payment,16,11,68.8,3,3,Risk:12; Cost:3; Option:1,Vendor:7; Carrier:7; Passenger:2,Risk,6
+Payment_Clearance_Agent,Fraud / Payment,13,6,46.2,4,2,Risk:7; Cost:3; Income:2; Option:1,Carrier:7; Vendor:6,Risk,6
+Interline_Settlement_Agent,Distribution / GDS,40,18,45.0,4,3,Income:20; Market:11; Cost:7; Risk:2,Industry Body:22; Vendor:10; Carrier:8,Income,7
+Ground_Handler_Agent,Workforce Management,15,6,40.0,4,4,Risk:6; Cost:5; Income:3; Option:1,Vendor:8; Carrier:3; Industry Body:2; Airport:2,Risk,8
+Passenger_Recovery_Agent,Disruption Management,5,2,40.0,2,2,Risk:4; Income:1,Carrier:4; Airport:1,Risk,4
+Loyalty_Agent,Revenue Management,10,3,30.0,4,2,Option:4; Market:2; Income:2; Cost:2,Carrier:9; Passenger:1,Option,6
+GDS_Agent,Distribution / GDS,29,5,17.2,5,4,Market:9; Income:7; Option:6; Cost:4; Risk:3,Carrier:20; Vendor:6; Regulator:2; Industry Body:1,Market,9
+Aircraft_Recovery_Agent,Disruption Management,11,1,9.1,3,4,Risk:5; Cost:5; Option:1,Carrier:5; Airport:4; Industry Body:1; Vendor:1,Risk,7
+Execution_Engine,Revenue Management,11,1,9.1,4,2,Income:6; Option:3; Cost:1; Risk:1,Carrier:8; Vendor:3,Income,6
+RMS_Agent,Revenue Management,12,1,8.3,4,1,Income:5; Option:3; Risk:3; Cost:1,Carrier:12,Income,5
+Responsible_Airline_Agent,Distribution / GDS,17,1,5.9,4,2,Income:12; Risk:3; Option:1; Cost:1,Carrier:14; Industry Body:3,Income,6
+Airport_Charge_Agent,Revenue Management,25,1,4.0,4,3,Cost:15; Market:7; Option:2; Income:1,Airport:16; Regulator:8; Vendor:1,Cost,7
+CDM_Airport_Agent,Distribution / GDS,14,0,0.0,4,4,Cost:8; Risk:3; Option:2; Market:1,Airport:6; Industry Body:5; Vendor:2; Carrier:1,Cost,8
+Schedule_Agent,Workforce Management,13,0,0.0,3,3,Cost:8; Market:4; Option:1,Carrier:9; Industry Body:3; Airport:1,Cost,6
+Crew_Recovery_Agent,Disruption Management,2,0,0.0,2,2,Risk:1; Cost:1,Carrier:1; Vendor:1,Risk,4
+Crew_Scheduling_Agent,Workforce Management,4,0,0.0,2,1,Cost:3; Market:1,Carrier:4,Cost,3
