@@ -1,0 +1,116 @@
+Transaction_Point_ID,Transaction_Point_Name,Actor Type,Val_Primary,Data Access,N_variables,Variables
+TP01,Fare Construction,Carrier,Cost,MNAR,1,YQ/YR Surcharge
+TP01,Fare Construction,Carrier,Income,OBSERVED,1,Add-On / Proportional Fare
+TP01,Fare Construction,Carrier,Market,MNAR,3,Fare Basis Code; Rule Number; Combinability Indicator
+TP01,Fare Construction,Carrier,Option,MNAR,2,Tariff Type (public/private); Category 35 — Negotiated Fare
+TP01,Fare Construction,Carrier,Option,OBSERVED,1,Advance Purchase Requirement
+TP01,Fare Construction,Carrier,Risk,MNAR,2,Category 31 — Voluntary Changes; Category 33 — Voluntary Refunds
+TP01,Fare Construction,Carrier,Risk,OBSERVED,1,Category 16 — Penalties (display text)
+TP01,Fare Construction,Industry Body,Income,MNAR,1,HIP (Highest Intermediate Point)
+TP01,Fare Construction,Industry Body,Market,MNAR,1,MPM (Maximum Permitted Mileage)
+TP01,Fare Construction,Industry Body,Option,MNAR,1,Category 25 — Fare By Rule
+TP02,Offer Pricing & Display,Carrier,Cost,MNAR,1,YQ/YR Surcharge
+TP02,Offer Pricing & Display,Carrier,Income,MNAR,2,Fare Owner; Class of Service
+TP02,Offer Pricing & Display,Carrier,Income,OBSERVED,6,Offer; Price (Base Amount); Price (Total Amount); base (price); includedCheckedBags (quantity); Transaction Price (IFRS 15 via IATA IAWG)
+TP02,Offer Pricing & Display,Carrier,Market,MNAR,3,Fare Basis Code; Rule Number; Combinability Indicator
+TP02,Offer Pricing & Display,Carrier,Market,OBSERVED,4,currency; fareDetailsBySegment (cabin); fareDetailsBySegment (fareBasis); fareDetailsBySegment (brandedFare)
+TP02,Offer Pricing & Display,Carrier,Option,MNAR,3,Tariff Type (public/private); Category 35 — Negotiated Fare; RBD (Booking Class Code)
+TP02,Offer Pricing & Display,Carrier,Option,OBSERVED,6,Advance Purchase Requirement; Price Guarantee Time Limit; numberOfBookableSeats; lastTicketingDate; fareDetailsBySegment (class); Release Sell Date (SSIM)
+TP02,Offer Pricing & Display,Carrier,Risk,OBSERVED,3,Cancel Restrictions (Allowed Modification Indicator); Change Restrictions (Allowed Modification Indicator); instantTicketingRequired
+TP02,Offer Pricing & Display,Industry Body,Market,OBSERVED,1,Fare Type
+TP02,Offer Pricing & Display,Vendor,Cost,OBSERVED,1,fees (SUPPLIER / TICKETING)
+TP02,Offer Pricing & Display,Vendor,Income,OBSERVED,3,grandTotal; chargeableSeatNumber; additionalServices (type/amount)
+TP02,Offer Pricing & Display,Vendor,Market,OBSERVED,1,source (GDS)
+TP03,Order Confirmation & Ticketing,Carrier,Income,OBSERVED,7,Price (Base Amount); Price (Total Amount); Order; Order Item (Grand Total Amount); Fee (Amount); base (price); Transaction Price (IFRS 15 via IATA IAWG)
+TP03,Order Confirmation & Ticketing,Carrier,Market,OBSERVED,1,currency
+TP03,Order Confirmation & Ticketing,Carrier,Option,OBSERVED,3,Price Guarantee Time Limit; Payment Time Limit; lastTicketingDate
+TP03,Order Confirmation & Ticketing,Carrier,Risk,MNAR,3,Category 31 — Voluntary Changes; Category 33 — Voluntary Refunds; PNR (Passenger Name Record)
+TP03,Order Confirmation & Ticketing,Carrier,Risk,OBSERVED,6,Category 16 — Penalties (display text); Penalty (Amount); Cancel Restrictions (Allowed Modification Indicator); Change Restrictions (Allowed Modification Indicator); Tax (Refund Indicator); instantTicketingRequired
+TP03,Order Confirmation & Ticketing,Industry Body,Income,MNAR,1,Interline Settlement Information / Settlement Amount
+TP03,Order Confirmation & Ticketing,Industry Body,Income,OBSERVED,2,Ticket Type; EMD (Electronic Miscellaneous Document)
+TP03,Order Confirmation & Ticketing,Industry Body,Market,OBSERVED,2,Journey Type; Interline Settlement Information / Method Code
+TP03,Order Confirmation & Ticketing,Regulator,Cost,OBSERVED,2,Tax (Filed Amount); Tax Code
+TP03,Order Confirmation & Ticketing,Vendor,Cost,OBSERVED,1,fees (SUPPLIER / TICKETING)
+TP03,Order Confirmation & Ticketing,Vendor,Income,OBSERVED,1,grandTotal
+TP04,Ancillary Service Charge,Carrier,Cost,OBSERVED,1,Refund Amount (EMD)
+TP04,Ancillary Service Charge,Carrier,Income,OBSERVED,8,Fee (Amount); includedCheckedBags (quantity); Ancillary Charge Amount; EMD-A (Associated); EMD-S (Standalone); Change Fee (EMD); Upgrade Fee (EMD); Coupon Status (EMD)
+TP04,Ancillary Service Charge,Carrier,Risk,MNAR,2,Category 31 — Voluntary Changes; Category 33 — Voluntary Refunds
+TP04,Ancillary Service Charge,Carrier,Risk,OBSERVED,1,Penalty (Amount)
+TP04,Ancillary Service Charge,Industry Body,Income,OBSERVED,4,EMD (Electronic Miscellaneous Document); Excess Baggage Proration Method; EMD Number; Service Code (EMD)
+TP04,Ancillary Service Charge,Vendor,Income,OBSERVED,2,chargeableSeatNumber; additionalServices (type/amount)
+TP05,Interline Proration & Settlement,Carrier,Cost,MNAR,1,Partner Airline Agency Fee
+TP05,Interline Proration & Settlement,Carrier,Income,MNAR,3,Amount to be Prorated; Fare Owner; Class of Service
+TP05,Interline Proration & Settlement,Carrier,Income,OBSERVED,1,Add-On / Proportional Fare
+TP05,Interline Proration & Settlement,Carrier,Market,MNAR,1,Fare Basis Code
+TP05,Interline Proration & Settlement,Carrier,Market,OBSERVED,3,currency; fareDetailsBySegment (fareBasis); Codeshare Indicator (SSIM)
+TP05,Interline Proration & Settlement,Carrier,Option,MNAR,1,RBD (Booking Class Code)
+TP05,Interline Proration & Settlement,Industry Body,Cost,MNAR,1,VAT Amount
+TP05,Interline Proration & Settlement,Industry Body,Cost,OBSERVED,2,Billing Period; Payment Terms — 30 days (SGHA)
+TP05,Interline Proration & Settlement,Industry Body,Income,MNAR,2,HIP (Highest Intermediate Point); Interline Settlement Information / Settlement Amount
+TP05,Interline Proration & Settlement,Industry Body,Income,OBSERVED,8,BilledMember; InvoiceNumber; LineItem/ChargeAmount; LineItem/TotalNetAmount; InvoiceSummary/TotalLineItemAmount; Interline Billing Basis; Ticket Type; Excess Baggage Proration Method
+TP05,Interline Proration & Settlement,Industry Body,Market,MNAR,1,MPM (Maximum Permitted Mileage)
+TP05,Interline Proration & Settlement,Industry Body,Market,OBSERVED,10,Five Day Rate (FDR); Charge Category Code; Charge Code; BillingCategory; LineItem/ChargeCode; InvoiceHeader/PaymentTerms/CurrencyCode; Journey Type; Fare Type; Sector Type; Interline Settlement Information / Method Code
+TP05,Interline Proration & Settlement,Vendor,Cost,MNAR,3,Credit Note Value; Settlement Method; Commission (Amount)
+TP05,Interline Proration & Settlement,Vendor,Income,MNAR,5,Settlement Amount; Proration Value; F12 File Total; Auto-Billing Uplift; NFP (Neutral Fare Proration)
+TP05,Interline Proration & Settlement,Vendor,Market,OBSERVED,1,source (GDS)
+TP05,Interline Proration & Settlement,Vendor,Risk,MNAR,2,Reject Amount; Dispute Amount
+TP06,Schedule Publication & Slot Coordination,Airport,Cost,OBSERVED,2,TSAT (Target Start Up Approval Time); Gate Assignment
+TP06,Schedule Publication & Slot Coordination,Airport,Market,OBSERVED,1,Minimum Connect Time (SSIM)
+TP06,Schedule Publication & Slot Coordination,Airport,Option,OBSERVED,1,Slot Holding Fee (YYZ)
+TP06,Schedule Publication & Slot Coordination,Carrier,Cost,OBSERVED,6,Scheduled Time of Departure (STD); Flight Number (SSIM Chapter 7); Aircraft Type Code (SSIM); Period of Operation (SSIM); Days of Operation (SSIM); Departure Time / Arrival Time (SSIM)
+TP06,Schedule Publication & Slot Coordination,Carrier,Market,OBSERVED,2,Service Type Code (SSIM); Codeshare Indicator (SSIM)
+TP06,Schedule Publication & Slot Coordination,Carrier,Option,OBSERVED,2,TOBT (Target Off-Block Time); Release Sell Date (SSIM)
+TP06,Schedule Publication & Slot Coordination,Industry Body,Cost,OBSERVED,4,Flight Leg (Arrival Date Time); Flight Leg (Departure Date Time); FlightLegNotifRQ (message); ELDT (Estimated Landing Time)
+TP06,Schedule Publication & Slot Coordination,Industry Body,Market,OBSERVED,1,Sector Type
+TP06,Schedule Publication & Slot Coordination,Industry Body,Risk,OBSERVED,1,Transport Service Leg (Status Code)
+TP06,Schedule Publication & Slot Coordination,Vendor,Cost,OBSERVED,1,Outbound / Inbound Flight Info
+TP06,Schedule Publication & Slot Coordination,Vendor,Risk,OBSERVED,1,Flight Leg Status (AIDX via SITA)
+TP07,Delay Event & IROPs Trigger,Airport,Cost,OBSERVED,4,Actual Time of Arrival (ATA); TSAT (Target Start Up Approval Time); AOBT (Actual Off-Block Time); Gate Assignment
+TP07,Delay Event & IROPs Trigger,Airport,Income,OBSERVED,1,Passenger Count (ops)
+TP07,Delay Event & IROPs Trigger,Airport,Market,OBSERVED,1,Minimum Connect Time (SSIM)
+TP07,Delay Event & IROPs Trigger,Airport,Risk,OBSERVED,1,Actual Time of Departure (ATD)
+TP07,Delay Event & IROPs Trigger,Carrier,Cost,MNAR,1,TPA_Extension (IROPs)
+TP07,Delay Event & IROPs Trigger,Carrier,Cost,OBSERVED,3,Scheduled Time of Departure (STD); Flight Number (SSIM Chapter 7); Departure Time / Arrival Time (SSIM)
+TP07,Delay Event & IROPs Trigger,Carrier,Option,OBSERVED,1,TOBT (Target Off-Block Time)
+TP07,Delay Event & IROPs Trigger,Carrier,Risk,OBSERVED,2,Delay Code (IATA AHM730); Delay Duration (minutes)
+TP07,Delay Event & IROPs Trigger,Industry Body,Cost,OBSERVED,4,Flight Leg (Arrival Date Time); Flight Leg (Departure Date Time); FlightLegNotifRQ (message); ELDT (Estimated Landing Time)
+TP07,Delay Event & IROPs Trigger,Industry Body,Risk,OBSERVED,1,Transport Service Leg (Status Code)
+TP07,Delay Event & IROPs Trigger,Vendor,Cost,OBSERVED,1,Outbound / Inbound Flight Info
+TP07,Delay Event & IROPs Trigger,Vendor,Risk,OBSERVED,1,Flight Leg Status (AIDX via SITA)
+TP08,Ground Handling Service Delivery,Airport,Cost,OBSERVED,3,Actual Time of Arrival (ATA); AOBT (Actual Off-Block Time); Gate Assignment
+TP08,Ground Handling Service Delivery,Airport,Income,OBSERVED,1,Passenger Count (ops)
+TP08,Ground Handling Service Delivery,Carrier,Cost,OBSERVED,2,Flight Number (SSIM Chapter 7); Aircraft Type Code (SSIM)
+TP08,Ground Handling Service Delivery,Carrier,Market,OBSERVED,1,Service Type Code (SSIM)
+TP08,Ground Handling Service Delivery,Carrier,Option,MNAR,1,frequent_flyer (bag event)
+TP08,Ground Handling Service Delivery,Carrier,Risk,OBSERVED,1,Audit Right (SGHA)
+TP08,Ground Handling Service Delivery,Industry Body,Cost,OBSERVED,1,Payment Terms — 30 days (SGHA)
+TP08,Ground Handling Service Delivery,Vendor,Cost,MNAR,3,Service Charge Rate (SGHA); Section 2 Passenger Services Fee (SGHA); Baggage Handling Rate (SGHA)
+TP08,Ground Handling Service Delivery,Vendor,Risk,MNAR,2,Liability Limit (SGHA); Minimum Wage Adjustment (SGHA)
+TP08,Ground Handling Service Delivery,Vendor,Risk,OBSERVED,3,Bag Tag Number; Bag Status (CHECKED_IN / LOADED / MISHANDLED); Bag Event Code
+TP09,Payment Authorisation & Fraud Scoring,Carrier,Cost,MNAR,1,Network Security Controls
+TP09,Payment Authorisation & Fraud Scoring,Carrier,Cost,OBSERVED,2,Multi-Factor Authentication; Encryption Requirement
+TP09,Payment Authorisation & Fraud Scoring,Carrier,Option,OBSERVED,1,Payment Time Limit
+TP09,Payment Authorisation & Fraud Scoring,Carrier,Risk,MNAR,2,Cardholder Data Environment (CDE); PNR (Passenger Name Record)
+TP09,Payment Authorisation & Fraud Scoring,Carrier,Risk,OBSERVED,2,Audit Log; Incident Response Plan
+TP09,Payment Authorisation & Fraud Scoring,Passenger,Option,OBSERVED,1,Loyalty Redemption (Loyalty Currency Amount)
+TP09,Payment Authorisation & Fraud Scoring,Passenger,Risk,MNAR,1,Payment Card (Card Number)
+TP09,Payment Authorisation & Fraud Scoring,Vendor,Risk,MNAR,8,Payment Information (Payment Status Code); PAN (Primary Account Number); Cardholder Name; Expiration Date; Service Code; Full Track Data; Card Verification Code; PIN / PIN Block
+TP10,Payment Clearance & Dispute,Carrier,Cost,OBSERVED,2,Deferred Revenue Liability; Refund Amount (EMD)
+TP10,Payment Clearance & Dispute,Carrier,Income,OBSERVED,2,Change Fee (EMD); Coupon Status (EMD)
+TP10,Payment Clearance & Dispute,Carrier,Risk,OBSERVED,3,Tax (Refund Indicator); Audit Log; Incident Response Plan
+TP10,Payment Clearance & Dispute,Vendor,Cost,MNAR,1,Credit Note Value
+TP10,Payment Clearance & Dispute,Vendor,Income,MNAR,1,Settlement Data (Net Clearance Amount)
+TP10,Payment Clearance & Dispute,Vendor,Risk,MNAR,4,Reject Amount; Dispute Amount; Payment Information (Payment Status Code); Clearance (Status Code)
+TP11,Loyalty Issuance & Redemption,Carrier,Cost,OBSERVED,1,Deferred Revenue Liability
+TP11,Loyalty Issuance & Redemption,Carrier,Income,MNAR,1,Breakage Estimate
+TP11,Loyalty Issuance & Redemption,Carrier,Market,OBSERVED,2,Loyalty Program Account Tier Code; Qualifying Balance Amount
+TP11,Loyalty Issuance & Redemption,Carrier,Option,MNAR,1,frequent_flyer (bag event)
+TP11,Loyalty Issuance & Redemption,Carrier,Option,OBSERVED,2,Loyalty Program Account Identifier; SSP — Points Component
+TP11,Loyalty Issuance & Redemption,Passenger,Option,OBSERVED,1,Loyalty Redemption (Loyalty Currency Amount)
+TP12,Airport Charge Assessment,Airport,Cost,OBSERVED,11,Landing Fee (CAD/tonne MTOW); Airport Improvement Fee (AIF) — Departing; Airport Improvement Fee (AIF) — Connecting; AIF in lieu (per seat); Aircraft Parking Fee (YYZ); Apron Fee (YYZ); Public Landing Area Charge (EWR); Ramp and Apron Charge (EWR); Aircraft Parking / Storage Charge (EWR); Federal Inspection Space Charge (EWR); Airfield Charge per ATM (LHR)
+TP12,Airport Charge Assessment,Airport,Income,OBSERVED,2,Passenger Count (ops); Airport Charge per Passenger (LHR)
+TP12,Airport Charge Assessment,Airport,Market,OBSERVED,2,Inflation Adjustment Rate (YYZ); Non-Signatory Rate Premium (EWR)
+TP12,Airport Charge Assessment,Airport,Option,OBSERVED,2,Slot Holding Fee (YYZ); SAF Incentive (LHR)
+TP12,Airport Charge Assessment,Regulator,Cost,OBSERVED,3,Tax (Filed Amount); Tax Code; Passenger Facility Charge (PFC — EWR)
+TP12,Airport Charge Assessment,Regulator,Market,OBSERVED,5,Maximum Allowable Yield (MAY/pax — LHR); K Factor (LHR); CPI Adjustment (LHR); WACC (LHR — 4.01%); H7 Regulatory Period (LHR)
+TP12,Airport Charge Assessment,Vendor,Cost,MNAR,1,Section 2 Passenger Services Fee (SGHA)
