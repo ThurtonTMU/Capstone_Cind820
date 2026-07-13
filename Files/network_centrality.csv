@@ -1,0 +1,19 @@
+Node,Node_Type,Degree_Centrality,Betweenness_Centrality,Weighted_Degree,N_connections,MNAR_Rate,N_vars
+Carrier,actor,0.6471,0.1446,125,11,0.0,
+Vendor,actor,0.5882,0.4914,47,10,0.0,
+Industry Body,actor,0.4706,0.25,49,8,0.0,
+TP06,transaction_point,0.2353,0.0662,22,4,0.0,22
+Airport,actor,0.2353,0.0,32,4,0.0,
+TP03,transaction_point,0.2353,0.1176,29,4,0.138,29
+TP08,transaction_point,0.2353,0.1336,18,4,0.333,18
+TP07,transaction_point,0.2353,0.0221,21,4,0.048,21
+TP12,transaction_point,0.1765,0.0,26,3,0.038,26
+TP02,transaction_point,0.1765,0.0343,34,3,0.265,34
+TP04,transaction_point,0.1765,0.0343,18,3,0.111,18
+TP09,transaction_point,0.1765,0.114,18,3,0.667,18
+TP05,transaction_point,0.1765,0.0,45,3,0.444,45
+TP01,transaction_point,0.1176,0.0,14,2,0.786,14
+TP10,transaction_point,0.1176,0.0,13,2,0.462,13
+TP11,transaction_point,0.1176,0.0478,8,2,0.25,8
+Regulator,actor,0.1176,0.0,10,2,0.0,
+Passenger,actor,0.1176,0.0588,3,2,0.0,

@@ -1,0 +1,13 @@
+Transaction_Point_ID,TP_Name,N_vars,N_actors,Actors,N_val_types,Val_types,MNAR_pct,N_MNAR,Competing_logics
+TP01,Fare Construction,14,2,Carrier/Industry Body,5,Cost/Income/Market/Option/Risk,78.57142857142857,11,True
+TP02,Offer Pricing & Display,34,3,Carrier/Industry Body/Vendor,5,Cost/Income/Market/Option/Risk,26.47058823529412,9,True
+TP03,Order Confirmation & Ticketing,29,4,Carrier/Industry Body/Regulator/Vendor,5,Cost/Income/Market/Option/Risk,13.793103448275861,4,True
+TP04,Ancillary Service Charge,18,3,Carrier/Industry Body/Vendor,3,Cost/Income/Risk,11.11111111111111,2,True
+TP05,Interline Proration & Settlement,45,3,Carrier/Industry Body/Vendor,5,Cost/Income/Market/Option/Risk,44.44444444444444,20,True
+TP06,Schedule Publication & Slot Coordination,22,4,Airport/Carrier/Industry Body/Vendor,4,Cost/Market/Option/Risk,0.0,0,True
+TP07,Delay Event & IROPs Trigger,21,4,Airport/Carrier/Industry Body/Vendor,5,Cost/Income/Market/Option/Risk,4.761904761904762,1,True
+TP08,Ground Handling Service Delivery,18,4,Airport/Carrier/Industry Body/Vendor,5,Cost/Income/Market/Option/Risk,33.33333333333333,6,True
+TP09,Payment Authorisation & Fraud Scoring,18,3,Carrier/Passenger/Vendor,3,Cost/Option/Risk,66.66666666666666,12,True
+TP10,Payment Clearance & Dispute,13,2,Carrier/Vendor,3,Cost/Income/Risk,46.15384615384615,6,True
+TP11,Loyalty Issuance & Redemption,8,2,Carrier/Passenger,4,Cost/Income/Market/Option,25.0,2,True
+TP12,Airport Charge Assessment,26,3,Airport/Regulator/Vendor,4,Cost/Income/Market/Option,3.8461538461538463,1,True
