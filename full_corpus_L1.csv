@@ -1,0 +1,666 @@
+Variable Name,Source Document,Source Category,MAS Function,Actor,Actor Type,Valuation Type,Val_Primary,Data Access,Source,Subject_Area,N_AIDM_Elements,Coding_Source
+Settlement Amount,SIS IS-XML,Industry Schema,Distribution / GDS,Amadeus (SIS),Vendor,Income,Income,MNAR,M3_PoC_Schema,Settlement with Orders,1,Manual schema coding (M2/M3)
+Proration Value,SIS IS-XML,Industry Schema,Distribution / GDS,Amadeus (SIS),Vendor,Income,Income,MNAR,M3_PoC_Schema,Settlement with Orders,1,Manual schema coding (M2/M3)
+Five Day Rate (FDR),SIS IS-XML,Industry Schema,Distribution / GDS,IATA,Industry Body,Market,Market,OBSERVED,M3_PoC_Schema,Settlement with Orders,1,Manual schema coding (M2/M3)
+Billing Period,SIS IS-XML,Industry Schema,Distribution / GDS,IATA,Industry Body,Cost,Cost,OBSERVED,M3_PoC_Schema,Settlement with Orders,1,Manual schema coding (M2/M3)
+Charge Category Code,SIS IS-XML,Industry Schema,Distribution / GDS,IATA,Industry Body,Market,Market,OBSERVED,M3_PoC_Schema,Settlement with Orders,1,Manual schema coding (M2/M3)
+Charge Code,SIS IS-XML,Industry Schema,Distribution / GDS,IATA,Industry Body,Market,Market,OBSERVED,M3_PoC_Schema,Settlement with Orders,1,Manual schema coding (M2/M3)
+F12 File Total,SIS IS-XML,Industry Schema,Distribution / GDS,Amadeus (SIS),Vendor,Income,Income,MNAR,M3_PoC_Schema,Settlement with Orders,1,Manual schema coding (M2/M3)
+Reject Amount,SIS IS-XML,Industry Schema,Distribution / GDS,Amadeus (SIS),Vendor,Risk,Risk,MNAR,M3_PoC_Schema,Settlement with Orders,1,Manual schema coding (M2/M3)
+Dispute Amount,SIS IS-XML,Industry Schema,Distribution / GDS,Amadeus (SIS),Vendor,Risk,Risk,MNAR,M3_PoC_Schema,Settlement with Orders,1,Manual schema coding (M2/M3)
+Credit Note Value,SIS IS-XML,Industry Schema,Distribution / GDS,Amadeus (SIS),Vendor,Cost,Cost,MNAR,M3_PoC_Schema,Settlement with Orders,1,Manual schema coding (M2/M3)
+VAT Amount,SIS IS-XML,Industry Schema,Distribution / GDS,IATA,Industry Body,Cost,Cost,MNAR,M3_PoC_Schema,Settlement with Orders,1,Manual schema coding (M2/M3)
+Auto-Billing Uplift,SIS IS-XML,Industry Schema,Distribution / GDS,Amadeus (SIS),Vendor,Income,Income,MNAR,M3_PoC_Schema,Settlement with Orders,1,Manual schema coding (M2/M3)
+NFP (Neutral Fare Proration),SIS IS-XML,Industry Schema,Distribution / GDS,Amadeus (SIS),Vendor,Income,Income,MNAR,M3_PoC_Schema,Settlement with Orders,1,Manual schema coding (M2/M3)
+BilledMember,SIS IS-XML,Industry Schema,Distribution / GDS,IATA,Industry Body,Income,Income,OBSERVED,M3_PoC_Schema,Settlement with Orders,1,Manual schema coding (M2/M3)
+InvoiceNumber,SIS IS-XML,Industry Schema,Distribution / GDS,IATA,Industry Body,Income,Income,OBSERVED,M3_PoC_Schema,Settlement with Orders,1,Manual schema coding (M2/M3)
+BillingCategory,SIS IS-XML,Industry Schema,Distribution / GDS,IATA,Industry Body,Market,Market,OBSERVED,M3_PoC_Schema,Settlement with Orders,1,Manual schema coding (M2/M3)
+LineItem/ChargeCode,SIS IS-XML,Industry Schema,Distribution / GDS,IATA,Industry Body,Market,Market,OBSERVED,M3_PoC_Schema,Settlement with Orders,1,Manual schema coding (M2/M3)
+LineItem/ChargeAmount,SIS IS-XML,Industry Schema,Distribution / GDS,IATA,Industry Body,Income,Income,OBSERVED,M3_PoC_Schema,Settlement with Orders,1,Manual schema coding (M2/M3)
+LineItem/TotalNetAmount,SIS IS-XML,Industry Schema,Distribution / GDS,IATA,Industry Body,Income,Income,OBSERVED,M3_PoC_Schema,Settlement with Orders,1,Manual schema coding (M2/M3)
+InvoiceSummary/TotalLineItemAmount,SIS IS-XML,Industry Schema,Distribution / GDS,IATA,Industry Body,Income,Income,OBSERVED,M3_PoC_Schema,Settlement with Orders,1,Manual schema coding (M2/M3)
+InvoiceHeader/PaymentTerms/CurrencyCode,SIS IS-XML,Industry Schema,Distribution / GDS,IATA,Industry Body,Market,Market,OBSERVED,M3_PoC_Schema,Settlement with Orders,1,Manual schema coding (M2/M3)
+Interline Billing Basis,IATA Interline Checklist,Industry Schema,Distribution / GDS,IATA,Industry Body,Income,Income,OBSERVED,M3_PoC_Schema,Settlement with Orders,1,Manual schema coding (M2/M3)
+Ticket Type,IATA Interline Checklist,Industry Schema,Distribution / GDS,IATA,Industry Body,Income,Income,OBSERVED,M3_PoC_Schema,Order Management,1,Manual schema coding (M2/M3)
+Journey Type,IATA Interline Checklist,Industry Schema,Distribution / GDS,IATA,Industry Body,Market,Market,OBSERVED,M3_PoC_Schema,Order Management,1,Manual schema coding (M2/M3)
+Amount to be Prorated,IATA Interline Checklist,Industry Schema,Distribution / GDS,Carrier,Carrier,Income,Income,MNAR,M3_PoC_Schema,Settlement with Orders,1,Manual schema coding (M2/M3)
+Fare Owner,IATA Interline Checklist,Industry Schema,Distribution / GDS,Carrier,Carrier,Income,Income,MNAR,M3_PoC_Schema,Shopping,1,Manual schema coding (M2/M3)
+Fare Type,IATA Interline Checklist,Industry Schema,Distribution / GDS,IATA,Industry Body,Market,Market,OBSERVED,M3_PoC_Schema,Shopping,1,Manual schema coding (M2/M3)
+Sector Type,IATA Interline Checklist,Industry Schema,Distribution / GDS,IATA,Industry Body,Market,Market,OBSERVED,M3_PoC_Schema,Flights,1,Manual schema coding (M2/M3)
+Class of Service,IATA Interline Checklist,Industry Schema,Distribution / GDS,Carrier,Carrier,Income,Income,MNAR,M3_PoC_Schema,Shopping,1,Manual schema coding (M2/M3)
+Settlement Method,IATA Interline Checklist,Industry Schema,Distribution / GDS,Amadeus (SIS),Vendor,Cost,Cost,MNAR,M3_PoC_Schema,Settlement with Orders,1,Manual schema coding (M2/M3)
+EMD (Electronic Miscellaneous Document),IATA Interline Checklist,Industry Schema,Distribution / GDS,IATA,Industry Body,Income,Income,OBSERVED,M3_PoC_Schema,Order Management,1,Manual schema coding (M2/M3)
+Excess Baggage Proration Method,IATA Interline Checklist,Industry Schema,Distribution / GDS,IATA,Industry Body,Income,Income,OBSERVED,M3_PoC_Schema,Baggage,1,Manual schema coding (M2/M3)
+Fare Basis Code,ATPCO (composite),Industry Schema,Revenue Management,Carrier,Carrier,Market,Market,MNAR,M3_PoC_Schema,Shopping,1,Manual schema coding (M2/M3)
+Rule Number,ATPCO (composite),Industry Schema,Revenue Management,Carrier,Carrier,Market,Market,MNAR,M3_PoC_Schema,Shopping,1,Manual schema coding (M2/M3)
+Tariff Type (public/private),ATPCO (composite),Industry Schema,Revenue Management,Carrier,Carrier,Option,Option,MNAR,M3_PoC_Schema,Shopping,1,Manual schema coding (M2/M3)
+Category 25 — Fare By Rule,ATPCO (composite),Industry Schema,Revenue Management,ATPCO,Industry Body,Option/Income,Option,MNAR,M3_PoC_Schema,Shopping,1,Manual schema coding (M2/M3)
+Category 35 — Negotiated Fare,ATPCO (composite),Industry Schema,Revenue Management,Carrier,Carrier,Option,Option,MNAR,M3_PoC_Schema,Shopping,1,Manual schema coding (M2/M3)
+Category 16 — Penalties (display text),ATPCO (composite),Industry Schema,Revenue Management,Carrier,Carrier,Risk,Risk,OBSERVED,M3_PoC_Schema,Shopping,1,Manual schema coding (M2/M3)
+Category 31 — Voluntary Changes,ATPCO (composite),Industry Schema,Revenue Management,Carrier,Carrier,Risk/Cost,Risk,MNAR,M3_PoC_Schema,Order Management,1,Manual schema coding (M2/M3)
+Category 33 — Voluntary Refunds,ATPCO (composite),Industry Schema,Revenue Management,Carrier,Carrier,Risk/Cost,Risk,MNAR,M3_PoC_Schema,Order Management,1,Manual schema coding (M2/M3)
+YQ/YR Surcharge,ATPCO (composite),Industry Schema,Revenue Management,Carrier,Carrier,Cost,Cost,MNAR,M3_PoC_Schema,Shopping,1,Manual schema coding (M2/M3)
+HIP (Highest Intermediate Point),ATPCO (composite),Industry Schema,Revenue Management,ATPCO,Industry Body,Income,Income,MNAR,M3_PoC_Schema,Shopping,1,Manual schema coding (M2/M3)
+MPM (Maximum Permitted Mileage),ATPCO (composite),Industry Schema,Revenue Management,IATA,Industry Body,Market,Market,MNAR,M3_PoC_Schema,Shopping,1,Manual schema coding (M2/M3)
+Add-On / Proportional Fare,ATPCO (composite) / 14 CFR 221,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,OBSERVED,M3_PoC_Schema,Shopping,1,Manual schema coding (M2/M3)
+Advance Purchase Requirement,ATPCO (composite),Industry Schema,Revenue Management,Carrier,Carrier,Option,Option,OBSERVED,M3_PoC_Schema,Shopping,1,Manual schema coding (M2/M3)
+Combinability Indicator,ATPCO (composite),Industry Schema,Revenue Management,Carrier,Carrier,Market,Market,MNAR,M3_PoC_Schema,Shopping,1,Manual schema coding (M2/M3)
+Offer,AIDM / RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income/Market,Income,OBSERVED,M3_PoC_Schema,Shopping,1,Manual schema coding (M2/M3)
+Price (Base Amount),AIDM / RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,OBSERVED,M3_PoC_Schema,Shopping,1,Manual schema coding (M2/M3)
+Price (Total Amount),AIDM / RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,OBSERVED,M3_PoC_Schema,Shopping,1,Manual schema coding (M2/M3)
+Order,AIDM / RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,OBSERVED,M3_PoC_Schema,Order Management,1,Manual schema coding (M2/M3)
+Order Item (Grand Total Amount),AIDM / RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,OBSERVED,M3_PoC_Schema,Order Management,1,Manual schema coding (M2/M3)
+Penalty (Amount),AIDM / RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Risk,Risk,OBSERVED,M3_PoC_Schema,Shopping,1,Manual schema coding (M2/M3)
+Fee (Amount),AIDM / RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,OBSERVED,M3_PoC_Schema,Shopping,1,Manual schema coding (M2/M3)
+Commission (Amount),AIDM / RP1008,Industry Schema,Distribution / GDS,Travel Agent,Vendor,Cost,Cost,MNAR,M3_PoC_Schema,Settlement with Orders,1,Manual schema coding (M2/M3)
+RBD (Booking Class Code),AIDM / RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Option,Option,MNAR,M3_PoC_Schema,Shopping,1,Manual schema coding (M2/M3)
+Cancel Restrictions (Allowed Modification Indicator),AIDM / RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Risk,Risk,OBSERVED,M3_PoC_Schema,Shopping,1,Manual schema coding (M2/M3)
+Change Restrictions (Allowed Modification Indicator),AIDM / RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Risk,Risk,OBSERVED,M3_PoC_Schema,Shopping,1,Manual schema coding (M2/M3)
+Price Guarantee Time Limit,AIDM / RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Option,Option,OBSERVED,M3_PoC_Schema,Order Management,1,Manual schema coding (M2/M3)
+Payment Time Limit,AIDM / RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Option,Option,OBSERVED,M3_PoC_Schema,Payments,1,Manual schema coding (M2/M3)
+Interline Settlement Information / Settlement Amount,AIDM / RP1008,Industry Schema,Distribution / GDS,IATA,Industry Body,Income,Income,MNAR,M3_PoC_Schema,Settlements,1,Manual schema coding (M2/M3)
+Interline Settlement Information / Method Code,AIDM / RP1008,Industry Schema,Distribution / GDS,IATA,Industry Body,Market,Market,OBSERVED,M3_PoC_Schema,Settlements,1,Manual schema coding (M2/M3)
+Tax (Filed Amount),AIDM / RP1008,Industry Schema,Revenue Management,Regulator,Regulator,Cost,Cost,OBSERVED,M3_PoC_Schema,Taxes,1,Manual schema coding (M2/M3)
+Tax Code,AIDM / RP1008,Industry Schema,Revenue Management,Regulator,Regulator,Cost,Cost,OBSERVED,M3_PoC_Schema,Taxes,1,Manual schema coding (M2/M3)
+Tax (Refund Indicator),AIDM / RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Risk,Risk,OBSERVED,M3_PoC_Schema,Taxes,1,Manual schema coding (M2/M3)
+Loyalty Program Account Identifier,AIDM / RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Option,Option,OBSERVED,M3_PoC_Schema,Loyalty Accounts,1,Manual schema coding (M2/M3)
+Loyalty Program Account Tier Code,AIDM / RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Market,Market,OBSERVED,M3_PoC_Schema,Loyalty Accounts,1,Manual schema coding (M2/M3)
+Loyalty Redemption (Loyalty Currency Amount),AIDM / RP1008,Industry Schema,Revenue Management,Passenger,Passenger,Option,Option,OBSERVED,M3_PoC_Schema,Payments,1,Manual schema coding (M2/M3)
+Qualifying Balance Amount,AIDM / RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Market,Market,OBSERVED,M3_PoC_Schema,Loyalty Accounts,1,Manual schema coding (M2/M3)
+Payment Card (Card Number),AIDM / RP1008,Industry Schema,Fraud / Payment,Passenger,Passenger,Risk,Risk,MNAR,M3_PoC_Schema,Payments,1,Manual schema coding (M2/M3)
+Payment Information (Payment Status Code),AIDM / RP1008,Industry Schema,Fraud / Payment,Vendor,Vendor,Risk,Risk,MNAR,M3_PoC_Schema,Payments,1,Manual schema coding (M2/M3)
+Settlement Data (Net Clearance Amount),AIDM / RP1008,Industry Schema,Fraud / Payment,Amadeus (SIS),Vendor,Income,Income,MNAR,M3_PoC_Schema,Payments,1,Manual schema coding (M2/M3)
+Clearance (Status Code),AIDM / RP1008,Industry Schema,Fraud / Payment,Amadeus (SIS),Vendor,Risk,Risk,MNAR,M3_PoC_Schema,Payments,1,Manual schema coding (M2/M3)
+Flight Leg (Arrival Date Time),AIDM / RP1008,Industry Schema,Distribution / GDS,IATA,Industry Body,Cost,Cost,OBSERVED,M3_PoC_Schema,Flights,1,Manual schema coding (M2/M3)
+Flight Leg (Departure Date Time),AIDM / RP1008,Industry Schema,Distribution / GDS,IATA,Industry Body,Cost,Cost,OBSERVED,M3_PoC_Schema,Flights,1,Manual schema coding (M2/M3)
+Transport Service Leg (Status Code),AIDM / RP1008,Industry Schema,Distribution / GDS,IATA,Industry Body,Risk,Risk,OBSERVED,M3_PoC_Schema,Flights,1,Manual schema coding (M2/M3)
+FlightLegNotifRQ (message),AIDX v22.1,Industry Schema,Distribution / GDS,IATA,Industry Body,Cost/Risk,Cost,OBSERVED,M3_PoC_Schema,Flights,1,Manual schema coding (M2/M3)
+Delay Code (IATA AHM730),AIDX v22.1,Industry Schema,Distribution / GDS,Carrier,Carrier,Risk,Risk,OBSERVED,M3_PoC_Schema,Flights,1,Manual schema coding (M2/M3)
+Delay Duration (minutes),AIDX v22.1,Industry Schema,Distribution / GDS,Carrier,Carrier,Risk,Risk,OBSERVED,M3_PoC_Schema,Flights,1,Manual schema coding (M2/M3)
+Scheduled Time of Departure (STD),AIDX v22.1,Industry Schema,Distribution / GDS,Carrier,Carrier,Cost,Cost,OBSERVED,M3_PoC_Schema,Flights,1,Manual schema coding (M2/M3)
+Actual Time of Departure (ATD),AIDX v22.1,Industry Schema,Distribution / GDS,Airport,Airport,Risk,Risk,OBSERVED,M3_PoC_Schema,Flights,1,Manual schema coding (M2/M3)
+Actual Time of Arrival (ATA),AIDX v22.1,Industry Schema,Distribution / GDS,Airport,Airport,Cost,Cost,OBSERVED,M3_PoC_Schema,Flights,1,Manual schema coding (M2/M3)
+TPA_Extension (IROPs),AIDX v22.1,Industry Schema,Distribution / GDS,Carrier,Carrier,Cost/Risk,Cost,MNAR,M3_PoC_Schema,Order Management,1,Manual schema coding (M2/M3)
+ELDT (Estimated Landing Time),AIDX v22.1,Industry Schema,Distribution / GDS,IATA,Industry Body,Cost,Cost,OBSERVED,M3_PoC_Schema,Flights,1,Manual schema coding (M2/M3)
+TSAT (Target Start Up Approval Time),AIDX v22.1,Industry Schema,Distribution / GDS,Airport,Airport,Cost,Cost,OBSERVED,M3_PoC_Schema,Flights,1,Manual schema coding (M2/M3)
+AOBT (Actual Off-Block Time),AIDX v22.1,Industry Schema,Distribution / GDS,Airport,Airport,Cost,Cost,OBSERVED,M3_PoC_Schema,Flights,1,Manual schema coding (M2/M3)
+TOBT (Target Off-Block Time),AIDX v22.1,Industry Schema,Distribution / GDS,Carrier,Carrier,Option,Option,OBSERVED,M3_PoC_Schema,Flights,1,Manual schema coding (M2/M3)
+Gate Assignment,AIDX v22.1,Industry Schema,Distribution / GDS,Airport,Airport,Cost/Market,Cost,OBSERVED,M3_PoC_Schema,Flights,1,Manual schema coding (M2/M3)
+Passenger Count (ops),AIDX v22.1,Industry Schema,Distribution / GDS,Airport,Airport,Income,Income,OBSERVED,M3_PoC_Schema,Parties,1,Manual schema coding (M2/M3)
+PAN (Primary Account Number),PCI DSS v4.0.1,Industry Schema,Fraud / Payment,Vendor (Stripe),Vendor,Risk,Risk,MNAR,M3_PoC_Schema,Payments,1,Manual schema coding (M2/M3)
+Cardholder Name,PCI DSS v4.0.1,Industry Schema,Fraud / Payment,Vendor (Stripe),Vendor,Risk,Risk,MNAR,M3_PoC_Schema,Payments,1,Manual schema coding (M2/M3)
+Expiration Date,PCI DSS v4.0.1,Industry Schema,Fraud / Payment,Vendor (Stripe),Vendor,Risk,Risk,MNAR,M3_PoC_Schema,Payments,1,Manual schema coding (M2/M3)
+Service Code,PCI DSS v4.0.1,Industry Schema,Fraud / Payment,Vendor (Stripe),Vendor,Risk,Risk,MNAR,M3_PoC_Schema,Payments,1,Manual schema coding (M2/M3)
+Full Track Data,PCI DSS v4.0.1,Industry Schema,Fraud / Payment,Vendor (Stripe),Vendor,Risk,Risk,MNAR,M3_PoC_Schema,Payments,1,Manual schema coding (M2/M3)
+Card Verification Code,PCI DSS v4.0.1,Industry Schema,Fraud / Payment,Vendor (Stripe),Vendor,Risk,Risk,MNAR,M3_PoC_Schema,Payments,1,Manual schema coding (M2/M3)
+PIN / PIN Block,PCI DSS v4.0.1,Industry Schema,Fraud / Payment,Vendor (Stripe),Vendor,Risk,Risk,MNAR,M3_PoC_Schema,Payments,1,Manual schema coding (M2/M3)
+Cardholder Data Environment (CDE),PCI DSS v4.0.1,Industry Schema,Fraud / Payment,Carrier,Carrier,Risk,Risk,MNAR,M3_PoC_Schema,Payments,1,Manual schema coding (M2/M3)
+Network Security Controls,PCI DSS v4.0.1,Industry Schema,Fraud / Payment,Carrier,Carrier,Cost,Cost,MNAR,M3_PoC_Schema,Payments,1,Manual schema coding (M2/M3)
+Multi-Factor Authentication,PCI DSS v4.0.1,Industry Schema,Fraud / Payment,Carrier,Carrier,Cost,Cost,OBSERVED,M3_PoC_Schema,Payments,1,Manual schema coding (M2/M3)
+Encryption Requirement,PCI DSS v4.0.1,Industry Schema,Fraud / Payment,Carrier,Carrier,Cost,Cost,OBSERVED,M3_PoC_Schema,Payments,1,Manual schema coding (M2/M3)
+Audit Log,PCI DSS v4.0.1,Industry Schema,Fraud / Payment,Carrier,Carrier,Risk,Risk,OBSERVED,M3_PoC_Schema,Payments,1,Manual schema coding (M2/M3)
+Incident Response Plan,PCI DSS v4.0.1,Industry Schema,Fraud / Payment,Carrier,Carrier,Risk,Risk,OBSERVED,M3_PoC_Schema,Payments,1,Manual schema coding (M2/M3)
+Landing Fee (CAD/tonne MTOW),GTAA Aeronautical Fees 2025,Airport Document,Revenue Management,GTAA (YYZ),Airport,Cost,Cost,OBSERVED,M3_PoC_Schema,Flights,1,Manual schema coding (M2/M3)
+Airport Improvement Fee (AIF) — Departing,GTAA Aeronautical Fees 2025,Airport Document,Revenue Management,GTAA (YYZ),Airport,Cost,Cost,OBSERVED,M3_PoC_Schema,Parties,1,Manual schema coding (M2/M3)
+Airport Improvement Fee (AIF) — Connecting,GTAA Aeronautical Fees 2025,Airport Document,Revenue Management,GTAA (YYZ),Airport,Cost,Cost,OBSERVED,M3_PoC_Schema,Parties,1,Manual schema coding (M2/M3)
+AIF in lieu (per seat),GTAA Aeronautical Fees 2025,Airport Document,Revenue Management,GTAA (YYZ),Airport,Cost/Risk,Cost,OBSERVED,M3_PoC_Schema,Parties,1,Manual schema coding (M2/M3)
+Aircraft Parking Fee (YYZ),GTAA Aeronautical Fees 2025,Airport Document,Revenue Management,GTAA (YYZ),Airport,Cost,Cost,OBSERVED,M3_PoC_Schema,Flights,1,Manual schema coding (M2/M3)
+Apron Fee (YYZ),GTAA Aeronautical Fees 2025,Airport Document,Revenue Management,GTAA (YYZ),Airport,Cost,Cost,OBSERVED,M3_PoC_Schema,Flights,1,Manual schema coding (M2/M3)
+Slot Holding Fee (YYZ),GTAA Aeronautical Fees 2025,Airport Document,Revenue Management,GTAA (YYZ),Airport,Option,Option,OBSERVED,M3_PoC_Schema,Flights,1,Manual schema coding (M2/M3)
+Inflation Adjustment Rate (YYZ),GTAA Aeronautical Fees 2025,Airport Document,Revenue Management,GTAA (YYZ),Airport,Market,Market,OBSERVED,M3_PoC_Schema,Parties,1,Manual schema coding (M2/M3)
+Public Landing Area Charge (EWR),PANYNJ Schedule of Charges 2024,Airport Document,Revenue Management,Port Authority NY/NJ,Airport,Cost,Cost,OBSERVED,M3_PoC_Schema,Flights,1,Manual schema coding (M2/M3)
+Ramp and Apron Charge (EWR),PANYNJ Schedule of Charges 2024,Airport Document,Revenue Management,Port Authority NY/NJ,Airport,Cost,Cost,OBSERVED,M3_PoC_Schema,Flights,1,Manual schema coding (M2/M3)
+Aircraft Parking / Storage Charge (EWR),PANYNJ Schedule of Charges 2024,Airport Document,Revenue Management,Port Authority NY/NJ,Airport,Cost,Cost,OBSERVED,M3_PoC_Schema,Flights,1,Manual schema coding (M2/M3)
+Federal Inspection Space Charge (EWR),PANYNJ Schedule of Charges 2024,Airport Document,Revenue Management,Port Authority NY/NJ,Airport,Cost,Cost,OBSERVED,M3_PoC_Schema,Parties,1,Manual schema coding (M2/M3)
+Passenger Facility Charge (PFC — EWR),PANYNJ Schedule of Charges 2024,Airport Document,Revenue Management,FAA / PANYNJ,Regulator,Cost,Cost,OBSERVED,M3_PoC_Schema,Parties,1,Manual schema coding (M2/M3)
+Non-Signatory Rate Premium (EWR),PANYNJ Schedule of Charges 2024,Airport Document,Revenue Management,Port Authority NY/NJ,Airport,Market,Market,OBSERVED,M3_PoC_Schema,Parties,1,Manual schema coding (M2/M3)
+Maximum Allowable Yield (MAY/pax — LHR),Heathrow Conditions of Use 2025/26,Airport Document,Revenue Management,CAA (regulator),Regulator,Market,Market,OBSERVED,M3_PoC_Schema,Parties,1,Manual schema coding (M2/M3)
+Airport Charge per Passenger (LHR),Heathrow Conditions of Use 2025/26,Airport Document,Revenue Management,Heathrow Airport Ltd,Airport,Income,Income,OBSERVED,M3_PoC_Schema,Parties,1,Manual schema coding (M2/M3)
+K Factor (LHR),Heathrow Conditions of Use 2025/26,Airport Document,Revenue Management,CAA (regulator),Regulator,Market,Market,OBSERVED,M3_PoC_Schema,Parties,1,Manual schema coding (M2/M3)
+CPI Adjustment (LHR),Heathrow Conditions of Use 2025/26,Airport Document,Revenue Management,CAA (regulator),Regulator,Market,Market,OBSERVED,M3_PoC_Schema,Parties,1,Manual schema coding (M2/M3)
+WACC (LHR — 4.01%),Heathrow Conditions of Use 2025/26,Airport Document,Revenue Management,CAA (regulator),Regulator,Market,Market,OBSERVED,M3_PoC_Schema,Parties,1,Manual schema coding (M2/M3)
+Airfield Charge per ATM (LHR),Heathrow Conditions of Use 2025/26,Airport Document,Revenue Management,Heathrow Airport Ltd,Airport,Cost,Cost,OBSERVED,M3_PoC_Schema,Flights,1,Manual schema coding (M2/M3)
+SAF Incentive (LHR),Heathrow Conditions of Use 2025/26,Airport Document,Revenue Management,Heathrow Airport Ltd,Airport,Option,Option,OBSERVED,M3_PoC_Schema,Flights,1,Manual schema coding (M2/M3)
+H7 Regulatory Period (LHR),Heathrow Conditions of Use 2025/26,Airport Document,Revenue Management,CAA (regulator),Regulator,Market,Market,OBSERVED,M3_PoC_Schema,Parties,1,Manual schema coding (M2/M3)
+grandTotal,Amadeus Flight Offers Search API (OpenAPI),Vendor API,Revenue Management,Amadeus,Vendor,Income,Income,OBSERVED,M3_PoC_Schema,Shopping,1,Manual schema coding (M2/M3)
+base (price),Amadeus Flight Offers Search API (OpenAPI),Vendor API,Revenue Management,Carrier,Carrier,Income,Income,OBSERVED,M3_PoC_Schema,Shopping,1,Manual schema coding (M2/M3)
+fees (SUPPLIER / TICKETING),Amadeus Flight Offers Search API (OpenAPI),Vendor API,Revenue Management,Amadeus,Vendor,Cost,Cost,OBSERVED,M3_PoC_Schema,Shopping,1,Manual schema coding (M2/M3)
+currency,Amadeus Flight Offers Search API (OpenAPI),Vendor API,Revenue Management,Carrier,Carrier,Market,Market,OBSERVED,M3_PoC_Schema,Shopping,1,Manual schema coding (M2/M3)
+numberOfBookableSeats,Amadeus Flight Offers Search API (OpenAPI),Vendor API,Revenue Management,Carrier,Carrier,Option,Option,OBSERVED,M3_PoC_Schema,Shopping,1,Manual schema coding (M2/M3)
+lastTicketingDate,Amadeus Flight Offers Search API (OpenAPI),Vendor API,Revenue Management,Carrier,Carrier,Option,Option,OBSERVED,M3_PoC_Schema,Shopping,1,Manual schema coding (M2/M3)
+fareDetailsBySegment (cabin),Amadeus Flight Offers Search API (OpenAPI),Vendor API,Revenue Management,Carrier,Carrier,Market,Market,OBSERVED,M3_PoC_Schema,Shopping,1,Manual schema coding (M2/M3)
+fareDetailsBySegment (fareBasis),Amadeus Flight Offers Search API (OpenAPI),Vendor API,Revenue Management,Carrier,Carrier,Market,Market,OBSERVED,M3_PoC_Schema,Shopping,1,Manual schema coding (M2/M3)
+fareDetailsBySegment (brandedFare),Amadeus Flight Offers Search API (OpenAPI),Vendor API,Revenue Management,Carrier,Carrier,Market,Market,OBSERVED,M3_PoC_Schema,Shopping,1,Manual schema coding (M2/M3)
+fareDetailsBySegment (class),Amadeus Flight Offers Search API (OpenAPI),Vendor API,Revenue Management,Carrier,Carrier,Option,Option,OBSERVED,M3_PoC_Schema,Shopping,1,Manual schema coding (M2/M3)
+includedCheckedBags (quantity),Amadeus Flight Offers Search API (OpenAPI),Vendor API,Revenue Management,Carrier,Carrier,Income,Income,OBSERVED,M3_PoC_Schema,Baggage,1,Manual schema coding (M2/M3)
+chargeableSeatNumber,Amadeus Flight Offers Search API (OpenAPI),Vendor API,Revenue Management,Amadeus,Vendor,Income,Income,OBSERVED,M3_PoC_Schema,Shopping,1,Manual schema coding (M2/M3)
+additionalServices (type/amount),Amadeus Flight Offers Search API (OpenAPI),Vendor API,Revenue Management,Amadeus,Vendor,Income,Income,OBSERVED,M3_PoC_Schema,Shopping,1,Manual schema coding (M2/M3)
+instantTicketingRequired,Amadeus Flight Offers Search API (OpenAPI),Vendor API,Revenue Management,Carrier,Carrier,Risk,Risk,OBSERVED,M3_PoC_Schema,Shopping,1,Manual schema coding (M2/M3)
+source (GDS),Amadeus Flight Offers Search API (OpenAPI),Vendor API,Distribution / GDS,Amadeus,Vendor,Market,Market,OBSERVED,M3_PoC_Schema,Shopping,1,Manual schema coding (M2/M3)
+Flight Leg Status (AIDX via SITA),SITA AIDX API (developer.aero),Vendor API,Distribution / GDS,SITA,Vendor,Risk,Risk,OBSERVED,M3_PoC_Schema,Flights,1,Manual schema coding (M2/M3)
+Bag Tag Number,SITA BagJourney API,Vendor API,Distribution / GDS,SITA,Vendor,Risk,Risk,OBSERVED,M3_PoC_Schema,Baggage,1,Manual schema coding (M2/M3)
+Bag Status (CHECKED_IN / LOADED / MISHANDLED),SITA BagJourney API,Vendor API,Distribution / GDS,SITA,Vendor,Risk,Risk,OBSERVED,M3_PoC_Schema,Baggage,1,Manual schema coding (M2/M3)
+Bag Event Code,SITA BagJourney API,Vendor API,Distribution / GDS,SITA,Vendor,Risk,Risk,OBSERVED,M3_PoC_Schema,Baggage,1,Manual schema coding (M2/M3)
+PNR (Passenger Name Record),SITA BagJourney API,Vendor API,Distribution / GDS,Carrier,Carrier,Risk,Risk,MNAR,M3_PoC_Schema,Parties,1,Manual schema coding (M2/M3)
+frequent_flyer (bag event),SITA BagJourney API,Vendor API,Revenue Management,Carrier,Carrier,Option,Option,MNAR,M3_PoC_Schema,Loyalty Accounts,1,Manual schema coding (M2/M3)
+Outbound / Inbound Flight Info,SITA BagJourney API,Vendor API,Distribution / GDS,SITA,Vendor,Cost,Cost,OBSERVED,M3_PoC_Schema,Flights,1,Manual schema coding (M2/M3)
+Flight Number (SSIM Chapter 7),IATA SSIM (public structure),Industry Schema,Workforce Management,Carrier,Carrier,Cost,Cost,OBSERVED,M3_PoC_Schema,Flights,1,Manual schema coding (M2/M3)
+Service Type Code (SSIM),IATA SSIM (public structure),Industry Schema,Workforce Management,Carrier,Carrier,Market,Market,OBSERVED,M3_PoC_Schema,Flights,1,Manual schema coding (M2/M3)
+Aircraft Type Code (SSIM),IATA SSIM (public structure),Industry Schema,Workforce Management,Carrier,Carrier,Cost,Cost,OBSERVED,M3_PoC_Schema,Flights,1,Manual schema coding (M2/M3)
+Period of Operation (SSIM),IATA SSIM (public structure),Industry Schema,Workforce Management,Carrier,Carrier,Cost,Cost,OBSERVED,M3_PoC_Schema,Flights,1,Manual schema coding (M2/M3)
+Days of Operation (SSIM),IATA SSIM (public structure),Industry Schema,Workforce Management,Carrier,Carrier,Cost,Cost,OBSERVED,M3_PoC_Schema,Flights,1,Manual schema coding (M2/M3)
+Departure Time / Arrival Time (SSIM),IATA SSIM (public structure),Industry Schema,Workforce Management,Carrier,Carrier,Cost,Cost,OBSERVED,M3_PoC_Schema,Flights,1,Manual schema coding (M2/M3)
+Codeshare Indicator (SSIM),IATA SSIM (public structure),Industry Schema,Workforce Management,Carrier,Carrier,Market,Market,OBSERVED,M3_PoC_Schema,Flights,1,Manual schema coding (M2/M3)
+Release Sell Date (SSIM),IATA SSIM (public structure),Industry Schema,Revenue Management,Carrier,Carrier,Option,Option,OBSERVED,M3_PoC_Schema,Shopping,1,Manual schema coding (M2/M3)
+Minimum Connect Time (SSIM),IATA SSIM (public structure),Industry Schema,Distribution / GDS,Airport,Airport,Market/Cost,Market,OBSERVED,M3_PoC_Schema,Flights,1,Manual schema coding (M2/M3)
+Transaction Price (IFRS 15 via IATA IAWG),IATA IAWG IFRS 15 Loyalty Guide,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,OBSERVED,M3_PoC_Schema,Shopping,1,Manual schema coding (M2/M3)
+SSP — Points Component,IATA IAWG IFRS 15 Loyalty Guide,Industry Schema,Revenue Management,Carrier,Carrier,Option,Option,OBSERVED,M3_PoC_Schema,Order Management,1,Manual schema coding (M2/M3)
+Deferred Revenue Liability,IATA IAWG IFRS 15 Loyalty Guide,Industry Schema,Revenue Management,Carrier,Carrier,Cost/Risk,Cost,OBSERVED,M3_PoC_Schema,Payments,1,Manual schema coding (M2/M3)
+Breakage Estimate,IATA IAWG IFRS 15 Loyalty Guide,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,MNAR,M3_PoC_Schema,Order Management,1,Manual schema coding (M2/M3)
+Partner Airline Agency Fee,IATA IAWG IFRS 15 Loyalty Guide,Industry Schema,Distribution / GDS,Carrier,Carrier,Cost,Cost,MNAR,M3_PoC_Schema,Settlement with Orders,1,Manual schema coding (M2/M3)
+Service Charge Rate (SGHA),IATA SGHA 2023,Industry Schema,Workforce Management,Ground Handler,Vendor,Cost,Cost,MNAR,M3_PoC_Schema,Flights,1,Manual schema coding (M2/M3)
+Payment Terms — 30 days (SGHA),IATA SGHA 2023,Industry Schema,Workforce Management,IATA,Industry Body,Cost,Cost,OBSERVED,M3_PoC_Schema,Settlement with Orders,1,Manual schema coding (M2/M3)
+Liability Limit (SGHA),IATA SGHA 2023,Industry Schema,Workforce Management,Ground Handler,Vendor,Risk,Risk,MNAR,M3_PoC_Schema,Flights,1,Manual schema coding (M2/M3)
+Minimum Wage Adjustment (SGHA),IATA SGHA 2023,Industry Schema,Workforce Management,Ground Handler,Vendor,Risk/Cost,Risk,MNAR,M3_PoC_Schema,Flights,1,Manual schema coding (M2/M3)
+Audit Right (SGHA),IATA SGHA 2023,Industry Schema,Workforce Management,Carrier,Carrier,Risk,Risk,OBSERVED,M3_PoC_Schema,Parties,1,Manual schema coding (M2/M3)
+Section 2 Passenger Services Fee (SGHA),IATA SGHA 2023,Industry Schema,Workforce Management,Ground Handler,Vendor,Cost/Income,Cost,MNAR,M3_PoC_Schema,Parties,1,Manual schema coding (M2/M3)
+Baggage Handling Rate (SGHA),IATA SGHA 2023,Industry Schema,Workforce Management,Ground Handler,Vendor,Cost,Cost,MNAR,M3_PoC_Schema,Baggage,1,Manual schema coding (M2/M3)
+EMD Number,IATA EMD Resolution 725,Industry Schema,Revenue Management,IATA,Industry Body,Income,Income,OBSERVED,M3_PoC_Schema,Order Management,1,Manual schema coding (M2/M3)
+Service Code (EMD),IATA EMD Resolution 725,Industry Schema,Revenue Management,IATA,Industry Body,Income/Market,Income,OBSERVED,M3_PoC_Schema,Order Management,1,Manual schema coding (M2/M3)
+Ancillary Charge Amount,IATA EMD Resolution 725,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,OBSERVED,M3_PoC_Schema,Order Management,1,Manual schema coding (M2/M3)
+EMD-A (Associated),IATA EMD Resolution 725,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,OBSERVED,M3_PoC_Schema,Order Management,1,Manual schema coding (M2/M3)
+EMD-S (Standalone),IATA EMD Resolution 725,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,OBSERVED,M3_PoC_Schema,Order Management,1,Manual schema coding (M2/M3)
+Change Fee (EMD),IATA EMD Resolution 725,Industry Schema,Revenue Management,Carrier,Carrier,Income/Risk,Income,OBSERVED,M3_PoC_Schema,Order Management,1,Manual schema coding (M2/M3)
+Upgrade Fee (EMD),IATA EMD Resolution 725,Industry Schema,Revenue Management,Carrier,Carrier,Income/Option,Income,OBSERVED,M3_PoC_Schema,Shopping,1,Manual schema coding (M2/M3)
+Refund Amount (EMD),IATA EMD Resolution 725,Industry Schema,Revenue Management,Carrier,Carrier,Cost/Risk,Cost,OBSERVED,M3_PoC_Schema,Payments,1,Manual schema coding (M2/M3)
+Coupon Status (EMD),IATA EMD Resolution 725,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,OBSERVED,M3_PoC_Schema,Order Management,1,Manual schema coding (M2/M3)
+Aircraft Group,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Aircraft Load Calculations,16,AIDM RP1008 systematic coding — ABIE level
+Aircraft Group Configuration,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,PARTIAL,M4_AIDM_Full,Aircraft Load Calculations,6,AIDM RP1008 systematic coding — ABIE level
+Airline Load Information,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Aircraft Load Calculations,2,AIDM RP1008 systematic coding — ABIE level
+Baggage Standard Weights,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Aircraft Load Calculations,6,AIDM RP1008 systematic coding — ABIE level
+Balance Output Requirement,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,MNAR,M4_AIDM_Full,Aircraft Load Calculations,5,AIDM RP1008 systematic coding — ABIE level
+Cabin Layout,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Aircraft Load Calculations,1,AIDM RP1008 systematic coding — ABIE level
+Cabin Type,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Aircraft Load Calculations,3,AIDM RP1008 systematic coding — ABIE level
+Carrier,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Income,Income,OBSERVED,M4_AIDM_Full,Aircraft Load Calculations,7,AIDM RP1008 systematic coding — ABIE level
+Crew Baggage Standard Weights,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Aircraft Load Calculations,3,AIDM RP1008 systematic coding — ABIE level
+Crew Standard Weights,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Aircraft Load Calculations,7,AIDM RP1008 systematic coding — ABIE level
+DOW Configuration,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Aircraft Load Calculations,1,AIDM RP1008 systematic coding — ABIE level
+Hold Layout,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Aircraft Load Calculations,1,AIDM RP1008 systematic coding — ABIE level
+IATA Aircraft Type,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Aircraft Load Calculations,3,AIDM RP1008 systematic coding — ABIE level
+Passenger Standard Weights,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Aircraft Load Calculations,10,AIDM RP1008 systematic coding — ABIE level
+Passenger Trim Output Requirement,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Aircraft Load Calculations,1,AIDM RP1008 systematic coding — ABIE level
+Supplementary Information Requirement,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Aircraft Load Calculations,5,AIDM RP1008 systematic coding — ABIE level
+SWA,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Aircraft Load Calculations,5,AIDM RP1008 systematic coding — ABIE level
+Aircraft,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Aircraft Technical Details,6,AIDM RP1008 systematic coding — ABIE level
+Aircraft Turnaround Activity,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Aircraft Technical Details,1,AIDM RP1008 systematic coding — ABIE level
+Aircraft Turnaround Activity Event,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Aircraft Technical Details,2,AIDM RP1008 systematic coding — ABIE level
+Aircraft Turnaround Activity Specification,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Aircraft Technical Details,2,AIDM RP1008 systematic coding — ABIE level
+Aircraft Turnaround Event Specification,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Aircraft Technical Details,2,AIDM RP1008 systematic coding — ABIE level
+Aircraft Turnaround Issue,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Aircraft Technical Details,3,AIDM RP1008 systematic coding — ABIE level
+Aircraft Turnaround Service,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Aircraft Technical Details,1,AIDM RP1008 systematic coding — ABIE level
+Aircraft Turnaround Service Category,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Aircraft Technical Details,2,AIDM RP1008 systematic coding — ABIE level
+Aircraft Turnaround Service Type Specification,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Aircraft Technical Details,2,AIDM RP1008 systematic coding — ABIE level
+Asymmetrical Load Limitation,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Aircraft Technical Details,2,AIDM RP1008 systematic coding — ABIE level
+Asymmetrical Load Limitation Table,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Aircraft Technical Details,6,AIDM RP1008 systematic coding — ABIE level
+Bay Grouping,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Aircraft Technical Details,8,AIDM RP1008 systematic coding — ABIE level
+Cabin Component,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,PARTIAL,M4_AIDM_Full,Aircraft Technical Details,16,AIDM RP1008 systematic coding — ABIE level
+Cabin Crew Distribution Element,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Aircraft Technical Details,3,AIDM RP1008 systematic coding — ABIE level
+Cabin Crew Location,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Aircraft Technical Details,5,AIDM RP1008 systematic coding — ABIE level
+Cargo Heating Device,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Aircraft Technical Details,5,AIDM RP1008 systematic coding — ABIE level
+Cargo Ventilation Device,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Aircraft Technical Details,6,AIDM RP1008 systematic coding — ABIE level
+Center Of Gravity Limit,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Aircraft Technical Details,6,AIDM RP1008 systematic coding — ABIE level
+Center Of Gravity Limit Table,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Aircraft Technical Details,6,AIDM RP1008 systematic coding — ABIE level
+Combined Load Limitation,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Aircraft Technical Details,1,AIDM RP1008 systematic coding — ABIE level
+Combined Load Limitation Table,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Aircraft Technical Details,5,AIDM RP1008 systematic coding — ABIE level
+Crew Distribution,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Aircraft Technical Details,1,AIDM RP1008 systematic coding — ABIE level
+Cumulative Load Limitation,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Aircraft Technical Details,5,AIDM RP1008 systematic coding — ABIE level
+Cumulative Load Limitation Table,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Aircraft Technical Details,5,AIDM RP1008 systematic coding — ABIE level
+Curtailment,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Aircraft Technical Details,6,AIDM RP1008 systematic coding — ABIE level
+Curtailment Table,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Aircraft Technical Details,2,AIDM RP1008 systematic coding — ABIE level
+Dated Operating Leg,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Aircraft Technical Details,4,AIDM RP1008 systematic coding — ABIE level
+Deck,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Aircraft Technical Details,7,AIDM RP1008 systematic coding — ABIE level
+Description,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Aircraft Technical Details,4,AIDM RP1008 systematic coding — ABIE level
+Door,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Aircraft Technical Details,5,AIDM RP1008 systematic coding — ABIE level
+Dry Operating Aircraft,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Aircraft Technical Details,5,AIDM RP1008 systematic coding — ABIE level
+Flight Deck Crew Distribution Element,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Aircraft Technical Details,3,AIDM RP1008 systematic coding — ABIE level
+Flight Deck Crew Location,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Aircraft Technical Details,5,AIDM RP1008 systematic coding — ABIE level
+Floor Load Limitation,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Aircraft Technical Details,4,AIDM RP1008 systematic coding — ABIE level
+Floor Load Limitation Table,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Aircraft Technical Details,5,AIDM RP1008 systematic coding — ABIE level
+Formula Element,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Aircraft Technical Details,3,AIDM RP1008 systematic coding — ABIE level
+Formula Keyword,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Aircraft Technical Details,2,AIDM RP1008 systematic coding — ABIE level
+Formula Operands,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Aircraft Technical Details,2,AIDM RP1008 systematic coding — ABIE level
+Fuel Distribution,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Aircraft Technical Details,8,AIDM RP1008 systematic coding — ABIE level
+Fuel Distribution Step,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Aircraft Technical Details,6,AIDM RP1008 systematic coding — ABIE level
+Fuel Distribution Step Element,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Aircraft Technical Details,3,AIDM RP1008 systematic coding — ABIE level
+Fuel Effect,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Aircraft Technical Details,5,AIDM RP1008 systematic coding — ABIE level
+Fueling Procedure,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Aircraft Technical Details,10,AIDM RP1008 systematic coding — ABIE level
+Hold,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,MNAR,M4_AIDM_Full,Aircraft Technical Details,12,AIDM RP1008 systematic coding — ABIE level
+Hold Compartment,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Aircraft Technical Details,10,AIDM RP1008 systematic coding — ABIE level
+Ideal Trim Line Table,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Aircraft Technical Details,5,AIDM RP1008 systematic coding — ABIE level
+Ideal Trim Point,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Aircraft Technical Details,7,AIDM RP1008 systematic coding — ABIE level
+Lateral Imbalance Limit,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Aircraft Technical Details,4,AIDM RP1008 systematic coding — ABIE level
+Lateral Imbalance Limit Table,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Aircraft Technical Details,6,AIDM RP1008 systematic coding — ABIE level
+Lock,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Aircraft Technical Details,5,AIDM RP1008 systematic coding — ABIE level
+Maximum Weights,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Aircraft Technical Details,5,AIDM RP1008 systematic coding — ABIE level
+Maximum Weights Table,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Aircraft Technical Details,5,AIDM RP1008 systematic coding — ABIE level
+Minimum Weights,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Aircraft Technical Details,5,AIDM RP1008 systematic coding — ABIE level
+Minimum Weights Table,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Aircraft Technical Details,5,AIDM RP1008 systematic coding — ABIE level
+Missing Restraint Rule,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Aircraft Technical Details,6,AIDM RP1008 systematic coding — ABIE level
+Pantry Distribution,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Aircraft Technical Details,4,AIDM RP1008 systematic coding — ABIE level
+Potable Water Distribution,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Aircraft Technical Details,4,AIDM RP1008 systematic coding — ABIE level
+Potable Water Distribution Element,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Aircraft Technical Details,2,AIDM RP1008 systematic coding — ABIE level
+Potable Water Tank,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Aircraft Technical Details,7,AIDM RP1008 systematic coding — ABIE level
+Ratio Formula,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Aircraft Technical Details,1,AIDM RP1008 systematic coding — ABIE level
+Resource,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Aircraft Technical Details,1,AIDM RP1008 systematic coding — ABIE level
+Running Load Limitation,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Aircraft Technical Details,4,AIDM RP1008 systematic coding — ABIE level
+Running Load Limitation Table,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Aircraft Technical Details,5,AIDM RP1008 systematic coding — ABIE level
+Special Load Limitation,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Aircraft Technical Details,2,AIDM RP1008 systematic coding — ABIE level
+STAB,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Aircraft Technical Details,4,AIDM RP1008 systematic coding — ABIE level
+STAB Table,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Aircraft Technical Details,10,AIDM RP1008 systematic coding — ABIE level
+STAB Text,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Aircraft Technical Details,3,AIDM RP1008 systematic coding — ABIE level
+Tail Assignment,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Aircraft Technical Details,4,AIDM RP1008 systematic coding — ABIE level
+Taxi Fuel Burn Order,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Aircraft Technical Details,2,AIDM RP1008 systematic coding — ABIE level
+Taxi Fuel Procedure,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Aircraft Technical Details,2,AIDM RP1008 systematic coding — ABIE level
+Tipping Limit,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Aircraft Technical Details,3,AIDM RP1008 systematic coding — ABIE level
+Tipping Limit Table,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Aircraft Technical Details,5,AIDM RP1008 systematic coding — ABIE level
+Transport Turnaround,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Aircraft Technical Details,8,AIDM RP1008 systematic coding — ABIE level
+Transport Vehicle,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Aircraft Technical Details,1,AIDM RP1008 systematic coding — ABIE level
+ULD,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Aircraft Technical Details,4,AIDM RP1008 systematic coding — ABIE level
+ULD Compatibility,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Aircraft Technical Details,2,AIDM RP1008 systematic coding — ABIE level
+ULD Load Position,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Aircraft Technical Details,10,AIDM RP1008 systematic coding — ABIE level
+ULD Type,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Aircraft Technical Details,8,AIDM RP1008 systematic coding — ABIE level
+Access Gate,AIDM RP1008,Industry Schema,Workforce Management,Carrier,Carrier,Cost,Cost,PARTIAL,M4_AIDM_Full,Bags,1,AIDM RP1008 systematic coding — ABIE level
+Agency,AIDM RP1008,Industry Schema,Workforce Management,Vendor,Vendor,Cost,Cost,MNAR,M4_AIDM_Full,Bags,1,AIDM RP1008 systematic coding — ABIE level
+Agent,AIDM RP1008,Industry Schema,Workforce Management,Carrier,Carrier,Cost,Cost,PARTIAL,M4_AIDM_Full,Bags,1,AIDM RP1008 systematic coding — ABIE level
+Aircraft Parking Position,AIDM RP1008,Industry Schema,Workforce Management,Carrier,Carrier,Cost,Cost,PARTIAL,M4_AIDM_Full,Bags,1,AIDM RP1008 systematic coding — ABIE level
+Airline,AIDM RP1008,Industry Schema,Workforce Management,Carrier,Carrier,Income,Income,OBSERVED,M4_AIDM_Full,Bags,4,AIDM RP1008 systematic coding — ABIE level
+Bag,AIDM RP1008,Industry Schema,Workforce Management,Carrier,Carrier,Cost,Cost,PARTIAL,M4_AIDM_Full,Bags,1,AIDM RP1008 systematic coding — ABIE level
+Bag Activity,AIDM RP1008,Industry Schema,Workforce Management,Vendor,Vendor,Cost,Cost,OBSERVED,M4_AIDM_Full,Bags,7,AIDM RP1008 systematic coding — ABIE level
+Bag Dimensions,AIDM RP1008,Industry Schema,Workforce Management,Carrier,Carrier,Cost,Cost,PARTIAL,M4_AIDM_Full,Bags,3,AIDM RP1008 systematic coding — ABIE level
+Bag Exception,AIDM RP1008,Industry Schema,Workforce Management,Carrier,Carrier,Cost,Cost,PARTIAL,M4_AIDM_Full,Bags,1,AIDM RP1008 systematic coding — ABIE level
+Bag Physical Properties,AIDM RP1008,Industry Schema,Workforce Management,Carrier,Carrier,Cost,Cost,PARTIAL,M4_AIDM_Full,Bags,8,AIDM RP1008 systematic coding — ABIE level
+Bag Segment,AIDM RP1008,Industry Schema,Workforce Management,Carrier,Carrier,Cost,Cost,PARTIAL,M4_AIDM_Full,Bags,5,AIDM RP1008 systematic coding — ABIE level
+Bag Segment Exception,AIDM RP1008,Industry Schema,Workforce Management,Carrier,Carrier,Cost,Cost,PARTIAL,M4_AIDM_Full,Bags,1,AIDM RP1008 systematic coding — ABIE level
+Bag Status,AIDM RP1008,Industry Schema,Workforce Management,Carrier,Carrier,Cost,Cost,PARTIAL,M4_AIDM_Full,Bags,6,AIDM RP1008 systematic coding — ABIE level
+Bag Tag,AIDM RP1008,Industry Schema,Workforce Management,Industry Body,Industry Body,Cost,Cost,OBSERVED,M4_AIDM_Full,Bags,10,AIDM RP1008 systematic coding — ABIE level
+Baggage Allowance,AIDM RP1008,Industry Schema,Workforce Management,Carrier,Carrier,Cost,Cost,PARTIAL,M4_AIDM_Full,Bags,6,AIDM RP1008 systematic coding — ABIE level
+Baggage Claim,AIDM RP1008,Industry Schema,Workforce Management,Carrier,Carrier,Cost,Cost,PARTIAL,M4_AIDM_Full,Bags,1,AIDM RP1008 systematic coding — ABIE level
+Baggage Disclosure,AIDM RP1008,Industry Schema,Workforce Management,Carrier,Carrier,Cost,Cost,PARTIAL,M4_AIDM_Full,Bags,6,AIDM RP1008 systematic coding — ABIE level
+Baggage Event,AIDM RP1008,Industry Schema,Workforce Management,Carrier,Carrier,Cost,Cost,PARTIAL,M4_AIDM_Full,Bags,2,AIDM RP1008 systematic coding — ABIE level
+Baggage Facility Type,AIDM RP1008,Industry Schema,Workforce Management,Carrier,Carrier,Cost,Cost,PARTIAL,M4_AIDM_Full,Bags,1,AIDM RP1008 systematic coding — ABIE level
+Baggage Handling Bay,AIDM RP1008,Industry Schema,Workforce Management,Carrier,Carrier,Cost,Cost,PARTIAL,M4_AIDM_Full,Bags,1,AIDM RP1008 systematic coding — ABIE level
+Baggage Process,AIDM RP1008,Industry Schema,Workforce Management,Carrier,Carrier,Cost,Cost,PARTIAL,M4_AIDM_Full,Bags,4,AIDM RP1008 systematic coding — ABIE level
+Baggage Statuses,AIDM RP1008,Industry Schema,Workforce Management,Carrier,Carrier,Cost,Cost,PARTIAL,M4_AIDM_Full,Bags,3,AIDM RP1008 systematic coding — ABIE level
+BDC,AIDM RP1008,Industry Schema,Workforce Management,Carrier,Carrier,Cost,Cost,PARTIAL,M4_AIDM_Full,Bags,3,AIDM RP1008 systematic coding — ABIE level
+Boarding Gate,AIDM RP1008,Industry Schema,Workforce Management,Carrier,Carrier,Cost,Cost,PARTIAL,M4_AIDM_Full,Bags,1,AIDM RP1008 systematic coding — ABIE level
+Carrier,AIDM RP1008,Industry Schema,Workforce Management,Carrier,Carrier,Income,Income,OBSERVED,M4_AIDM_Full,Bags,7,AIDM RP1008 systematic coding — ABIE level
+Cart,AIDM RP1008,Industry Schema,Workforce Management,Carrier,Carrier,Cost,Cost,PARTIAL,M4_AIDM_Full,Bags,1,AIDM RP1008 systematic coding — ABIE level
+Cart Ride,AIDM RP1008,Industry Schema,Workforce Management,Carrier,Carrier,Cost,Cost,PARTIAL,M4_AIDM_Full,Bags,2,AIDM RP1008 systematic coding — ABIE level
+Cart Type,AIDM RP1008,Industry Schema,Workforce Management,Carrier,Carrier,Cost,Cost,PARTIAL,M4_AIDM_Full,Bags,1,AIDM RP1008 systematic coding — ABIE level
+Check-In Desk,AIDM RP1008,Industry Schema,Workforce Management,Carrier,Carrier,Cost,Cost,PARTIAL,M4_AIDM_Full,Bags,1,AIDM RP1008 systematic coding — ABIE level
+City,AIDM RP1008,Industry Schema,Workforce Management,Carrier,Carrier,Cost,Cost,PARTIAL,M4_AIDM_Full,Bags,2,AIDM RP1008 systematic coding — ABIE level
+Collection,AIDM RP1008,Industry Schema,Workforce Management,Carrier,Carrier,Cost,Cost,PARTIAL,M4_AIDM_Full,Bags,2,AIDM RP1008 systematic coding — ABIE level
+Country,AIDM RP1008,Industry Schema,Workforce Management,Carrier,Carrier,Cost,Cost,PARTIAL,M4_AIDM_Full,Bags,2,AIDM RP1008 systematic coding — ABIE level
+Country Sub-Division,AIDM RP1008,Industry Schema,Workforce Management,Carrier,Carrier,Cost,Cost,PARTIAL,M4_AIDM_Full,Bags,2,AIDM RP1008 systematic coding — ABIE level
+Crew Member,AIDM RP1008,Industry Schema,Workforce Management,Carrier,Carrier,Cost,Cost,PARTIAL,M4_AIDM_Full,Bags,1,AIDM RP1008 systematic coding — ABIE level
+Dated Operating Segment,AIDM RP1008,Industry Schema,Workforce Management,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Bags,9,AIDM RP1008 systematic coding — ABIE level
+Delivery,AIDM RP1008,Industry Schema,Workforce Management,Carrier,Carrier,Cost,Cost,PARTIAL,M4_AIDM_Full,Bags,2,AIDM RP1008 systematic coding — ABIE level
+Dimension Allowance,AIDM RP1008,Industry Schema,Workforce Management,Carrier,Carrier,Cost,Cost,PARTIAL,M4_AIDM_Full,Bags,7,AIDM RP1008 systematic coding — ABIE level
+Disclosure,AIDM RP1008,Industry Schema,Workforce Management,Carrier,Carrier,Cost,Cost,PARTIAL,M4_AIDM_Full,Bags,1,AIDM RP1008 systematic coding — ABIE level
+Event Specification,AIDM RP1008,Industry Schema,Workforce Management,Carrier,Carrier,Cost,Cost,PARTIAL,M4_AIDM_Full,Bags,1,AIDM RP1008 systematic coding — ABIE level
+Facility,AIDM RP1008,Industry Schema,Workforce Management,Carrier,Carrier,Cost,Cost,PARTIAL,M4_AIDM_Full,Bags,2,AIDM RP1008 systematic coding — ABIE level
+Geospatial Location,AIDM RP1008,Industry Schema,Workforce Management,Carrier,Carrier,Cost,Cost,PARTIAL,M4_AIDM_Full,Bags,3,AIDM RP1008 systematic coding — ABIE level
+Handling Agency,AIDM RP1008,Industry Schema,Workforce Management,Carrier,Carrier,Cost,Cost,PARTIAL,M4_AIDM_Full,Bags,1,AIDM RP1008 systematic coding — ABIE level
+Handling Bay,AIDM RP1008,Industry Schema,Workforce Management,Carrier,Carrier,Cost,Cost,PARTIAL,M4_AIDM_Full,Bags,1,AIDM RP1008 systematic coding — ABIE level
+Loyalty Program Account,AIDM RP1008,Industry Schema,Workforce Management,Carrier,Carrier,Cost,Cost,PARTIAL,M4_AIDM_Full,Bags,5,AIDM RP1008 systematic coding — ABIE level
+Network Address,AIDM RP1008,Industry Schema,Workforce Management,Carrier,Carrier,Cost,Cost,PARTIAL,M4_AIDM_Full,Bags,4,AIDM RP1008 systematic coding — ABIE level
+Order Item,AIDM RP1008,Industry Schema,Workforce Management,Carrier,Carrier,Income,Income,PARTIAL,M4_AIDM_Full,Bags,17,AIDM RP1008 systematic coding — ABIE level
+Passenger,AIDM RP1008,Industry Schema,Workforce Management,Passenger,Passenger,Option,Option,PARTIAL,M4_AIDM_Full,Bags,8,AIDM RP1008 systematic coding — ABIE level
+Passenger Journey,AIDM RP1008,Industry Schema,Workforce Management,Carrier,Carrier,Cost,Cost,PARTIAL,M4_AIDM_Full,Bags,2,AIDM RP1008 systematic coding — ABIE level
+Passenger Status,AIDM RP1008,Industry Schema,Workforce Management,Carrier,Carrier,Cost,Cost,PARTIAL,M4_AIDM_Full,Bags,2,AIDM RP1008 systematic coding — ABIE level
+Piece Allowance,AIDM RP1008,Industry Schema,Workforce Management,Carrier,Carrier,Cost,Cost,PARTIAL,M4_AIDM_Full,Bags,5,AIDM RP1008 systematic coding — ABIE level
+Printer,AIDM RP1008,Industry Schema,Workforce Management,Carrier,Carrier,Cost,Cost,PARTIAL,M4_AIDM_Full,Bags,1,AIDM RP1008 systematic coding — ABIE level
+Response Parameters,AIDM RP1008,Industry Schema,Workforce Management,Carrier,Carrier,Cost,Cost,PARTIAL,M4_AIDM_Full,Bags,3,AIDM RP1008 systematic coding — ABIE level
+Scanner,AIDM RP1008,Industry Schema,Workforce Management,Carrier,Carrier,Cost,Cost,PARTIAL,M4_AIDM_Full,Bags,1,AIDM RP1008 systematic coding — ABIE level
+Segment Security Controls,AIDM RP1008,Industry Schema,Workforce Management,Regulator,Regulator,Risk,Risk,OBSERVED,M4_AIDM_Full,Bags,10,AIDM RP1008 systematic coding — ABIE level
+Segment Security Outcomes,AIDM RP1008,Industry Schema,Workforce Management,Carrier,Carrier,Cost,Cost,PARTIAL,M4_AIDM_Full,Bags,5,AIDM RP1008 systematic coding — ABIE level
+Segment Service Offer,AIDM RP1008,Industry Schema,Workforce Management,Carrier,Carrier,Cost,Cost,PARTIAL,M4_AIDM_Full,Bags,1,AIDM RP1008 systematic coding — ABIE level
+Service,AIDM RP1008,Industry Schema,Workforce Management,Vendor,Vendor,Market,Market,PARTIAL,M4_AIDM_Full,Bags,17,AIDM RP1008 systematic coding — ABIE level
+Service Definition,AIDM RP1008,Industry Schema,Workforce Management,Industry Body,Industry Body,Market,Market,PARTIAL,M4_AIDM_Full,Bags,12,AIDM RP1008 systematic coding — ABIE level
+Station,AIDM RP1008,Industry Schema,Workforce Management,Carrier,Carrier,Cost,Cost,PARTIAL,M4_AIDM_Full,Bags,2,AIDM RP1008 systematic coding — ABIE level
+Terminal,AIDM RP1008,Industry Schema,Workforce Management,Carrier,Carrier,Cost,Cost,PARTIAL,M4_AIDM_Full,Bags,2,AIDM RP1008 systematic coding — ABIE level
+Terminal Pier,AIDM RP1008,Industry Schema,Workforce Management,Carrier,Carrier,Cost,Cost,PARTIAL,M4_AIDM_Full,Bags,1,AIDM RP1008 systematic coding — ABIE level
+Terminal Satellite,AIDM RP1008,Industry Schema,Workforce Management,Carrier,Carrier,Cost,Cost,PARTIAL,M4_AIDM_Full,Bags,1,AIDM RP1008 systematic coding — ABIE level
+Transport Vehicle Parking Position,AIDM RP1008,Industry Schema,Workforce Management,Carrier,Carrier,Cost,Cost,PARTIAL,M4_AIDM_Full,Bags,1,AIDM RP1008 systematic coding — ABIE level
+ULD Allocation,AIDM RP1008,Industry Schema,Workforce Management,Carrier,Carrier,Cost,Cost,PARTIAL,M4_AIDM_Full,Bags,3,AIDM RP1008 systematic coding — ABIE level
+Weight Allowance,AIDM RP1008,Industry Schema,Workforce Management,Carrier,Carrier,Cost,Cost,PARTIAL,M4_AIDM_Full,Bags,4,AIDM RP1008 systematic coding — ABIE level
+Aggregator,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Contacts,2,AIDM RP1008 systematic coding — ABIE level
+Airline,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Income,Income,OBSERVED,M4_AIDM_Full,Contacts,4,AIDM RP1008 systematic coding — ABIE level
+City,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Contacts,2,AIDM RP1008 systematic coding — ABIE level
+Contact Information,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Contacts,6,AIDM RP1008 systematic coding — ABIE level
+Corporation,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Contacts,4,AIDM RP1008 systematic coding — ABIE level
+Direct Bill,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Contacts,2,AIDM RP1008 systematic coding — ABIE level
+Email Address,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Contacts,2,AIDM RP1008 systematic coding — ABIE level
+Individual,AIDM RP1008,Industry Schema,Environmental Boundary,Passenger,Passenger,Risk,Risk,PARTIAL,M4_AIDM_Full,Contacts,11,AIDM RP1008 systematic coding — ABIE level
+Organization,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Contacts,3,AIDM RP1008 systematic coding — ABIE level
+Other Address,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Contacts,2,AIDM RP1008 systematic coding — ABIE level
+Passenger,AIDM RP1008,Industry Schema,Environmental Boundary,Passenger,Passenger,Option,Option,PARTIAL,M4_AIDM_Full,Contacts,8,AIDM RP1008 systematic coding — ABIE level
+Passenger Group,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Contacts,3,AIDM RP1008 systematic coding — ABIE level
+Payment Card,AIDM RP1008,Industry Schema,Environmental Boundary,Vendor,Vendor,Risk,Risk,MNAR,M4_AIDM_Full,Contacts,14,AIDM RP1008 systematic coding — ABIE level
+Payment Information,AIDM RP1008,Industry Schema,Environmental Boundary,Vendor,Vendor,Risk,Risk,MNAR,M4_AIDM_Full,Contacts,8,AIDM RP1008 systematic coding — ABIE level
+Phone,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Contacts,5,AIDM RP1008 systematic coding — ABIE level
+Postal Address,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Contacts,5,AIDM RP1008 systematic coding — ABIE level
+Travel Agency,AIDM RP1008,Industry Schema,Environmental Boundary,Vendor,Vendor,Cost,Cost,MNAR,M4_AIDM_Full,Contacts,5,AIDM RP1008 systematic coding — ABIE level
+Access Gate,AIDM RP1008,Industry Schema,Disruption Management,Carrier,Carrier,Risk,Risk,OBSERVED,M4_AIDM_Full,Flights,1,AIDM RP1008 systematic coding — ABIE level
+Aircraft,AIDM RP1008,Industry Schema,Disruption Management,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Flights,6,AIDM RP1008 systematic coding — ABIE level
+Aircraft Arrival,AIDM RP1008,Industry Schema,Disruption Management,Carrier,Carrier,Risk,Risk,OBSERVED,M4_AIDM_Full,Flights,1,AIDM RP1008 systematic coding — ABIE level
+Aircraft Departure,AIDM RP1008,Industry Schema,Disruption Management,Carrier,Carrier,Risk,Risk,OBSERVED,M4_AIDM_Full,Flights,1,AIDM RP1008 systematic coding — ABIE level
+Airline,AIDM RP1008,Industry Schema,Disruption Management,Carrier,Carrier,Income,Income,OBSERVED,M4_AIDM_Full,Flights,4,AIDM RP1008 systematic coding — ABIE level
+Airport,AIDM RP1008,Industry Schema,Disruption Management,Carrier,Carrier,Risk,Risk,OBSERVED,M4_AIDM_Full,Flights,2,AIDM RP1008 systematic coding — ABIE level
+Baggage Handling Bay,AIDM RP1008,Industry Schema,Disruption Management,Carrier,Carrier,Risk,Risk,OBSERVED,M4_AIDM_Full,Flights,1,AIDM RP1008 systematic coding — ABIE level
+Carrier,AIDM RP1008,Industry Schema,Disruption Management,Carrier,Carrier,Income,Income,OBSERVED,M4_AIDM_Full,Flights,7,AIDM RP1008 systematic coding — ABIE level
+Check-In Desk,AIDM RP1008,Industry Schema,Disruption Management,Carrier,Carrier,Risk,Risk,OBSERVED,M4_AIDM_Full,Flights,1,AIDM RP1008 systematic coding — ABIE level
+City,AIDM RP1008,Industry Schema,Disruption Management,Carrier,Carrier,Risk,Risk,OBSERVED,M4_AIDM_Full,Flights,2,AIDM RP1008 systematic coding — ABIE level
+Flight,AIDM RP1008,Industry Schema,Disruption Management,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Flights,4,AIDM RP1008 systematic coding — ABIE level
+Flight Leg,AIDM RP1008,Industry Schema,Disruption Management,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Flights,5,AIDM RP1008 systematic coding — ABIE level
+IATA Aircraft Type,AIDM RP1008,Industry Schema,Disruption Management,Carrier,Carrier,Risk,Risk,OBSERVED,M4_AIDM_Full,Flights,3,AIDM RP1008 systematic coding — ABIE level
+Station,AIDM RP1008,Industry Schema,Disruption Management,Carrier,Carrier,Risk,Risk,OBSERVED,M4_AIDM_Full,Flights,2,AIDM RP1008 systematic coding — ABIE level
+Surface Transport Vehicle,AIDM RP1008,Industry Schema,Disruption Management,Carrier,Carrier,Risk,Risk,OBSERVED,M4_AIDM_Full,Flights,2,AIDM RP1008 systematic coding — ABIE level
+Terminal,AIDM RP1008,Industry Schema,Disruption Management,Carrier,Carrier,Risk,Risk,OBSERVED,M4_AIDM_Full,Flights,2,AIDM RP1008 systematic coding — ABIE level
+Terminal Pier,AIDM RP1008,Industry Schema,Disruption Management,Carrier,Carrier,Risk,Risk,OBSERVED,M4_AIDM_Full,Flights,1,AIDM RP1008 systematic coding — ABIE level
+Terminal Satellite,AIDM RP1008,Industry Schema,Disruption Management,Carrier,Carrier,Risk,Risk,OBSERVED,M4_AIDM_Full,Flights,1,AIDM RP1008 systematic coding — ABIE level
+Transit Stop,AIDM RP1008,Industry Schema,Disruption Management,Airport,Airport,Cost,Cost,OBSERVED,M4_AIDM_Full,Flights,5,AIDM RP1008 systematic coding — ABIE level
+Transport Service,AIDM RP1008,Industry Schema,Disruption Management,Carrier,Carrier,Risk,Risk,OBSERVED,M4_AIDM_Full,Flights,4,AIDM RP1008 systematic coding — ABIE level
+Transport Service Leg,AIDM RP1008,Industry Schema,Disruption Management,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Flights,5,AIDM RP1008 systematic coding — ABIE level
+Transport Service Segment,AIDM RP1008,Industry Schema,Disruption Management,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Flights,8,AIDM RP1008 systematic coding — ABIE level
+Transport Vehicle Parking Position,AIDM RP1008,Industry Schema,Disruption Management,Carrier,Carrier,Risk,Risk,OBSERVED,M4_AIDM_Full,Flights,1,AIDM RP1008 systematic coding — ABIE level
+Account,AIDM RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,MNAR,M4_AIDM_Full,Loyalty Accounts,1,AIDM RP1008 systematic coding — ABIE level
+Airline,AIDM RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,OBSERVED,M4_AIDM_Full,Loyalty Accounts,4,AIDM RP1008 systematic coding — ABIE level
+Airline Alliance,AIDM RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,MNAR,M4_AIDM_Full,Loyalty Accounts,3,AIDM RP1008 systematic coding — ABIE level
+Airline Alliance Criteria,AIDM RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,MNAR,M4_AIDM_Full,Loyalty Accounts,2,AIDM RP1008 systematic coding — ABIE level
+Bag Segment,AIDM RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,MNAR,M4_AIDM_Full,Loyalty Accounts,5,AIDM RP1008 systematic coding — ABIE level
+Carrier,AIDM RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,OBSERVED,M4_AIDM_Full,Loyalty Accounts,7,AIDM RP1008 systematic coding — ABIE level
+Individual,AIDM RP1008,Industry Schema,Revenue Management,Passenger,Passenger,Risk,Risk,PARTIAL,M4_AIDM_Full,Loyalty Accounts,11,AIDM RP1008 systematic coding — ABIE level
+Loyalty Program,AIDM RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Option,Option,PARTIAL,M4_AIDM_Full,Loyalty Accounts,4,AIDM RP1008 systematic coding — ABIE level
+Loyalty Program Account,AIDM RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,MNAR,M4_AIDM_Full,Loyalty Accounts,5,AIDM RP1008 systematic coding — ABIE level
+Loyalty Program Tier,AIDM RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,MNAR,M4_AIDM_Full,Loyalty Accounts,2,AIDM RP1008 systematic coding — ABIE level
+Loyalty Redemption,AIDM RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,MNAR,M4_AIDM_Full,Loyalty Accounts,2,AIDM RP1008 systematic coding — ABIE level
+Organization Party Role,AIDM RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,MNAR,M4_AIDM_Full,Loyalty Accounts,1,AIDM RP1008 systematic coding — ABIE level
+Passenger,AIDM RP1008,Industry Schema,Revenue Management,Passenger,Passenger,Option,Option,PARTIAL,M4_AIDM_Full,Loyalty Accounts,8,AIDM RP1008 systematic coding — ABIE level
+Payment Method,AIDM RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,MNAR,M4_AIDM_Full,Loyalty Accounts,1,AIDM RP1008 systematic coding — ABIE level
+A La Carte Offer Item,AIDM RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,MNAR,M4_AIDM_Full,Offers,1,AIDM RP1008 systematic coding — ABIE level
+Affinity Shopping Criteria,AIDM RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,MNAR,M4_AIDM_Full,Offers,1,AIDM RP1008 systematic coding — ABIE level
+Bilateral Time Limit,AIDM RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,MNAR,M4_AIDM_Full,Offers,3,AIDM RP1008 systematic coding — ABIE level
+Booking,AIDM RP1008,Industry Schema,Revenue Management,Vendor,Vendor,Income,Income,OBSERVED,M4_AIDM_Full,Offers,3,AIDM RP1008 systematic coding — ABIE level
+Booking Instructions,AIDM RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,MNAR,M4_AIDM_Full,Offers,4,AIDM RP1008 systematic coding — ABIE level
+Booking Reference,AIDM RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,MNAR,M4_AIDM_Full,Offers,3,AIDM RP1008 systematic coding — ABIE level
+Cabin Type,AIDM RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,MNAR,M4_AIDM_Full,Offers,3,AIDM RP1008 systematic coding — ABIE level
+Cancel Restrictions,AIDM RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,MNAR,M4_AIDM_Full,Offers,6,AIDM RP1008 systematic coding — ABIE level
+Change Restrictions,AIDM RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,MNAR,M4_AIDM_Full,Offers,7,AIDM RP1008 systematic coding — ABIE level
+Commission,AIDM RP1008,Industry Schema,Revenue Management,Vendor,Vendor,Cost,Cost,MNAR,M4_AIDM_Full,Offers,7,AIDM RP1008 systematic coding — ABIE level
+Dated Marketing Segment,AIDM RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,MNAR,M4_AIDM_Full,Offers,8,AIDM RP1008 systematic coding — ABIE level
+Dated Marketing Segment RBD,AIDM RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,MNAR,M4_AIDM_Full,Offers,1,AIDM RP1008 systematic coding — ABIE level
+Dated Operating Segment,AIDM RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Offers,9,AIDM RP1008 systematic coding — ABIE level
+Fare Detail,AIDM RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,MNAR,M4_AIDM_Full,Offers,8,AIDM RP1008 systematic coding — ABIE level
+Fee,AIDM RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,MNAR,M4_AIDM_Full,Offers,10,AIDM RP1008 systematic coding — ABIE level
+Inventory Guarantee,AIDM RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,MNAR,M4_AIDM_Full,Offers,4,AIDM RP1008 systematic coding — ABIE level
+Inventory Qualifiers,AIDM RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,MNAR,M4_AIDM_Full,Offers,2,AIDM RP1008 systematic coding — ABIE level
+Journey Data,AIDM RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,MNAR,M4_AIDM_Full,Offers,1,AIDM RP1008 systematic coding — ABIE level
+Key Value Property,AIDM RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,MNAR,M4_AIDM_Full,Offers,2,AIDM RP1008 systematic coding — ABIE level
+Marriage Group,AIDM RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,MNAR,M4_AIDM_Full,Offers,2,AIDM RP1008 systematic coding — ABIE level
+Marriage Group Segment,AIDM RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,MNAR,M4_AIDM_Full,Offers,1,AIDM RP1008 systematic coding — ABIE level
+Network Address,AIDM RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,MNAR,M4_AIDM_Full,Offers,4,AIDM RP1008 systematic coding — ABIE level
+Offer Item,AIDM RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Option,Option,PARTIAL,M4_AIDM_Full,Offers,5,AIDM RP1008 systematic coding — ABIE level
+Order Amendment,AIDM RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,MNAR,M4_AIDM_Full,Offers,1,AIDM RP1008 systematic coding — ABIE level
+Order Item,AIDM RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,PARTIAL,M4_AIDM_Full,Offers,17,AIDM RP1008 systematic coding — ABIE level
+Organization,AIDM RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,MNAR,M4_AIDM_Full,Offers,3,AIDM RP1008 systematic coding — ABIE level
+Origin Destination,AIDM RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,MNAR,M4_AIDM_Full,Offers,1,AIDM RP1008 systematic coding — ABIE level
+Passenger Group,AIDM RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,MNAR,M4_AIDM_Full,Offers,3,AIDM RP1008 systematic coding — ABIE level
+Passenger Journey,AIDM RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,MNAR,M4_AIDM_Full,Offers,2,AIDM RP1008 systematic coding — ABIE level
+Passenger Leg,AIDM RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,MNAR,M4_AIDM_Full,Offers,1,AIDM RP1008 systematic coding — ABIE level
+Passenger Segment,AIDM RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,PARTIAL,M4_AIDM_Full,Offers,8,AIDM RP1008 systematic coding — ABIE level
+Passenger Sharing Preference,AIDM RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,MNAR,M4_AIDM_Full,Offers,2,AIDM RP1008 systematic coding — ABIE level
+Penalty,AIDM RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,MNAR,M4_AIDM_Full,Offers,10,AIDM RP1008 systematic coding — ABIE level
+Preference Level,AIDM RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,MNAR,M4_AIDM_Full,Offers,2,AIDM RP1008 systematic coding — ABIE level
+Price,AIDM RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,MNAR,M4_AIDM_Full,Offers,7,AIDM RP1008 systematic coding — ABIE level
+Price Class,AIDM RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,MNAR,M4_AIDM_Full,Offers,6,AIDM RP1008 systematic coding — ABIE level
+PTC Offer Parameters,AIDM RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,MNAR,M4_AIDM_Full,Offers,4,AIDM RP1008 systematic coding — ABIE level
+RBD,AIDM RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,MNAR,M4_AIDM_Full,Offers,2,AIDM RP1008 systematic coding — ABIE level
+Refund,AIDM RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,MNAR,M4_AIDM_Full,Offers,7,AIDM RP1008 systematic coding — ABIE level
+Reservation Change Information,AIDM RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,MNAR,M4_AIDM_Full,Offers,1,AIDM RP1008 systematic coding — ABIE level
+Seat,AIDM RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Market,Market,PARTIAL,M4_AIDM_Full,Offers,1,AIDM RP1008 systematic coding — ABIE level
+Seat On Leg,AIDM RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,MNAR,M4_AIDM_Full,Offers,1,AIDM RP1008 systematic coding — ABIE level
+Seat Profile,AIDM RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,MNAR,M4_AIDM_Full,Offers,4,AIDM RP1008 systematic coding — ABIE level
+Seat Row,AIDM RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,MNAR,M4_AIDM_Full,Offers,6,AIDM RP1008 systematic coding — ABIE level
+Segment Service Offer,AIDM RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,MNAR,M4_AIDM_Full,Offers,1,AIDM RP1008 systematic coding — ABIE level
+Service,AIDM RP1008,Industry Schema,Revenue Management,Vendor,Vendor,Market,Market,PARTIAL,M4_AIDM_Full,Offers,17,AIDM RP1008 systematic coding — ABIE level
+Service Feature,AIDM RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,MNAR,M4_AIDM_Full,Offers,3,AIDM RP1008 systematic coding — ABIE level
+Service Taxonomy,AIDM RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,MNAR,M4_AIDM_Full,Offers,2,AIDM RP1008 systematic coding — ABIE level
+Shopping Criteria,AIDM RP1008,Industry Schema,Revenue Management,Passenger,Passenger,Market,Market,OBSERVED,M4_AIDM_Full,Offers,1,AIDM RP1008 systematic coding — ABIE level
+Shopping Response,AIDM RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,MNAR,M4_AIDM_Full,Offers,1,AIDM RP1008 systematic coding — ABIE level
+Special Service,AIDM RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,MNAR,M4_AIDM_Full,Offers,5,AIDM RP1008 systematic coding — ABIE level
+Station,AIDM RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,MNAR,M4_AIDM_Full,Offers,2,AIDM RP1008 systematic coding — ABIE level
+Stop Over Location,AIDM RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,MNAR,M4_AIDM_Full,Offers,3,AIDM RP1008 systematic coding — ABIE level
+Stop Over Restrictions,AIDM RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,MNAR,M4_AIDM_Full,Offers,4,AIDM RP1008 systematic coding — ABIE level
+Affinity Shopping Criteria,AIDM RP1008,Industry Schema,Distribution / GDS,Industry Body,Industry Body,Income,Income,MNAR,M4_AIDM_Full,Orders,1,AIDM RP1008 systematic coding — ABIE level
+Bilateral Time Limit,AIDM RP1008,Industry Schema,Distribution / GDS,Industry Body,Industry Body,Income,Income,MNAR,M4_AIDM_Full,Orders,3,AIDM RP1008 systematic coding — ABIE level
+Boarding Pass,AIDM RP1008,Industry Schema,Distribution / GDS,Industry Body,Industry Body,Income,Income,MNAR,M4_AIDM_Full,Orders,12,AIDM RP1008 systematic coding — ABIE level
+Booking,AIDM RP1008,Industry Schema,Distribution / GDS,Vendor,Vendor,Income,Income,OBSERVED,M4_AIDM_Full,Orders,3,AIDM RP1008 systematic coding — ABIE level
+Booking Reference,AIDM RP1008,Industry Schema,Distribution / GDS,Industry Body,Industry Body,Income,Income,MNAR,M4_AIDM_Full,Orders,3,AIDM RP1008 systematic coding — ABIE level
+Cabin Seat Column,AIDM RP1008,Industry Schema,Distribution / GDS,Industry Body,Industry Body,Income,Income,MNAR,M4_AIDM_Full,Orders,2,AIDM RP1008 systematic coding — ABIE level
+Cabin Type,AIDM RP1008,Industry Schema,Distribution / GDS,Industry Body,Industry Body,Income,Income,MNAR,M4_AIDM_Full,Orders,3,AIDM RP1008 systematic coding — ABIE level
+Cancel Restrictions,AIDM RP1008,Industry Schema,Distribution / GDS,Industry Body,Industry Body,Income,Income,MNAR,M4_AIDM_Full,Orders,6,AIDM RP1008 systematic coding — ABIE level
+Carrier,AIDM RP1008,Industry Schema,Distribution / GDS,Carrier,Carrier,Income,Income,OBSERVED,M4_AIDM_Full,Orders,7,AIDM RP1008 systematic coding — ABIE level
+Change Restrictions,AIDM RP1008,Industry Schema,Distribution / GDS,Industry Body,Industry Body,Income,Income,MNAR,M4_AIDM_Full,Orders,7,AIDM RP1008 systematic coding — ABIE level
+Commission,AIDM RP1008,Industry Schema,Distribution / GDS,Vendor,Vendor,Cost,Cost,MNAR,M4_AIDM_Full,Orders,7,AIDM RP1008 systematic coding — ABIE level
+Dated Marketing Segment,AIDM RP1008,Industry Schema,Distribution / GDS,Industry Body,Industry Body,Income,Income,MNAR,M4_AIDM_Full,Orders,8,AIDM RP1008 systematic coding — ABIE level
+Dated Marketing Segment RBD,AIDM RP1008,Industry Schema,Distribution / GDS,Industry Body,Industry Body,Income,Income,MNAR,M4_AIDM_Full,Orders,1,AIDM RP1008 systematic coding — ABIE level
+Dated Operating Leg,AIDM RP1008,Industry Schema,Distribution / GDS,Industry Body,Industry Body,Income,Income,MNAR,M4_AIDM_Full,Orders,4,AIDM RP1008 systematic coding — ABIE level
+Dated Operating Segment,AIDM RP1008,Industry Schema,Distribution / GDS,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Orders,9,AIDM RP1008 systematic coding — ABIE level
+Fare Detail,AIDM RP1008,Industry Schema,Distribution / GDS,Carrier,Carrier,Income,Income,MNAR,M4_AIDM_Full,Orders,8,AIDM RP1008 systematic coding — ABIE level
+Fee,AIDM RP1008,Industry Schema,Distribution / GDS,Carrier,Carrier,Income,Income,MNAR,M4_AIDM_Full,Orders,10,AIDM RP1008 systematic coding — ABIE level
+Inventory Qualifiers,AIDM RP1008,Industry Schema,Distribution / GDS,Industry Body,Industry Body,Income,Income,MNAR,M4_AIDM_Full,Orders,2,AIDM RP1008 systematic coding — ABIE level
+Journey Data,AIDM RP1008,Industry Schema,Distribution / GDS,Industry Body,Industry Body,Income,Income,MNAR,M4_AIDM_Full,Orders,1,AIDM RP1008 systematic coding — ABIE level
+Key Value Property,AIDM RP1008,Industry Schema,Distribution / GDS,Industry Body,Industry Body,Income,Income,MNAR,M4_AIDM_Full,Orders,2,AIDM RP1008 systematic coding — ABIE level
+Marriage Group,AIDM RP1008,Industry Schema,Distribution / GDS,Industry Body,Industry Body,Income,Income,MNAR,M4_AIDM_Full,Orders,2,AIDM RP1008 systematic coding — ABIE level
+Marriage Group Segment,AIDM RP1008,Industry Schema,Distribution / GDS,Industry Body,Industry Body,Income,Income,MNAR,M4_AIDM_Full,Orders,1,AIDM RP1008 systematic coding — ABIE level
+Network Address,AIDM RP1008,Industry Schema,Distribution / GDS,Industry Body,Industry Body,Income,Income,MNAR,M4_AIDM_Full,Orders,4,AIDM RP1008 systematic coding — ABIE level
+Order Item,AIDM RP1008,Industry Schema,Distribution / GDS,Carrier,Carrier,Income,Income,PARTIAL,M4_AIDM_Full,Orders,17,AIDM RP1008 systematic coding — ABIE level
+Organization,AIDM RP1008,Industry Schema,Distribution / GDS,Industry Body,Industry Body,Income,Income,MNAR,M4_AIDM_Full,Orders,3,AIDM RP1008 systematic coding — ABIE level
+Origin Destination,AIDM RP1008,Industry Schema,Distribution / GDS,Industry Body,Industry Body,Income,Income,MNAR,M4_AIDM_Full,Orders,1,AIDM RP1008 systematic coding — ABIE level
+Passenger,AIDM RP1008,Industry Schema,Distribution / GDS,Passenger,Passenger,Option,Option,PARTIAL,M4_AIDM_Full,Orders,8,AIDM RP1008 systematic coding — ABIE level
+Passenger Group,AIDM RP1008,Industry Schema,Distribution / GDS,Industry Body,Industry Body,Income,Income,MNAR,M4_AIDM_Full,Orders,3,AIDM RP1008 systematic coding — ABIE level
+Passenger Journey,AIDM RP1008,Industry Schema,Distribution / GDS,Industry Body,Industry Body,Income,Income,MNAR,M4_AIDM_Full,Orders,2,AIDM RP1008 systematic coding — ABIE level
+Passenger Leg,AIDM RP1008,Industry Schema,Distribution / GDS,Industry Body,Industry Body,Income,Income,MNAR,M4_AIDM_Full,Orders,1,AIDM RP1008 systematic coding — ABIE level
+Passenger Segment,AIDM RP1008,Industry Schema,Distribution / GDS,Carrier,Carrier,Income,Income,PARTIAL,M4_AIDM_Full,Orders,8,AIDM RP1008 systematic coding — ABIE level
+Penalty,AIDM RP1008,Industry Schema,Distribution / GDS,Carrier,Carrier,Income,Income,MNAR,M4_AIDM_Full,Orders,10,AIDM RP1008 systematic coding — ABIE level
+Preference Level,AIDM RP1008,Industry Schema,Distribution / GDS,Industry Body,Industry Body,Income,Income,MNAR,M4_AIDM_Full,Orders,2,AIDM RP1008 systematic coding — ABIE level
+Price,AIDM RP1008,Industry Schema,Distribution / GDS,Carrier,Carrier,Income,Income,MNAR,M4_AIDM_Full,Orders,7,AIDM RP1008 systematic coding — ABIE level
+Price Class,AIDM RP1008,Industry Schema,Distribution / GDS,Industry Body,Industry Body,Income,Income,MNAR,M4_AIDM_Full,Orders,6,AIDM RP1008 systematic coding — ABIE level
+RBD,AIDM RP1008,Industry Schema,Distribution / GDS,Industry Body,Industry Body,Income,Income,MNAR,M4_AIDM_Full,Orders,2,AIDM RP1008 systematic coding — ABIE level
+Refund,AIDM RP1008,Industry Schema,Distribution / GDS,Industry Body,Industry Body,Income,Income,MNAR,M4_AIDM_Full,Orders,7,AIDM RP1008 systematic coding — ABIE level
+Reservation Change Information,AIDM RP1008,Industry Schema,Distribution / GDS,Industry Body,Industry Body,Income,Income,MNAR,M4_AIDM_Full,Orders,1,AIDM RP1008 systematic coding — ABIE level
+Seat,AIDM RP1008,Industry Schema,Distribution / GDS,Carrier,Carrier,Market,Market,PARTIAL,M4_AIDM_Full,Orders,1,AIDM RP1008 systematic coding — ABIE level
+Seat On Leg,AIDM RP1008,Industry Schema,Distribution / GDS,Industry Body,Industry Body,Income,Income,MNAR,M4_AIDM_Full,Orders,1,AIDM RP1008 systematic coding — ABIE level
+Seat Profile,AIDM RP1008,Industry Schema,Distribution / GDS,Industry Body,Industry Body,Income,Income,MNAR,M4_AIDM_Full,Orders,4,AIDM RP1008 systematic coding — ABIE level
+Seat Row,AIDM RP1008,Industry Schema,Distribution / GDS,Industry Body,Industry Body,Income,Income,MNAR,M4_AIDM_Full,Orders,6,AIDM RP1008 systematic coding — ABIE level
+Segment Service Offer,AIDM RP1008,Industry Schema,Distribution / GDS,Industry Body,Industry Body,Income,Income,MNAR,M4_AIDM_Full,Orders,1,AIDM RP1008 systematic coding — ABIE level
+Seller Follow Up Action,AIDM RP1008,Industry Schema,Distribution / GDS,Industry Body,Industry Body,Income,Income,MNAR,M4_AIDM_Full,Orders,5,AIDM RP1008 systematic coding — ABIE level
+Service,AIDM RP1008,Industry Schema,Distribution / GDS,Vendor,Vendor,Market,Market,PARTIAL,M4_AIDM_Full,Orders,17,AIDM RP1008 systematic coding — ABIE level
+Station,AIDM RP1008,Industry Schema,Distribution / GDS,Industry Body,Industry Body,Income,Income,MNAR,M4_AIDM_Full,Orders,2,AIDM RP1008 systematic coding — ABIE level
+Accreditation,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Parties,1,AIDM RP1008 systematic coding — ABIE level
+Additional Name,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Parties,2,AIDM RP1008 systematic coding — ABIE level
+Agency,AIDM RP1008,Industry Schema,Environmental Boundary,Vendor,Vendor,Cost,Cost,MNAR,M4_AIDM_Full,Parties,1,AIDM RP1008 systematic coding — ABIE level
+Agent,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Parties,1,AIDM RP1008 systematic coding — ABIE level
+Airline Alliance,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Parties,3,AIDM RP1008 systematic coding — ABIE level
+BDC,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Parties,3,AIDM RP1008 systematic coding — ABIE level
+Booking,AIDM RP1008,Industry Schema,Environmental Boundary,Vendor,Vendor,Income,Income,OBSERVED,M4_AIDM_Full,Parties,3,AIDM RP1008 systematic coding — ABIE level
+Business Interaction,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Parties,1,AIDM RP1008 systematic coding — ABIE level
+Business Interaction Party Role,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Parties,1,AIDM RP1008 systematic coding — ABIE level
+Country,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Parties,2,AIDM RP1008 systematic coding — ABIE level
+Crew Member,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Parties,1,AIDM RP1008 systematic coding — ABIE level
+Delivery Provider,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Parties,2,AIDM RP1008 systematic coding — ABIE level
+Employee,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Parties,1,AIDM RP1008 systematic coding — ABIE level
+Employer,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Parties,1,AIDM RP1008 systematic coding — ABIE level
+Employment Contract,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Parties,1,AIDM RP1008 systematic coding — ABIE level
+FOID,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Parties,3,AIDM RP1008 systematic coding — ABIE level
+Handling Agency,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Parties,1,AIDM RP1008 systematic coding — ABIE level
+Identity Document,AIDM RP1008,Industry Schema,Environmental Boundary,Regulator,Regulator,Risk,Risk,OBSERVED,M4_AIDM_Full,Parties,12,AIDM RP1008 systematic coding — ABIE level
+Individual Party Role,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Parties,1,AIDM RP1008 systematic coding — ABIE level
+Language Usage,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Parties,2,AIDM RP1008 systematic coding — ABIE level
+Merchant Account,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Parties,4,AIDM RP1008 systematic coding — ABIE level
+Organization Party Role,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Parties,1,AIDM RP1008 systematic coding — ABIE level
+Party,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Parties,1,AIDM RP1008 systematic coding — ABIE level
+Party Role,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Parties,1,AIDM RP1008 systematic coding — ABIE level
+Payer,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Parties,1,AIDM RP1008 systematic coding — ABIE level
+POS,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Parties,3,AIDM RP1008 systematic coding — ABIE level
+Response Parameters,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Parties,3,AIDM RP1008 systematic coding — ABIE level
+Travel Agency Accreditation,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Parties,1,AIDM RP1008 systematic coding — ABIE level
+Travel Agent,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Parties,6,AIDM RP1008 systematic coding — ABIE level
+Visa,AIDM RP1008,Industry Schema,Environmental Boundary,Carrier,Carrier,Cost,Cost,OBSERVED,M4_AIDM_Full,Parties,5,AIDM RP1008 systematic coding — ABIE level
+Accountable Document,AIDM RP1008,Industry Schema,Fraud / Payment,Vendor,Vendor,Risk,Risk,MNAR,M4_AIDM_Full,Payments,2,AIDM RP1008 systematic coding — ABIE level
+Agreement,AIDM RP1008,Industry Schema,Fraud / Payment,Vendor,Vendor,Risk,Risk,MNAR,M4_AIDM_Full,Payments,1,AIDM RP1008 systematic coding — ABIE level
+Available Period,AIDM RP1008,Industry Schema,Fraud / Payment,Vendor,Vendor,Risk,Risk,MNAR,M4_AIDM_Full,Payments,2,AIDM RP1008 systematic coding — ABIE level
+Bag Drop Device,AIDM RP1008,Industry Schema,Fraud / Payment,Vendor,Vendor,Risk,Risk,MNAR,M4_AIDM_Full,Payments,1,AIDM RP1008 systematic coding — ABIE level
+Bank Transfer,AIDM RP1008,Industry Schema,Fraud / Payment,Vendor,Vendor,Risk,Risk,MNAR,M4_AIDM_Full,Payments,6,AIDM RP1008 systematic coding — ABIE level
+Carrier,AIDM RP1008,Industry Schema,Fraud / Payment,Carrier,Carrier,Income,Income,OBSERVED,M4_AIDM_Full,Payments,7,AIDM RP1008 systematic coding — ABIE level
+Cash,AIDM RP1008,Industry Schema,Fraud / Payment,Vendor,Vendor,Risk,Risk,MNAR,M4_AIDM_Full,Payments,2,AIDM RP1008 systematic coding — ABIE level
+Check,AIDM RP1008,Industry Schema,Fraud / Payment,Vendor,Vendor,Risk,Risk,MNAR,M4_AIDM_Full,Payments,3,AIDM RP1008 systematic coding — ABIE level
+Check-In Kiosk,AIDM RP1008,Industry Schema,Fraud / Payment,Vendor,Vendor,Risk,Risk,MNAR,M4_AIDM_Full,Payments,1,AIDM RP1008 systematic coding — ABIE level
+Clearance,AIDM RP1008,Industry Schema,Fraud / Payment,Regulator,Regulator,Income,Income,MNAR,M4_AIDM_Full,Payments,10,AIDM RP1008 systematic coding — ABIE level
+Commitment To Pay,AIDM RP1008,Industry Schema,Fraud / Payment,Vendor,Vendor,Risk,Risk,MNAR,M4_AIDM_Full,Payments,3,AIDM RP1008 systematic coding — ABIE level
+Coupon,AIDM RP1008,Industry Schema,Fraud / Payment,Industry Body,Industry Body,Option,Option,OBSERVED,M4_AIDM_Full,Payments,23,AIDM RP1008 systematic coding — ABIE level
+Cryptography Key,AIDM RP1008,Industry Schema,Fraud / Payment,Vendor,Vendor,Risk,Risk,MNAR,M4_AIDM_Full,Payments,1,AIDM RP1008 systematic coding — ABIE level
+Device,AIDM RP1008,Industry Schema,Fraud / Payment,Vendor,Vendor,Risk,Risk,MNAR,M4_AIDM_Full,Payments,9,AIDM RP1008 systematic coding — ABIE level
+Device Location,AIDM RP1008,Industry Schema,Fraud / Payment,Vendor,Vendor,Risk,Risk,MNAR,M4_AIDM_Full,Payments,1,AIDM RP1008 systematic coding — ABIE level
+Direct Bill,AIDM RP1008,Industry Schema,Fraud / Payment,Vendor,Vendor,Risk,Risk,MNAR,M4_AIDM_Full,Payments,2,AIDM RP1008 systematic coding — ABIE level
+Distribution Chain,AIDM RP1008,Industry Schema,Fraud / Payment,Vendor,Vendor,Risk,Risk,MNAR,M4_AIDM_Full,Payments,1,AIDM RP1008 systematic coding — ABIE level
+Distribution Chain Link,AIDM RP1008,Industry Schema,Fraud / Payment,Vendor,Vendor,Risk,Risk,MNAR,M4_AIDM_Full,Payments,3,AIDM RP1008 systematic coding — ABIE level
+E-Wallet,AIDM RP1008,Industry Schema,Fraud / Payment,Vendor,Vendor,Risk,Risk,MNAR,M4_AIDM_Full,Payments,1,AIDM RP1008 systematic coding — ABIE level
+Funds Transfer,AIDM RP1008,Industry Schema,Fraud / Payment,Vendor,Vendor,Risk,Risk,MNAR,M4_AIDM_Full,Payments,4,AIDM RP1008 systematic coding — ABIE level
+Geospatial Location,AIDM RP1008,Industry Schema,Fraud / Payment,Vendor,Vendor,Risk,Risk,MNAR,M4_AIDM_Full,Payments,3,AIDM RP1008 systematic coding — ABIE level
+IATA Easy Pay,AIDM RP1008,Industry Schema,Fraud / Payment,Vendor,Vendor,Risk,Risk,MNAR,M4_AIDM_Full,Payments,3,AIDM RP1008 systematic coding — ABIE level
+IATA Easy Pay Encrypted Data,AIDM RP1008,Industry Schema,Fraud / Payment,Vendor,Vendor,Risk,Risk,MNAR,M4_AIDM_Full,Payments,3,AIDM RP1008 systematic coding — ABIE level
+Individual,AIDM RP1008,Industry Schema,Fraud / Payment,Passenger,Passenger,Risk,Risk,PARTIAL,M4_AIDM_Full,Payments,11,AIDM RP1008 systematic coding — ABIE level
+Loyalty Redemption,AIDM RP1008,Industry Schema,Fraud / Payment,Vendor,Vendor,Risk,Risk,MNAR,M4_AIDM_Full,Payments,2,AIDM RP1008 systematic coding — ABIE level
+Merchant Account,AIDM RP1008,Industry Schema,Fraud / Payment,Vendor,Vendor,Risk,Risk,MNAR,M4_AIDM_Full,Payments,4,AIDM RP1008 systematic coding — ABIE level
+Order Item,AIDM RP1008,Industry Schema,Fraud / Payment,Carrier,Carrier,Income,Income,PARTIAL,M4_AIDM_Full,Payments,17,AIDM RP1008 systematic coding — ABIE level
+Ordering Quantity,AIDM RP1008,Industry Schema,Fraud / Payment,Vendor,Vendor,Risk,Risk,MNAR,M4_AIDM_Full,Payments,2,AIDM RP1008 systematic coding — ABIE level
+Organization,AIDM RP1008,Industry Schema,Fraud / Payment,Vendor,Vendor,Risk,Risk,MNAR,M4_AIDM_Full,Payments,3,AIDM RP1008 systematic coding — ABIE level
+Other Payment Method,AIDM RP1008,Industry Schema,Fraud / Payment,Vendor,Vendor,Risk,Risk,MNAR,M4_AIDM_Full,Payments,1,AIDM RP1008 systematic coding — ABIE level
+Payer,AIDM RP1008,Industry Schema,Fraud / Payment,Vendor,Vendor,Risk,Risk,MNAR,M4_AIDM_Full,Payments,1,AIDM RP1008 systematic coding — ABIE level
+Payment Address Verification,AIDM RP1008,Industry Schema,Fraud / Payment,Vendor,Vendor,Risk,Risk,MNAR,M4_AIDM_Full,Payments,4,AIDM RP1008 systematic coding — ABIE level
+Payment Card,AIDM RP1008,Industry Schema,Fraud / Payment,Vendor,Vendor,Risk,Risk,MNAR,M4_AIDM_Full,Payments,14,AIDM RP1008 systematic coding — ABIE level
+Payment Information,AIDM RP1008,Industry Schema,Fraud / Payment,Vendor,Vendor,Risk,Risk,MNAR,M4_AIDM_Full,Payments,8,AIDM RP1008 systematic coding — ABIE level
+Payment Method,AIDM RP1008,Industry Schema,Fraud / Payment,Vendor,Vendor,Risk,Risk,MNAR,M4_AIDM_Full,Payments,1,AIDM RP1008 systematic coding — ABIE level
+Payment Method Criteria,AIDM RP1008,Industry Schema,Fraud / Payment,Vendor,Vendor,Risk,Risk,MNAR,M4_AIDM_Full,Payments,1,AIDM RP1008 systematic coding — ABIE level
+Payment Transaction,AIDM RP1008,Industry Schema,Fraud / Payment,Vendor,Vendor,Risk,Risk,MNAR,M4_AIDM_Full,Payments,11,AIDM RP1008 systematic coding — ABIE level
+POS,AIDM RP1008,Industry Schema,Fraud / Payment,Vendor,Vendor,Risk,Risk,MNAR,M4_AIDM_Full,Payments,3,AIDM RP1008 systematic coding — ABIE level
+Postal Address,AIDM RP1008,Industry Schema,Fraud / Payment,Vendor,Vendor,Risk,Risk,MNAR,M4_AIDM_Full,Payments,5,AIDM RP1008 systematic coding — ABIE level
+Price Variance Rule,AIDM RP1008,Industry Schema,Fraud / Payment,Vendor,Vendor,Risk,Risk,MNAR,M4_AIDM_Full,Payments,6,AIDM RP1008 systematic coding — ABIE level
+Processing Instructions,AIDM RP1008,Industry Schema,Fraud / Payment,Vendor,Vendor,Risk,Risk,MNAR,M4_AIDM_Full,Payments,2,AIDM RP1008 systematic coding — ABIE level
+Promotion,AIDM RP1008,Industry Schema,Fraud / Payment,Vendor,Vendor,Risk,Risk,MNAR,M4_AIDM_Full,Payments,3,AIDM RP1008 systematic coding — ABIE level
+Response Parameters,AIDM RP1008,Industry Schema,Fraud / Payment,Vendor,Vendor,Risk,Risk,MNAR,M4_AIDM_Full,Payments,3,AIDM RP1008 systematic coding — ABIE level
+Secure Payer Authentication,AIDM RP1008,Industry Schema,Fraud / Payment,Vendor,Vendor,Risk,Risk,MNAR,M4_AIDM_Full,Payments,1,AIDM RP1008 systematic coding — ABIE level
+Secure Payer Authentication Instructions,AIDM RP1008,Industry Schema,Fraud / Payment,Vendor,Vendor,Risk,Risk,MNAR,M4_AIDM_Full,Payments,5,AIDM RP1008 systematic coding — ABIE level
+Secure Program,AIDM RP1008,Industry Schema,Fraud / Payment,Vendor,Vendor,Risk,Risk,MNAR,M4_AIDM_Full,Payments,2,AIDM RP1008 systematic coding — ABIE level
+Settlement Data,AIDM RP1008,Industry Schema,Fraud / Payment,Vendor,Vendor,Risk,Risk,MNAR,M4_AIDM_Full,Payments,4,AIDM RP1008 systematic coding — ABIE level
+Term,AIDM RP1008,Industry Schema,Fraud / Payment,Vendor,Vendor,Risk,Risk,MNAR,M4_AIDM_Full,Payments,1,AIDM RP1008 systematic coding — ABIE level
+Travel Agency,AIDM RP1008,Industry Schema,Fraud / Payment,Vendor,Vendor,Cost,Cost,MNAR,M4_AIDM_Full,Payments,5,AIDM RP1008 systematic coding — ABIE level
+Travel Agent,AIDM RP1008,Industry Schema,Fraud / Payment,Vendor,Vendor,Risk,Risk,MNAR,M4_AIDM_Full,Payments,6,AIDM RP1008 systematic coding — ABIE level
+Voucher,AIDM RP1008,Industry Schema,Fraud / Payment,Vendor,Vendor,Risk,Risk,MNAR,M4_AIDM_Full,Payments,4,AIDM RP1008 systematic coding — ABIE level
+Collection Point Tax,AIDM RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,MNAR,M4_AIDM_Full,Prices,2,AIDM RP1008 systematic coding — ABIE level
+Currency Conversion,AIDM RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,MNAR,M4_AIDM_Full,Prices,3,AIDM RP1008 systematic coding — ABIE level
+Discount,AIDM RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Market,Market,PARTIAL,M4_AIDM_Full,Prices,5,AIDM RP1008 systematic coding — ABIE level
+Fare Calculation Information,AIDM RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,MNAR,M4_AIDM_Full,Prices,3,AIDM RP1008 systematic coding — ABIE level
+Fare Component,AIDM RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,MNAR,M4_AIDM_Full,Prices,6,AIDM RP1008 systematic coding — ABIE level
+Fare Price Type,AIDM RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,MNAR,M4_AIDM_Full,Prices,1,AIDM RP1008 systematic coding — ABIE level
+Fare Rule,AIDM RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,MNAR,M4_AIDM_Full,Prices,3,AIDM RP1008 systematic coding — ABIE level
+Fare Waiver,AIDM RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,MNAR,M4_AIDM_Full,Prices,2,AIDM RP1008 systematic coding — ABIE level
+Markup,AIDM RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,MNAR,M4_AIDM_Full,Prices,2,AIDM RP1008 systematic coding — ABIE level
+Surcharge,AIDM RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Cost,Cost,PARTIAL,M4_AIDM_Full,Prices,2,AIDM RP1008 systematic coding — ABIE level
+Tax,AIDM RP1008,Industry Schema,Revenue Management,Regulator,Regulator,Cost,Cost,OBSERVED,M4_AIDM_Full,Prices,13,AIDM RP1008 systematic coding — ABIE level
+Tax Summary,AIDM RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,MNAR,M4_AIDM_Full,Prices,5,AIDM RP1008 systematic coding — ABIE level
+Agency,AIDM RP1008,Industry Schema,Disruption Management,Vendor,Vendor,Cost,Cost,MNAR,M4_AIDM_Full,Processes,1,AIDM RP1008 systematic coding — ABIE level
+Agent,AIDM RP1008,Industry Schema,Disruption Management,Carrier,Carrier,Risk,Risk,OBSERVED,M4_AIDM_Full,Processes,1,AIDM RP1008 systematic coding — ABIE level
+Bag Activity,AIDM RP1008,Industry Schema,Disruption Management,Vendor,Vendor,Cost,Cost,OBSERVED,M4_AIDM_Full,Processes,7,AIDM RP1008 systematic coding — ABIE level
+Baggage Process,AIDM RP1008,Industry Schema,Disruption Management,Carrier,Carrier,Risk,Risk,OBSERVED,M4_AIDM_Full,Processes,4,AIDM RP1008 systematic coding — ABIE level
+Clearance,AIDM RP1008,Industry Schema,Disruption Management,Regulator,Regulator,Income,Income,MNAR,M4_AIDM_Full,Processes,10,AIDM RP1008 systematic coding — ABIE level
+Clearing Process,AIDM RP1008,Industry Schema,Disruption Management,Carrier,Carrier,Risk,Risk,OBSERVED,M4_AIDM_Full,Processes,3,AIDM RP1008 systematic coding — ABIE level
+Commitment To Pay,AIDM RP1008,Industry Schema,Disruption Management,Carrier,Carrier,Risk,Risk,OBSERVED,M4_AIDM_Full,Processes,3,AIDM RP1008 systematic coding — ABIE level
+Handling Agency,AIDM RP1008,Industry Schema,Disruption Management,Carrier,Carrier,Risk,Risk,OBSERVED,M4_AIDM_Full,Processes,1,AIDM RP1008 systematic coding — ABIE level
+Organization,AIDM RP1008,Industry Schema,Disruption Management,Carrier,Carrier,Risk,Risk,OBSERVED,M4_AIDM_Full,Processes,3,AIDM RP1008 systematic coding — ABIE level
+Process Specification,AIDM RP1008,Industry Schema,Disruption Management,Carrier,Carrier,Risk,Risk,OBSERVED,M4_AIDM_Full,Processes,1,AIDM RP1008 systematic coding — ABIE level
+Processing Instructions,AIDM RP1008,Industry Schema,Disruption Management,Carrier,Carrier,Risk,Risk,OBSERVED,M4_AIDM_Full,Processes,2,AIDM RP1008 systematic coding — ABIE level
+Travel Agency,AIDM RP1008,Industry Schema,Disruption Management,Vendor,Vendor,Cost,Cost,MNAR,M4_AIDM_Full,Processes,5,AIDM RP1008 systematic coding — ABIE level
+Interline Settlement Information,AIDM RP1008,Industry Schema,Distribution / GDS,Industry Body,Industry Body,Income,Income,MNAR,M4_AIDM_Full,Settlements,3,AIDM RP1008 systematic coding — ABIE level
+Surcharge,AIDM RP1008,Industry Schema,Distribution / GDS,Carrier,Carrier,Cost,Cost,PARTIAL,M4_AIDM_Full,Settlements,2,AIDM RP1008 systematic coding — ABIE level
+Tax,AIDM RP1008,Industry Schema,Distribution / GDS,Regulator,Regulator,Cost,Cost,OBSERVED,M4_AIDM_Full,Settlements,13,AIDM RP1008 systematic coding — ABIE level
+Affinity Arrival Request,AIDM RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,MNAR,M4_AIDM_Full,Shopping Criteria,3,AIDM RP1008 systematic coding — ABIE level
+Affinity Departure Request,AIDM RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,MNAR,M4_AIDM_Full,Shopping Criteria,3,AIDM RP1008 systematic coding — ABIE level
+Affinity Origin Destination,AIDM RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,MNAR,M4_AIDM_Full,Shopping Criteria,1,AIDM RP1008 systematic coding — ABIE level
+Aircraft,AIDM RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Cost,Cost,MNAR,M4_AIDM_Full,Shopping Criteria,6,AIDM RP1008 systematic coding — ABIE level
+Airline Criteria,AIDM RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,MNAR,M4_AIDM_Full,Shopping Criteria,2,AIDM RP1008 systematic coding — ABIE level
+Baggage Pricing Criteria,AIDM RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,MNAR,M4_AIDM_Full,Shopping Criteria,7,AIDM RP1008 systematic coding — ABIE level
+Calendar Date Criteria,AIDM RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,MNAR,M4_AIDM_Full,Shopping Criteria,2,AIDM RP1008 systematic coding — ABIE level
+Connection Criteria,AIDM RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,MNAR,M4_AIDM_Full,Shopping Criteria,6,AIDM RP1008 systematic coding — ABIE level
+Country,AIDM RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,MNAR,M4_AIDM_Full,Shopping Criteria,2,AIDM RP1008 systematic coding — ABIE level
+Country Sub-Division,AIDM RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,MNAR,M4_AIDM_Full,Shopping Criteria,2,AIDM RP1008 systematic coding — ABIE level
+Destination Arrival Criteria,AIDM RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,MNAR,M4_AIDM_Full,Shopping Criteria,4,AIDM RP1008 systematic coding — ABIE level
+Existing Order Criteria,AIDM RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,MNAR,M4_AIDM_Full,Shopping Criteria,1,AIDM RP1008 systematic coding — ABIE level
+Fare Criteria,AIDM RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,MNAR,M4_AIDM_Full,Shopping Criteria,6,AIDM RP1008 systematic coding — ABIE level
+Flight Characteristics Criteria,AIDM RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,MNAR,M4_AIDM_Full,Shopping Criteria,1,AIDM RP1008 systematic coding — ABIE level
+Flight Criteria,AIDM RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,MNAR,M4_AIDM_Full,Shopping Criteria,1,AIDM RP1008 systematic coding — ABIE level
+Group Fare Criteria,AIDM RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,MNAR,M4_AIDM_Full,Shopping Criteria,3,AIDM RP1008 systematic coding — ABIE level
+IATA Aircraft Type,AIDM RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,MNAR,M4_AIDM_Full,Shopping Criteria,3,AIDM RP1008 systematic coding — ABIE level
+Journey Distance Criteria,AIDM RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,MNAR,M4_AIDM_Full,Shopping Criteria,2,AIDM RP1008 systematic coding — ABIE level
+Journey Duration Criteria,AIDM RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,MNAR,M4_AIDM_Full,Shopping Criteria,2,AIDM RP1008 systematic coding — ABIE level
+Origin Departure Request,AIDM RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,MNAR,M4_AIDM_Full,Shopping Criteria,4,AIDM RP1008 systematic coding — ABIE level
+Payment Card Criteria,AIDM RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,MNAR,M4_AIDM_Full,Shopping Criteria,5,AIDM RP1008 systematic coding — ABIE level
+Pre-Paid Certificate,AIDM RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,MNAR,M4_AIDM_Full,Shopping Criteria,4,AIDM RP1008 systematic coding — ABIE level
+Progam Contract,AIDM RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,MNAR,M4_AIDM_Full,Shopping Criteria,1,AIDM RP1008 systematic coding — ABIE level
+Program Account,AIDM RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,MNAR,M4_AIDM_Full,Shopping Criteria,1,AIDM RP1008 systematic coding — ABIE level
+Program Criteria Set,AIDM RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,MNAR,M4_AIDM_Full,Shopping Criteria,4,AIDM RP1008 systematic coding — ABIE level
+Promotion,AIDM RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,MNAR,M4_AIDM_Full,Shopping Criteria,3,AIDM RP1008 systematic coding — ABIE level
+Service Criteria,AIDM RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,MNAR,M4_AIDM_Full,Shopping Criteria,4,AIDM RP1008 systematic coding — ABIE level
+Station Criteria,AIDM RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,MNAR,M4_AIDM_Full,Shopping Criteria,1,AIDM RP1008 systematic coding — ABIE level
+Travel Agency,AIDM RP1008,Industry Schema,Revenue Management,Vendor,Vendor,Cost,Cost,MNAR,M4_AIDM_Full,Shopping Criteria,5,AIDM RP1008 systematic coding — ABIE level
+Bag Drop Device,AIDM RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,MNAR,M4_AIDM_Full,Taxes,1,AIDM RP1008 systematic coding — ABIE level
+Carrier Fee,AIDM RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,MNAR,M4_AIDM_Full,Taxes,5,AIDM RP1008 systematic coding — ABIE level
+Check-In Kiosk,AIDM RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,MNAR,M4_AIDM_Full,Taxes,1,AIDM RP1008 systematic coding — ABIE level
+Coupon,AIDM RP1008,Industry Schema,Revenue Management,Industry Body,Industry Body,Option,Option,OBSERVED,M4_AIDM_Full,Taxes,23,AIDM RP1008 systematic coding — ABIE level
+Distribution Chain,AIDM RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,MNAR,M4_AIDM_Full,Taxes,1,AIDM RP1008 systematic coding — ABIE level
+Distribution Chain Link,AIDM RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,MNAR,M4_AIDM_Full,Taxes,3,AIDM RP1008 systematic coding — ABIE level
+Interline Settlement Information,AIDM RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,MNAR,M4_AIDM_Full,Taxes,3,AIDM RP1008 systematic coding — ABIE level
+Pricing Parameter,AIDM RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,MNAR,M4_AIDM_Full,Taxes,5,AIDM RP1008 systematic coding — ABIE level
+Sales Tax Registration,AIDM RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,MNAR,M4_AIDM_Full,Taxes,11,AIDM RP1008 systematic coding — ABIE level
+Sales Tax Specification,AIDM RP1008,Industry Schema,Revenue Management,Carrier,Carrier,Income,Income,MNAR,M4_AIDM_Full,Taxes,1,AIDM RP1008 systematic coding — ABIE level
+Ticket,AIDM RP1008,Industry Schema,Revenue Management,Industry Body,Industry Body,Income,Income,OBSERVED,M4_AIDM_Full,Taxes,11,AIDM RP1008 systematic coding — ABIE level
+Bag Drop Device,AIDM RP1008,Industry Schema,Distribution / GDS,Industry Body,Industry Body,Income,Income,MNAR,M4_AIDM_Full,Tickets,1,AIDM RP1008 systematic coding — ABIE level
+Baggage Allowance,AIDM RP1008,Industry Schema,Distribution / GDS,Industry Body,Industry Body,Income,Income,MNAR,M4_AIDM_Full,Tickets,6,AIDM RP1008 systematic coding — ABIE level
+Carrier Fee,AIDM RP1008,Industry Schema,Distribution / GDS,Industry Body,Industry Body,Income,Income,MNAR,M4_AIDM_Full,Tickets,5,AIDM RP1008 systematic coding — ABIE level
+Check-In Area,AIDM RP1008,Industry Schema,Distribution / GDS,Industry Body,Industry Body,Income,Income,MNAR,M4_AIDM_Full,Tickets,1,AIDM RP1008 systematic coding — ABIE level
+Check-In Facility,AIDM RP1008,Industry Schema,Distribution / GDS,Industry Body,Industry Body,Income,Income,MNAR,M4_AIDM_Full,Tickets,1,AIDM RP1008 systematic coding — ABIE level
+Check-In Kiosk,AIDM RP1008,Industry Schema,Distribution / GDS,Industry Body,Industry Body,Income,Income,MNAR,M4_AIDM_Full,Tickets,1,AIDM RP1008 systematic coding — ABIE level
+Coupon,AIDM RP1008,Industry Schema,Distribution / GDS,Industry Body,Industry Body,Option,Option,OBSERVED,M4_AIDM_Full,Tickets,23,AIDM RP1008 systematic coding — ABIE level
+Coupon Validity Period,AIDM RP1008,Industry Schema,Distribution / GDS,Industry Body,Industry Body,Income,Income,MNAR,M4_AIDM_Full,Tickets,3,AIDM RP1008 systematic coding — ABIE level
+Distribution Chain,AIDM RP1008,Industry Schema,Distribution / GDS,Industry Body,Industry Body,Income,Income,MNAR,M4_AIDM_Full,Tickets,1,AIDM RP1008 systematic coding — ABIE level
+Distribution Chain Link,AIDM RP1008,Industry Schema,Distribution / GDS,Industry Body,Industry Body,Income,Income,MNAR,M4_AIDM_Full,Tickets,3,AIDM RP1008 systematic coding — ABIE level
+Excess Baggage,AIDM RP1008,Industry Schema,Distribution / GDS,Industry Body,Industry Body,Income,Income,MNAR,M4_AIDM_Full,Tickets,2,AIDM RP1008 systematic coding — ABIE level
+Fare Calculation Information,AIDM RP1008,Industry Schema,Distribution / GDS,Industry Body,Industry Body,Income,Income,MNAR,M4_AIDM_Full,Tickets,3,AIDM RP1008 systematic coding — ABIE level
+Fare Component,AIDM RP1008,Industry Schema,Distribution / GDS,Industry Body,Industry Body,Income,Income,MNAR,M4_AIDM_Full,Tickets,6,AIDM RP1008 systematic coding — ABIE level
+Fare Price Type,AIDM RP1008,Industry Schema,Distribution / GDS,Industry Body,Industry Body,Income,Income,MNAR,M4_AIDM_Full,Tickets,1,AIDM RP1008 systematic coding — ABIE level
+Fare Rule,AIDM RP1008,Industry Schema,Distribution / GDS,Industry Body,Industry Body,Income,Income,MNAR,M4_AIDM_Full,Tickets,3,AIDM RP1008 systematic coding — ABIE level
+Filed Fee,AIDM RP1008,Industry Schema,Distribution / GDS,Industry Body,Industry Body,Income,Income,MNAR,M4_AIDM_Full,Tickets,2,AIDM RP1008 systematic coding — ABIE level
+Offer Item,AIDM RP1008,Industry Schema,Distribution / GDS,Carrier,Carrier,Option,Option,PARTIAL,M4_AIDM_Full,Tickets,5,AIDM RP1008 systematic coding — ABIE level
+Order Amendment,AIDM RP1008,Industry Schema,Distribution / GDS,Industry Body,Industry Body,Income,Income,MNAR,M4_AIDM_Full,Tickets,1,AIDM RP1008 systematic coding — ABIE level
+Payment Information,AIDM RP1008,Industry Schema,Distribution / GDS,Vendor,Vendor,Risk,Risk,MNAR,M4_AIDM_Full,Tickets,8,AIDM RP1008 systematic coding — ABIE level
+Payment Method,AIDM RP1008,Industry Schema,Distribution / GDS,Industry Body,Industry Body,Income,Income,MNAR,M4_AIDM_Full,Tickets,1,AIDM RP1008 systematic coding — ABIE level
+Price Quote,AIDM RP1008,Industry Schema,Distribution / GDS,Industry Body,Industry Body,Income,Income,MNAR,M4_AIDM_Full,Tickets,5,AIDM RP1008 systematic coding — ABIE level
+Promotion,AIDM RP1008,Industry Schema,Distribution / GDS,Industry Body,Industry Body,Income,Income,MNAR,M4_AIDM_Full,Tickets,3,AIDM RP1008 systematic coding — ABIE level
+Tax Summary,AIDM RP1008,Industry Schema,Distribution / GDS,Industry Body,Industry Body,Income,Income,MNAR,M4_AIDM_Full,Tickets,5,AIDM RP1008 systematic coding — ABIE level
+Ticket,AIDM RP1008,Industry Schema,Distribution / GDS,Industry Body,Industry Body,Income,Income,OBSERVED,M4_AIDM_Full,Tickets,11,AIDM RP1008 systematic coding — ABIE level
+Ticket Document Information,AIDM RP1008,Industry Schema,Distribution / GDS,Industry Body,Industry Body,Income,Income,MNAR,M4_AIDM_Full,Tickets,6,AIDM RP1008 systematic coding — ABIE level
+Ticket Issuance Information,AIDM RP1008,Industry Schema,Distribution / GDS,Industry Body,Industry Body,Income,Income,MNAR,M4_AIDM_Full,Tickets,3,AIDM RP1008 systematic coding — ABIE level
+Ticket Reference Identification,AIDM RP1008,Industry Schema,Distribution / GDS,Industry Body,Industry Body,Income,Income,MNAR,M4_AIDM_Full,Tickets,2,AIDM RP1008 systematic coding — ABIE level
+Travel Agency,AIDM RP1008,Industry Schema,Distribution / GDS,Vendor,Vendor,Cost,Cost,MNAR,M4_AIDM_Full,Tickets,5,AIDM RP1008 systematic coding — ABIE level
