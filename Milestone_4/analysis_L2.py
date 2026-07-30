@@ -21,6 +21,32 @@ Full implementation (USRA) will scale to full AIDM formula scope.
 Author: Marie-Louise Thurton, Toronto Metropolitan University
 """
 
+# ── PATH RESOLVER ─────────────────────────────────────────────
+# Works in Google Colab, local environment, and Claude sandbox
+import os, sys
+
+def get_base_path():
+    """Detect environment and return base project path."""
+    # Colab
+    if 'google.colab' in sys.modules or os.path.exists('/content'):
+        # Clone repo if not already present
+        if not os.path.exists('/content/Capstone_Cind820'):
+            os.system('git clone https://github.com/ThurtonTMU/'
+                      'Capstone_Cind820 /content/Capstone_Cind820')
+        return '/content/Capstone_Cind820/Milestone_4'
+    # Claude sandbox
+    if os.path.exists('/mnt/user-data/outputs'):
+        return '/mnt/user-data/outputs'
+    # Local — use script directory
+    return os.path.dirname(os.path.abspath(__file__))
+
+BASE = get_base_path()
+DATA = BASE   # data files live alongside scripts in repo
+OUTS = BASE   # outputs go to same directory
+EDA  = os.path.join(BASE, 'eda_outputs')
+os.makedirs(EDA, exist_ok=True)
+# ── END PATH RESOLVER ─────────────────────────────────────────
+
 import pandas as pd
 import numpy as np
 import matplotlib
@@ -31,21 +57,21 @@ from matplotlib.gridspec import GridSpec
 import os, warnings
 warnings.filterwarnings("ignore")
 
-OUTPUT = "/mnt/user-data/outputs/eda_outputs/level2"
+OUTPUT = os.path.join(EDA,"level2")
 os.makedirs(OUTPUT, exist_ok=True)
 
 # ── LOAD DATA ─────────────────────────────────────────────────
-df = pd.read_csv("/mnt/user-data/outputs/full_corpus_L1.csv")
+df = pd.read_csv(os.path.join(OUTS,"full_corpus_L1.csv"))
 df["Val_Primary"] = df["Valuation Type"].apply(
     lambda v: v.split("/")[0].strip() if pd.notna(v) else "Unknown")
 
-feat_df = pd.read_csv("/mnt/user-data/outputs/feature_definitions.csv")
+feat_df = pd.read_csv(os.path.join(OUTS,"feature_definitions.csv"))
 edges_df = pd.read_csv(
-    "/mnt/user-data/outputs/eda_outputs/valid_interaction_edges.csv")
+    os.path.join(EDA,"valid_interaction_edges.csv"))
 agents_df = pd.read_csv(
-    "/mnt/user-data/outputs/eda_outputs/agent_nodes.csv")
+    os.path.join(EDA,"agent_nodes.csv"))
 stress_df = pd.read_csv(
-    "/mnt/user-data/outputs/eda_outputs/level1/L1_governance_stress_full.csv")
+    os.path.join(EDA,"level1/L1_governance_stress_full.csv"))
 
 print("="*65)
 print("L2: FORMULA FEATURE ENGINEERING ON FULL CORPUS")
