@@ -86,9 +86,9 @@ edges  = pd.read_csv(
 stress = pd.read_csv(
     os.path.join(EDA,"level1/L1_governance_stress_full.csv"))
 porter_raw = pd.read_csv(
-    os.path.join(OUTS,"porter_ytz_ewr_2023.csv"))
+    os.path.join(OUTS,"porter_ytz_ewr_2023_corrected.csv"))
 fi_raw = pd.read_csv(
-    os.path.join(OUTS,"icelandair_ewr_kef_2023.csv"))
+    os.path.join(OUTS,"icelandair_ewr_kef_2023_corrected.csv"))
 b6_raw = pd.read_csv(
     os.path.join(OUTS,"b6_ewr_2023.csv"), low_memory=False)
 
