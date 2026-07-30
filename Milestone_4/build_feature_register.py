@@ -11,6 +11,32 @@ This file produces:
 Author: Marie-Louise Thurton, Toronto Metropolitan University
 """
 
+# ── PATH RESOLVER ─────────────────────────────────────────────
+# Works in Google Colab, local environment, and Claude sandbox
+import os, sys
+
+def get_base_path():
+    """Detect environment and return base project path."""
+    # Colab
+    if 'google.colab' in sys.modules or os.path.exists('/content'):
+        # Clone repo if not already present
+        if not os.path.exists('/content/Capstone_Cind820'):
+            os.system('git clone https://github.com/ThurtonTMU/'
+                      'Capstone_Cind820 /content/Capstone_Cind820')
+        return '/content/Capstone_Cind820/Milestone_4'
+    # Claude sandbox
+    if os.path.exists('/mnt/user-data/outputs'):
+        return '/mnt/user-data/outputs'
+    # Local — use script directory
+    return os.path.dirname(os.path.abspath(__file__))
+
+BASE = get_base_path()
+DATA = BASE   # data files live alongside scripts in repo
+OUTS = BASE   # outputs go to same directory
+EDA  = os.path.join(BASE, 'eda_outputs')
+os.makedirs(EDA, exist_ok=True)
+# ── END PATH RESOLVER ─────────────────────────────────────────
+
 import pandas as pd
 import numpy as np
 import openpyxl
@@ -22,7 +48,7 @@ import os
 def ensure_argb(c):
     return ("FF"+c) if c and len(c)==6 else c
 
-OUTPUT = "/mnt/user-data/outputs"
+OUTPUT = OUTS
 os.makedirs(OUTPUT, exist_ok=True)
 
 # ── LOAD FULL L1 CORPUS ───────────────────────────────────────
