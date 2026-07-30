@@ -16,15 +16,41 @@ Coding decisions at ABIE level:
 Author: Marie-Louise Thurton, Toronto Metropolitan University
 """
 
+# ── PATH RESOLVER ─────────────────────────────────────────────
+# Works in Google Colab, local environment, and Claude sandbox
+import os, sys
+
+def get_base_path():
+    """Detect environment and return base project path."""
+    # Colab
+    if 'google.colab' in sys.modules or os.path.exists('/content'):
+        # Clone repo if not already present
+        if not os.path.exists('/content/Capstone_Cind820'):
+            os.system('git clone https://github.com/ThurtonTMU/'
+                      'Capstone_Cind820 /content/Capstone_Cind820')
+        return '/content/Capstone_Cind820/Milestone_4'
+    # Claude sandbox
+    if os.path.exists('/mnt/user-data/outputs'):
+        return '/mnt/user-data/outputs'
+    # Local — use script directory
+    return os.path.dirname(os.path.abspath(__file__))
+
+BASE = get_base_path()
+DATA = BASE   # data files live alongside scripts in repo
+OUTS = BASE   # outputs go to same directory
+EDA  = os.path.join(BASE, 'eda_outputs')
+os.makedirs(EDA, exist_ok=True)
+# ── END PATH RESOLVER ─────────────────────────────────────────
+
 import pandas as pd
 import numpy as np
 import os
 
-OUTPUT = "/mnt/user-data/outputs"
+OUTPUT = OUTS
 os.makedirs(OUTPUT, exist_ok=True)
 
 # ── LOAD AIDM EXTRACT ─────────────────────────────────────────
-aidm = pd.read_csv("/mnt/project/26_1_AIDM_Extract_Subjects_Areas_xlsm__Page_1.csv")
+aidm = pd.read_csv(os.path.join(DATA,"26_1_AIDM_Extract_Subjects_Areas_xlsm__Page_1.csv"))
 bbies = aidm[aidm["Stereotype"]=="IATA_BBIE"].copy()
 abies_only = aidm[aidm["Stereotype"]=="IATA_ABIE"].copy()
 
@@ -391,7 +417,7 @@ print(f"\nData Access:")
 print(aidm_corpus["Data Access"].value_counts().to_string())
 
 # ── MERGE WITH EXISTING CORPUS ─────────────────────────────────
-existing = pd.read_csv("/mnt/user-data/outputs/corpus_variable_registry.csv")
+existing = pd.read_csv(os.path.join(OUTS,"corpus_variable_registry.csv"))
 existing["Val_Primary"] = existing["Valuation Type"].apply(
     lambda v: v.split("/")[0].strip() if pd.notna(v) else "Unknown")
 existing["Source"] = "M3_PoC_Schema"
