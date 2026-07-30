@@ -11,6 +11,32 @@ This is M3 done properly, not as a proof of concept.
 Author: Marie-Louise Thurton, Toronto Metropolitan University
 """
 
+# ── PATH RESOLVER ─────────────────────────────────────────────
+# Works in Google Colab, local environment, and Claude sandbox
+import os, sys
+
+def get_base_path():
+    """Detect environment and return base project path."""
+    # Colab
+    if 'google.colab' in sys.modules or os.path.exists('/content'):
+        # Clone repo if not already present
+        if not os.path.exists('/content/Capstone_Cind820'):
+            os.system('git clone https://github.com/ThurtonTMU/'
+                      'Capstone_Cind820 /content/Capstone_Cind820')
+        return '/content/Capstone_Cind820/Milestone_4'
+    # Claude sandbox
+    if os.path.exists('/mnt/user-data/outputs'):
+        return '/mnt/user-data/outputs'
+    # Local — use script directory
+    return os.path.dirname(os.path.abspath(__file__))
+
+BASE = get_base_path()
+DATA = BASE   # data files live alongside scripts in repo
+OUTS = BASE   # outputs go to same directory
+EDA  = os.path.join(BASE, 'eda_outputs')
+os.makedirs(EDA, exist_ok=True)
+# ── END PATH RESOLVER ─────────────────────────────────────────
+
 import pandas as pd
 import numpy as np
 import matplotlib
@@ -22,18 +48,18 @@ import networkx as nx
 import os, warnings
 warnings.filterwarnings("ignore")
 
-OUTPUT = "/mnt/user-data/outputs/eda_outputs/level1"
+OUTPUT = os.path.join(EDA,"level1")
 os.makedirs(OUTPUT, exist_ok=True)
 
 # ── LOAD FULL CORPUS ──────────────────────────────────────────
-df = pd.read_csv("/mnt/user-data/outputs/full_corpus_L1.csv")
+df = pd.read_csv(os.path.join(OUTS,"full_corpus_L1.csv"))
 df["Val_Primary"] = df["Valuation Type"].apply(
     lambda v: v.split("/")[0].strip() if pd.notna(v) else "Unknown")
 
 # Load property graph components (from M3)
-edges_df  = pd.read_csv("/mnt/user-data/outputs/eda_outputs/valid_interaction_edges.csv")
-agents_df = pd.read_csv("/mnt/user-data/outputs/eda_outputs/agent_nodes.csv")
-var_map   = pd.read_csv("/mnt/user-data/outputs/eda_outputs/variable_agent_mapping.csv")
+edges_df  = pd.read_csv(os.path.join(EDA,"valid_interaction_edges.csv"))
+agents_df = pd.read_csv(os.path.join(EDA,"agent_nodes.csv"))
+var_map   = pd.read_csv(os.path.join(EDA,"variable_agent_mapping.csv"))
 
 print("="*65)
 print("L1: FULL PROPERTY GRAPH ANALYSIS")
