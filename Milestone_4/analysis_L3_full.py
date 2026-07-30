@@ -21,6 +21,32 @@ Five MAS functions analyzed:
 Author: Marie-Louise Thurton, Toronto Metropolitan University
 """
 
+# ── PATH RESOLVER ─────────────────────────────────────────────
+# Works in Google Colab, local environment, and Claude sandbox
+import os, sys
+
+def get_base_path():
+    """Detect environment and return base project path."""
+    # Colab
+    if 'google.colab' in sys.modules or os.path.exists('/content'):
+        # Clone repo if not already present
+        if not os.path.exists('/content/Capstone_Cind820'):
+            os.system('git clone https://github.com/ThurtonTMU/'
+                      'Capstone_Cind820 /content/Capstone_Cind820')
+        return '/content/Capstone_Cind820/Milestone_4'
+    # Claude sandbox
+    if os.path.exists('/mnt/user-data/outputs'):
+        return '/mnt/user-data/outputs'
+    # Local — use script directory
+    return os.path.dirname(os.path.abspath(__file__))
+
+BASE = get_base_path()
+DATA = BASE   # data files live alongside scripts in repo
+OUTS = BASE   # outputs go to same directory
+EDA  = os.path.join(BASE, 'eda_outputs')
+os.makedirs(EDA, exist_ok=True)
+# ── END PATH RESOLVER ─────────────────────────────────────────
+
 import pandas as pd
 import numpy as np
 import matplotlib
@@ -32,7 +58,7 @@ from matplotlib.colors import LinearSegmentedColormap
 import os, warnings
 warnings.filterwarnings("ignore")
 
-OUTPUT = "/mnt/user-data/outputs/eda_outputs/level3"
+OUTPUT = os.path.join(EDA,"level3")
 os.makedirs(OUTPUT, exist_ok=True)
 
 # ── COLOURS ───────────────────────────────────────────────────
@@ -53,18 +79,18 @@ FUNC_COLORS = {
 }
 
 # ── LOAD DATA ─────────────────────────────────────────────────
-corpus = pd.read_csv("/mnt/user-data/outputs/full_corpus_L1.csv")
-feats  = pd.read_csv("/mnt/user-data/outputs/feature_definitions.csv")
+corpus = pd.read_csv(os.path.join(OUTS,"full_corpus_L1.csv"))
+feats  = pd.read_csv(os.path.join(OUTS,"feature_definitions.csv"))
 edges  = pd.read_csv(
-    "/mnt/user-data/outputs/eda_outputs/valid_interaction_edges.csv")
+    os.path.join(EDA,"valid_interaction_edges.csv"))
 stress = pd.read_csv(
-    "/mnt/user-data/outputs/eda_outputs/level1/L1_governance_stress_full.csv")
+    os.path.join(EDA,"level1/L1_governance_stress_full.csv"))
 porter_raw = pd.read_csv(
-    "/mnt/user-data/outputs/porter_ytz_ewr_2023.csv")
+    os.path.join(OUTS,"porter_ytz_ewr_2023.csv"))
 fi_raw = pd.read_csv(
-    "/mnt/user-data/outputs/icelandair_ewr_kef_2023.csv")
+    os.path.join(OUTS,"icelandair_ewr_kef_2023.csv"))
 b6_raw = pd.read_csv(
-    "/mnt/user-data/outputs/b6_ewr_2023.csv", low_memory=False)
+    os.path.join(OUTS,"b6_ewr_2023.csv"), low_memory=False)
 
 print("="*65)
 print("L3: EWR PROPERTY GRAPH INSTANTIATION")
