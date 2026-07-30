@@ -1,0 +1,234 @@
+document_id,document_name,category,mas_function,actor,actor_type,aidm_domain,variable_name,valuation_type,visibility,jurisdiction,gaap_alignment,category_label
+D01,AIDM/RP1008,2,all_functions,IATA,industry_body,Shopping,Offer,income,HIGH,ALL,IFRS 15,Industry Schema
+D01,AIDM/RP1008,2,all_functions,IATA,industry_body,Shopping,Fare,income,HIGH,ALL,IFRS 15,Industry Schema
+D01,AIDM/RP1008,2,all_functions,IATA,industry_body,Shopping,A La Carte Offer Item,income,HIGH,ALL,IFRS 15,Industry Schema
+D01,AIDM/RP1008,2,all_functions,IATA,industry_body,Order Management,Order,income,HIGH,ALL,IFRS 15,Industry Schema
+D01,AIDM/RP1008,2,all_functions,IATA,industry_body,Order Management,Ticket,income,HIGH,ALL,IFRS 15,Industry Schema
+D01,AIDM/RP1008,2,all_functions,IATA,industry_body,Order Management,Accountable Document,income,HIGH,ALL,IFRS 15,Industry Schema
+D01,AIDM/RP1008,2,all_functions,IATA,industry_body,Settlement with Orders,Settlement Amount,income,HIGH,ALL,IFRS 15,Industry Schema
+D01,AIDM/RP1008,2,all_functions,IATA,industry_body,Settlement with Orders,Proration Value,income,HIGH,ALL,IFRS 15,Industry Schema
+D01,AIDM/RP1008,2,all_functions,IATA,industry_body,Payments,Payment Transaction,risk,HIGH,ALL,IFRS 15,Industry Schema
+D01,AIDM/RP1008,2,all_functions,IATA,industry_body,Parties,Passenger Name Record (PNR),risk,HIGH,ALL,IFRS 15,Industry Schema
+D01,AIDM/RP1008,2,all_functions,IATA,industry_body,Parties,Administrating Carrier,income,HIGH,ALL,IFRS 15,Industry Schema
+D01,AIDM/RP1008,2,all_functions,IATA,industry_body,Baggage,Baggage Allowance,cost,HIGH,ALL,IFRS 15,Industry Schema
+D01,AIDM/RP1008,2,all_functions,IATA,industry_body,Shopping,Market Yield,income,HIGH,ALL,IFRS 15,Industry Schema
+D01,AIDM/RP1008,2,all_functions,IATA,industry_body,Shopping,Variable Consideration,option,HIGH,ALL,IFRS 15,Industry Schema
+D01,AIDM/RP1008,2,all_functions,IATA,industry_body,Flights,Schedule,cost,HIGH,ALL,IFRS 15,Industry Schema
+D01,AIDM/RP1008,2,all_functions,IATA,industry_body,Parties,Aggregator,market,HIGH,ALL,IFRS 15,Industry Schema
+D01,AIDM/RP1008,2,all_functions,IATA,industry_body,Order Management,Advance Passenger Info,risk,HIGH,ALL,IFRS 15,Industry Schema
+D01,AIDM/RP1008,2,all_functions,IATA,industry_body,Baggage,Excess Baggage Fee,income,HIGH,ALL,IFRS 15,Industry Schema
+D02,SIS IS-XML,2,distribution_gds,Amadeus,vendor,Settlement with Orders,Settlement Amount,income,MEDIUM,ALL,IFRS 15 / IFRS 9,Industry Schema
+D02,SIS IS-XML,2,distribution_gds,Amadeus,vendor,Settlement with Orders,Proration Value,income,MEDIUM,ALL,IFRS 15 / IFRS 9,Industry Schema
+D02,SIS IS-XML,2,distribution_gds,Amadeus,vendor,Settlement with Orders,Five Day Rate (FDR),market,MEDIUM,ALL,IFRS 15 / IFRS 9,Industry Schema
+D02,SIS IS-XML,2,distribution_gds,Amadeus,vendor,Settlement with Orders,Billing Period,cost,MEDIUM,ALL,IFRS 15 / IFRS 9,Industry Schema
+D02,SIS IS-XML,2,distribution_gds,Amadeus,vendor,Settlement with Orders,Charge Category Code,market,MEDIUM,ALL,IFRS 15 / IFRS 9,Industry Schema
+D02,SIS IS-XML,2,distribution_gds,Amadeus,vendor,Settlement with Orders,Charge Code,market,MEDIUM,ALL,IFRS 15 / IFRS 9,Industry Schema
+D02,SIS IS-XML,2,distribution_gds,Amadeus,vendor,Settlement with Orders,F12 File Total,income,MEDIUM,ALL,IFRS 15 / IFRS 9,Industry Schema
+D02,SIS IS-XML,2,distribution_gds,Amadeus,vendor,Settlement with Orders,Reject Amount,risk,MEDIUM,ALL,IFRS 15 / IFRS 9,Industry Schema
+D02,SIS IS-XML,2,distribution_gds,Amadeus,vendor,Settlement with Orders,Dispute Amount,risk,MEDIUM,ALL,IFRS 15 / IFRS 9,Industry Schema
+D02,SIS IS-XML,2,distribution_gds,Amadeus,vendor,Settlement with Orders,Credit Note Value,cost,MEDIUM,ALL,IFRS 15 / IFRS 9,Industry Schema
+D02,SIS IS-XML,2,distribution_gds,Amadeus,vendor,Settlement with Orders,VAT Amount,cost,MEDIUM,ALL,IFRS 15 / IFRS 9,Industry Schema
+D02,SIS IS-XML,2,distribution_gds,Amadeus,vendor,Settlement with Orders,Auto-Billing Uplift,income,MEDIUM,ALL,IFRS 15 / IFRS 9,Industry Schema
+D02,SIS IS-XML,2,distribution_gds,Amadeus,vendor,Settlement with Orders,NFP (Neutral Fare Proration),income,MEDIUM,ALL,IFRS 15 / IFRS 9,Industry Schema
+D03,IATA Interline Checklist,2,distribution_gds,IATA,industry_body,Settlement with Orders,Interline Billing Basis,income,HIGH,ALL,IFRS 15,Industry Schema
+D03,IATA Interline Checklist,2,distribution_gds,IATA,industry_body,Order Management,Ticket Type,income,HIGH,ALL,IFRS 15,Industry Schema
+D03,IATA Interline Checklist,2,distribution_gds,IATA,industry_body,Order Management,Journey Type,market,HIGH,ALL,IFRS 15,Industry Schema
+D03,IATA Interline Checklist,2,distribution_gds,IATA,industry_body,Settlement with Orders,Amount to be Prorated,income,HIGH,ALL,IFRS 15,Industry Schema
+D03,IATA Interline Checklist,2,distribution_gds,IATA,industry_body,Shopping,Fare Owner,income,HIGH,ALL,IFRS 15,Industry Schema
+D03,IATA Interline Checklist,2,distribution_gds,IATA,industry_body,Shopping,Fare Type,market,HIGH,ALL,IFRS 15,Industry Schema
+D03,IATA Interline Checklist,2,distribution_gds,IATA,industry_body,Flights,Sector Type,market,HIGH,ALL,IFRS 15,Industry Schema
+D03,IATA Interline Checklist,2,distribution_gds,IATA,industry_body,Shopping,Class of Service,income,HIGH,ALL,IFRS 15,Industry Schema
+D03,IATA Interline Checklist,2,distribution_gds,IATA,industry_body,Settlement with Orders,Settlement Method,cost,HIGH,ALL,IFRS 15,Industry Schema
+D03,IATA Interline Checklist,2,distribution_gds,IATA,industry_body,Order Management,EMD (Electronic Misc Document),income,HIGH,ALL,IFRS 15,Industry Schema
+D03,IATA Interline Checklist,2,distribution_gds,IATA,industry_body,Baggage,Excess Baggage Proration Method,income,HIGH,ALL,IFRS 15,Industry Schema
+D04,IATA Fraud/Perseuss,2,fraud_payment,IATA,industry_body,Payments,Payment Fraud Loss Rate,risk,HIGH,ALL,IFRS 9,Industry Schema
+D04,IATA Fraud/Perseuss,2,fraud_payment,IATA,industry_body,Payments,Remittance Holding Capacity,risk,HIGH,ALL,IFRS 9,Industry Schema
+D04,IATA Fraud/Perseuss,2,fraud_payment,IATA,industry_body,Payments,Open Cash Position,risk,HIGH,ALL,IFRS 9,Industry Schema
+D04,IATA Fraud/Perseuss,2,fraud_payment,IATA,industry_body,Payments,Non-Settlement Risk,risk,MEDIUM,ALL,IFRS 9,Industry Schema
+D04,IATA Fraud/Perseuss,2,fraud_payment,IATA,industry_body,Payments,Fraud Overlap Rate,risk,HIGH,ALL,IFRS 9,Industry Schema
+D04,IATA Fraud/Perseuss,2,fraud_payment,IATA,industry_body,Payments,Transaction Risk Score,risk,MEDIUM,ALL,IFRS 9,Industry Schema
+D04,IATA Fraud/Perseuss,2,fraud_payment,IATA,industry_body,Payments,FFP Mile Value,income,HIGH,ALL,IFRS 9,Industry Schema
+D04,IATA Fraud/Perseuss,2,fraud_payment,IATA,industry_body,Payments,Total Miles at Risk,risk,HIGH,ALL,IFRS 9,Industry Schema
+D04,IATA Fraud/Perseuss,2,fraud_payment,IATA,industry_body,Payments,Hybrid Scoring Model,risk,MEDIUM,ALL,IFRS 9,Industry Schema
+D04,IATA Fraud/Perseuss,2,fraud_payment,IATA,industry_body,Payments,BSP Settlement Risk,risk,MEDIUM,ALL,IFRS 9,Industry Schema
+D04,IATA Fraud/Perseuss,2,fraud_payment,IATA,industry_body,Payments,RHC Alert,risk,MEDIUM,ALL,IFRS 9,Industry Schema
+D04,IATA Fraud/Perseuss,2,fraud_payment,IATA,industry_body,Payments,Cross-Sector Fraud Signal,risk,MEDIUM,ALL,IFRS 9,Industry Schema
+D04,IATA Fraud/Perseuss,2,fraud_payment,IATA,industry_body,Payments,Real-Time Monitoring Flag,risk,MEDIUM,ALL,IFRS 9,Industry Schema
+D05,ATPCO (conceptual),2,revenue_management,ATPCO,industry_body,Shopping,Fare Basis Code,market,LOW,ALL,IFRS 15,Industry Schema
+D05,ATPCO (conceptual),2,revenue_management,ATPCO,industry_body,Shopping,Rule Number,market,LOW,ALL,IFRS 15,Industry Schema
+D05,ATPCO (conceptual),2,revenue_management,ATPCO,industry_body,Shopping,Tariff Type (public/private),option,LOW,ALL,IFRS 15,Industry Schema
+D05,ATPCO (conceptual),2,revenue_management,ATPCO,industry_body,Shopping,Category 25 — Fare By Rule flag,option,LOW,ALL,IFRS 15,Industry Schema
+D05,ATPCO (conceptual),2,revenue_management,ATPCO,industry_body,Shopping,Category 35 — Negotiated Fare flag,option,LOW,ALL,IFRS 15,Industry Schema
+D05,ATPCO (conceptual),2,revenue_management,ATPCO,industry_body,Shopping,Advance Purchase Requirement,option,LOW,ALL,IFRS 15,Industry Schema
+D05,ATPCO (conceptual),2,revenue_management,ATPCO,industry_body,Shopping,Combinability Indicator,market,LOW,ALL,IFRS 15,Industry Schema
+D05,ATPCO (conceptual),2,revenue_management,ATPCO,industry_body,Shopping,YQ/YR Surcharge,cost,LOW,ALL,IFRS 15,Industry Schema
+D05,ATPCO (conceptual),2,revenue_management,ATPCO,industry_body,Shopping,HIP Check,income,LOW,ALL,IFRS 15,Industry Schema
+D05,ATPCO (conceptual),2,revenue_management,ATPCO,industry_body,Shopping,MPM (Maximum Permitted Mileage),market,LOW,ALL,IFRS 15,Industry Schema
+D06,IATA EMD Res.725,2,revenue_management,IATA,industry_body,Order Management,EMD Number,income,HIGH,ALL,IFRS 15,Industry Schema
+D06,IATA EMD Res.725,2,revenue_management,IATA,industry_body,Order Management,EMD-A (Associated),income,HIGH,ALL,IFRS 15,Industry Schema
+D06,IATA EMD Res.725,2,revenue_management,IATA,industry_body,Order Management,EMD-S (Standalone),income,HIGH,ALL,IFRS 15,Industry Schema
+D06,IATA EMD Res.725,2,revenue_management,IATA,industry_body,Order Management,Service Code,income,HIGH,ALL,IFRS 15,Industry Schema
+D06,IATA EMD Res.725,2,revenue_management,IATA,industry_body,Order Management,Ancillary Charge Amount,income,HIGH,ALL,IFRS 15,Industry Schema
+D06,IATA EMD Res.725,2,revenue_management,IATA,industry_body,Order Management,Baggage Fee,income,HIGH,ALL,IFRS 15,Industry Schema
+D06,IATA EMD Res.725,2,revenue_management,IATA,industry_body,Order Management,Seat Selection Fee,income,HIGH,ALL,IFRS 15,Industry Schema
+D06,IATA EMD Res.725,2,revenue_management,IATA,industry_body,Order Management,Change Fee,risk,HIGH,ALL,IFRS 15,Industry Schema
+D06,IATA EMD Res.725,2,revenue_management,IATA,industry_body,Order Management,Cancellation Fee,risk,HIGH,ALL,IFRS 15,Industry Schema
+D06,IATA EMD Res.725,2,revenue_management,IATA,industry_body,Order Management,Upgrade Fee,option,HIGH,ALL,IFRS 15,Industry Schema
+D06,IATA EMD Res.725,2,revenue_management,IATA,industry_body,Order Management,Lounge Access Fee,income,HIGH,ALL,IFRS 15,Industry Schema
+D06,IATA EMD Res.725,2,revenue_management,IATA,industry_body,Order Management,Coupon Status,income,HIGH,ALL,IFRS 15,Industry Schema
+D06,IATA EMD Res.725,2,revenue_management,IATA,industry_body,Order Management,Refund Amount,cost,HIGH,ALL,IFRS 15,Industry Schema
+D06,IATA EMD Res.725,2,revenue_management,IATA,industry_body,Order Management,Interline EMD Settlement,income,HIGH,ALL,IFRS 15,Industry Schema
+D07,IATA IAWG Loyalty,2,revenue_management,IATA,industry_body,Order Management,Transaction Price Allocation,income,HIGH,ALL,IFRS 15,Industry Schema
+D07,IATA IAWG Loyalty,2,revenue_management,IATA,industry_body,Order Management,SSP — Travel Component,income,HIGH,ALL,IFRS 15,Industry Schema
+D07,IATA IAWG Loyalty,2,revenue_management,IATA,industry_body,Order Management,SSP — Points Component,option,HIGH,ALL,IFRS 15,Industry Schema
+D07,IATA IAWG Loyalty,2,revenue_management,IATA,industry_body,Order Management,Variable Consideration — Points,option,HIGH,ALL,IFRS 15,Industry Schema
+D07,IATA IAWG Loyalty,2,revenue_management,IATA,industry_body,Order Management,Deferred Revenue Liability,cost,HIGH,ALL,IFRS 15,Industry Schema
+D07,IATA IAWG Loyalty,2,revenue_management,IATA,industry_body,Order Management,Breakage Estimate,income,HIGH,ALL,IFRS 15,Industry Schema
+D07,IATA IAWG Loyalty,2,revenue_management,IATA,industry_body,Order Management,Redemption Cost,cost,HIGH,ALL,IFRS 15,Industry Schema
+D07,IATA IAWG Loyalty,2,revenue_management,IATA,industry_body,Order Management,Partner Airline Agency Fee,cost,HIGH,ALL,IFRS 15,Industry Schema
+D07,IATA IAWG Loyalty,2,revenue_management,IATA,industry_body,Order Management,Contract Costs,cost,HIGH,ALL,IFRS 15,Industry Schema
+D07,IATA IAWG Loyalty,2,revenue_management,IATA,industry_body,Order Management,Miles Earned,option,HIGH,ALL,IFRS 15,Industry Schema
+D07,IATA IAWG Loyalty,2,revenue_management,IATA,industry_body,Order Management,Miles Redeemed,cost,HIGH,ALL,IFRS 15,Industry Schema
+D07,IATA IAWG Loyalty,2,revenue_management,IATA,industry_body,Order Management,Co-brand Revenue,income,HIGH,ALL,IFRS 15,Industry Schema
+D08,IATA SGHA 2023,2,workforce_management,IATA,industry_body,Flights,Service Charge Rate,cost,MEDIUM,ALL,IFRS 16 / IAS 37,Industry Schema
+D08,IATA SGHA 2023,2,workforce_management,IATA,industry_body,Flights,Handling Fee,cost,MEDIUM,ALL,IFRS 16 / IAS 37,Industry Schema
+D08,IATA SGHA 2023,2,workforce_management,IATA,industry_body,Flights,Minimum Wage Adjustment,risk,MEDIUM,ALL,IFRS 16 / IAS 37,Industry Schema
+D08,IATA SGHA 2023,2,workforce_management,IATA,industry_body,Flights,Flight Frequency Threshold,option,MEDIUM,ALL,IFRS 16 / IAS 37,Industry Schema
+D08,IATA SGHA 2023,2,workforce_management,IATA,industry_body,Flights,Payment Terms (30 days),cost,MEDIUM,ALL,IFRS 16 / IAS 37,Industry Schema
+D08,IATA SGHA 2023,2,workforce_management,IATA,industry_body,Flights,Sub-contractor Rate,cost,MEDIUM,ALL,IFRS 16 / IAS 37,Industry Schema
+D08,IATA SGHA 2023,2,workforce_management,IATA,industry_body,Flights,Audit Right,risk,MEDIUM,ALL,IFRS 16 / IAS 37,Industry Schema
+D08,IATA SGHA 2023,2,workforce_management,IATA,industry_body,Flights,Liability Limit,risk,MEDIUM,ALL,IFRS 16 / IAS 37,Industry Schema
+D08,IATA SGHA 2023,2,workforce_management,IATA,industry_body,Flights,SLA Target,market,MEDIUM,ALL,IFRS 16 / IAS 37,Industry Schema
+D08,IATA SGHA 2023,2,workforce_management,IATA,industry_body,Flights,Stamp Duty Fee,cost,MEDIUM,ALL,IFRS 16 / IAS 37,Industry Schema
+D08,IATA SGHA 2023,2,workforce_management,IATA,industry_body,Flights,Section 1 Management Fee,cost,MEDIUM,ALL,IFRS 16 / IAS 37,Industry Schema
+D08,IATA SGHA 2023,2,workforce_management,IATA,industry_body,Flights,Section 2 Passenger Services Fee,cost,MEDIUM,ALL,IFRS 16 / IAS 37,Industry Schema
+D08,IATA SGHA 2023,2,workforce_management,IATA,industry_body,Flights,Baggage Handling Rate,cost,MEDIUM,ALL,IFRS 16 / IAS 37,Industry Schema
+D09,ACI ACRIS,2,distribution_gds,ACI World,industry_body,Flights,Flight Status,risk,HIGH,ALL,Operational,Industry Schema
+D09,ACI ACRIS,2,distribution_gds,ACI World,industry_body,Flights,Estimated Time of Arrival,cost,HIGH,ALL,Operational,Industry Schema
+D09,ACI ACRIS,2,distribution_gds,ACI World,industry_body,Flights,Estimated Time of Departure,cost,HIGH,ALL,Operational,Industry Schema
+D09,ACI ACRIS,2,distribution_gds,ACI World,industry_body,Flights,Gate Assignment,market,HIGH,ALL,Operational,Industry Schema
+D09,ACI ACRIS,2,distribution_gds,ACI World,industry_body,Flights,Stand Assignment,cost,HIGH,ALL,Operational,Industry Schema
+D09,ACI ACRIS,2,distribution_gds,ACI World,industry_body,Flights,Passenger Count (ops),income,HIGH,ALL,Operational,Industry Schema
+D09,ACI ACRIS,2,distribution_gds,ACI World,industry_body,Flights,Baggage Count,cost,HIGH,ALL,Operational,Industry Schema
+D09,ACI ACRIS,2,distribution_gds,ACI World,industry_body,Flights,Resource Requirement,cost,HIGH,ALL,Operational,Industry Schema
+D09,ACI ACRIS,2,distribution_gds,ACI World,industry_body,Flights,ACRIS API Endpoint,option,HIGH,ALL,Operational,Industry Schema
+D09,ACI ACRIS,2,distribution_gds,ACI World,industry_body,Flights,Passenger Data Exchange (PADEX),risk,HIGH,ALL,Operational,Industry Schema
+D09,ACI ACRIS,2,distribution_gds,ACI World,industry_body,Flights,Delay Cause Code,risk,HIGH,ALL,Operational,Industry Schema
+D09,ACI ACRIS,2,distribution_gds,ACI World,industry_body,Flights,Baggage Reconciliation,risk,HIGH,ALL,Operational,Industry Schema
+D10,AIDX v22.1,2,distribution_gds,IATA,industry_body,Flights,FlightLegNotifRQ,risk,HIGH,ALL,IAS 37 / IFRS 15,Industry Schema
+D10,AIDX v22.1,2,distribution_gds,IATA,industry_body,Flights,Owner Airline,income,HIGH,ALL,IAS 37 / IFRS 15,Industry Schema
+D10,AIDX v22.1,2,distribution_gds,IATA,industry_body,Flights,Operating Airline,income,HIGH,ALL,IAS 37 / IFRS 15,Industry Schema
+D10,AIDX v22.1,2,distribution_gds,IATA,industry_body,Flights,Scheduled Time of Departure,cost,HIGH,ALL,IAS 37 / IFRS 15,Industry Schema
+D10,AIDX v22.1,2,distribution_gds,IATA,industry_body,Flights,Actual Time of Departure,risk,HIGH,ALL,IAS 37 / IFRS 15,Industry Schema
+D10,AIDX v22.1,2,distribution_gds,IATA,industry_body,Flights,Actual Time of Arrival,cost,HIGH,ALL,IAS 37 / IFRS 15,Industry Schema
+D10,AIDX v22.1,2,distribution_gds,IATA,industry_body,Flights,Delay Code,risk,HIGH,ALL,IAS 37 / IFRS 15,Industry Schema
+D10,AIDX v22.1,2,distribution_gds,IATA,industry_body,Flights,Delay Duration (minutes),risk,HIGH,ALL,IAS 37 / IFRS 15,Industry Schema
+D10,AIDX v22.1,2,distribution_gds,IATA,industry_body,Flights,TPA_Extension (IROPs),cost,HIGH,ALL,IAS 37 / IFRS 15,Industry Schema
+D10,AIDX v22.1,2,distribution_gds,IATA,industry_body,Flights,RepeatIndex,cost,HIGH,ALL,IAS 37 / IFRS 15,Industry Schema
+D10,AIDX v22.1,2,distribution_gds,IATA,industry_body,Flights,Unique Flight Identifier,income,HIGH,ALL,IAS 37 / IFRS 15,Industry Schema
+D11,Stripe Radar,3,fraud_payment,Stripe,vendor,Payments,Risk Score (0-100),risk,HIGH,ALL,IFRS 9,Vendor Doc
+D11,Stripe Radar,3,fraud_payment,Stripe,vendor,Payments,Risk Level,risk,HIGH,ALL,IFRS 9,Vendor Doc
+D11,Stripe Radar,3,fraud_payment,Stripe,vendor,Payments,Block Rate,cost,HIGH,ALL,IFRS 9,Vendor Doc
+D11,Stripe Radar,3,fraud_payment,Stripe,vendor,Payments,False Positive Rate,cost,HIGH,ALL,IFRS 9,Vendor Doc
+D11,Stripe Radar,3,fraud_payment,Stripe,vendor,Payments,Dispute Rate,risk,HIGH,ALL,IFRS 9,Vendor Doc
+D11,Stripe Radar,3,fraud_payment,Stripe,vendor,Payments,Chargeback Rate,risk,HIGH,ALL,IFRS 9,Vendor Doc
+D11,Stripe Radar,3,fraud_payment,Stripe,vendor,Payments,Radar Rule,option,HIGH,ALL,IFRS 9,Vendor Doc
+D11,Stripe Radar,3,fraud_payment,Stripe,vendor,Payments,3DS Authentication,option,HIGH,ALL,IFRS 9,Vendor Doc
+D11,Stripe Radar,3,fraud_payment,Stripe,vendor,Payments,Fraud Arrival Date,risk,HIGH,ALL,IFRS 9,Vendor Doc
+D11,Stripe Radar,3,fraud_payment,Stripe,vendor,Payments,Transaction Volume,income,HIGH,ALL,IFRS 9,Vendor Doc
+D11,Stripe Radar,3,fraud_payment,Stripe,vendor,Payments,Early Fraud Warning,risk,HIGH,ALL,IFRS 9,Vendor Doc
+D11,Stripe Radar,3,fraud_payment,Stripe,vendor,Payments,Liability Shift,risk,HIGH,ALL,IFRS 9,Vendor Doc
+D11,Stripe Radar,3,fraud_payment,Stripe,vendor,Payments,IP Address Signal,risk,MEDIUM,ALL,IFRS 9,Vendor Doc
+D11,Stripe Radar,3,fraud_payment,Stripe,vendor,Payments,Device Fingerprint,risk,MEDIUM,ALL,IFRS 9,Vendor Doc
+D12,UKG Pro WFM API,3,workforce_management,UKG,vendor,Flights,Punch (clock event),cost,HIGH,ALL,IAS 19,Vendor Doc
+D12,UKG Pro WFM API,3,workforce_management,UKG,vendor,Flights,Accrual Balance,cost,HIGH,ALL,IAS 19,Vendor Doc
+D12,UKG Pro WFM API,3,workforce_management,UKG,vendor,Flights,Shift,cost,HIGH,ALL,IAS 19,Vendor Doc
+D12,UKG Pro WFM API,3,workforce_management,UKG,vendor,Flights,Schedule (computed),option,HIGH,ALL,IAS 19,Vendor Doc
+D12,UKG Pro WFM API,3,workforce_management,UKG,vendor,Flights,Labour Cost per Hour,cost,HIGH,ALL,IAS 19,Vendor Doc
+D12,UKG Pro WFM API,3,workforce_management,UKG,vendor,Flights,Shift Differential,cost,HIGH,ALL,IAS 19,Vendor Doc
+D12,UKG Pro WFM API,3,workforce_management,UKG,vendor,Flights,Compliance Rule,risk,HIGH,ALL,IAS 19,Vendor Doc
+D12,UKG Pro WFM API,3,workforce_management,UKG,vendor,Flights,Overtime Rate,cost,HIGH,ALL,IAS 19,Vendor Doc
+D12,UKG Pro WFM API,3,workforce_management,UKG,vendor,Flights,Coverage Requirement,cost,HIGH,ALL,IAS 19,Vendor Doc
+D12,UKG Pro WFM API,3,workforce_management,UKG,vendor,Flights,Fatigue Risk Score,risk,MEDIUM,ALL,IAS 19,Vendor Doc
+D12,UKG Pro WFM API,3,workforce_management,UKG,vendor,Flights,Rule Set,risk,HIGH,ALL,IAS 19,Vendor Doc
+D12,UKG Pro WFM API,3,workforce_management,UKG,vendor,Flights,Custom Fields (Payroll),cost,MEDIUM,ALL,IAS 19,Vendor Doc
+D12,UKG Pro WFM API,3,workforce_management,UKG,vendor,Flights,Attendance Processor,risk,HIGH,ALL,IAS 19,Vendor Doc
+D12,UKG Pro WFM API,3,workforce_management,UKG,vendor,Flights,Webhook Event,option,HIGH,ALL,IAS 19,Vendor Doc
+D13,PROS RM,3,revenue_management,PROS,vendor,Shopping,Willingness-to-Pay Curve,income,MEDIUM,ALL,IFRS 15,Vendor Doc
+D13,PROS RM,3,revenue_management,PROS,vendor,Shopping,Bid Price,option,MEDIUM,ALL,IFRS 15,Vendor Doc
+D13,PROS RM,3,revenue_management,PROS,vendor,Shopping,Booking Limit,option,MEDIUM,ALL,IFRS 15,Vendor Doc
+D13,PROS RM,3,revenue_management,PROS,vendor,Shopping,Spill Cost,risk,MEDIUM,ALL,IFRS 15,Vendor Doc
+D13,PROS RM,3,revenue_management,PROS,vendor,Shopping,Recapture Rate,income,MEDIUM,ALL,IFRS 15,Vendor Doc
+D13,PROS RM,3,revenue_management,PROS,vendor,Shopping,Demand Forecast,market,MEDIUM,ALL,IFRS 15,Vendor Doc
+D13,PROS RM,3,revenue_management,PROS,vendor,Shopping,O&D Control,income,MEDIUM,ALL,IFRS 15,Vendor Doc
+D13,PROS RM,3,revenue_management,PROS,vendor,Shopping,Inventory Control Mode,option,MEDIUM,ALL,IFRS 15,Vendor Doc
+D13,PROS RM,3,revenue_management,PROS,vendor,Shopping,Market Signal,market,MEDIUM,ALL,IFRS 15,Vendor Doc
+D13,PROS RM,3,revenue_management,PROS,vendor,Shopping,Booking Curve,market,MEDIUM,ALL,IFRS 15,Vendor Doc
+D13,PROS RM,3,revenue_management,PROS,vendor,Shopping,Elasticity Score,market,MEDIUM,ALL,IFRS 15,Vendor Doc
+D13,PROS RM,3,revenue_management,PROS,vendor,Shopping,Dynamic Pricing Flag,option,LOW,ALL,IFRS 15,Vendor Doc
+D13,PROS RM,3,revenue_management,PROS,vendor,Shopping,Revenue Dilution Risk,risk,MEDIUM,ALL,IFRS 15,Vendor Doc
+D13,PROS RM,3,revenue_management,PROS,vendor,Shopping,Subscription Revenue,cost,HIGH,ALL,IFRS 15,Vendor Doc
+D14,Amadeus Loyalty,3,revenue_management,Amadeus,vendor,Order Management,Points Accrual Rate,option,HIGH,ALL,IFRS 15,Vendor Doc
+D14,Amadeus Loyalty,3,revenue_management,Amadeus,vendor,Order Management,Points Redemption Cost,cost,HIGH,ALL,IFRS 15,Vendor Doc
+D14,Amadeus Loyalty,3,revenue_management,Amadeus,vendor,Order Management,Member Status Tier,market,HIGH,ALL,IFRS 15,Vendor Doc
+D14,Amadeus Loyalty,3,revenue_management,Amadeus,vendor,Order Management,Status Threshold,option,HIGH,ALL,IFRS 15,Vendor Doc
+D14,Amadeus Loyalty,3,revenue_management,Amadeus,vendor,Order Management,Redemption Inventory,option,MEDIUM,ALL,IFRS 15,Vendor Doc
+D14,Amadeus Loyalty,3,revenue_management,Amadeus,vendor,Order Management,Partner Billing Rate,income,MEDIUM,ALL,IFRS 15,Vendor Doc
+D14,Amadeus Loyalty,3,revenue_management,Amadeus,vendor,Order Management,Miles Purchased,income,HIGH,ALL,IFRS 15,Vendor Doc
+D14,Amadeus Loyalty,3,revenue_management,Amadeus,vendor,Order Management,Miles Transferred,income,HIGH,ALL,IFRS 15,Vendor Doc
+D14,Amadeus Loyalty,3,revenue_management,Amadeus,vendor,Order Management,Breakage Rate,income,MEDIUM,ALL,IFRS 15,Vendor Doc
+D14,Amadeus Loyalty,3,revenue_management,Amadeus,vendor,Order Management,Deferred Revenue,cost,HIGH,ALL,IFRS 15,Vendor Doc
+D14,Amadeus Loyalty,3,revenue_management,Amadeus,vendor,Order Management,Retroactive Accrual,cost,HIGH,ALL,IFRS 15,Vendor Doc
+D14,Amadeus Loyalty,3,revenue_management,Amadeus,vendor,Order Management,Campaign Multiplier,cost,MEDIUM,ALL,IFRS 15,Vendor Doc
+D14,Amadeus Loyalty,3,revenue_management,Amadeus,vendor,Order Management,Co-brand Revenue,income,MEDIUM,ALL,IFRS 15,Vendor Doc
+D15,Amadeus IROPs,3,distribution_gds,Amadeus,vendor,Order Management,Disruption Cost,risk,MEDIUM,ALL,IAS 37,Vendor Doc
+D15,Amadeus IROPs,3,distribution_gds,Amadeus,vendor,Order Management,Rebooking Option,option,HIGH,ALL,IAS 37,Vendor Doc
+D15,Amadeus IROPs,3,distribution_gds,Amadeus,vendor,Order Management,Competitor Schedule,market,HIGH,ALL,IAS 37,Vendor Doc
+D15,Amadeus IROPs,3,distribution_gds,Amadeus,vendor,Order Management,Compensation Trigger,risk,HIGH,ALL,IAS 37,Vendor Doc
+D15,Amadeus IROPs,3,distribution_gds,Amadeus,vendor,Order Management,Ancillary Retention Flag,income,MEDIUM,ALL,IAS 37,Vendor Doc
+D15,Amadeus IROPs,3,distribution_gds,Amadeus,vendor,Order Management,Hotel Voucher Value,cost,HIGH,ALL,IAS 37,Vendor Doc
+D15,Amadeus IROPs,3,distribution_gds,Amadeus,vendor,Order Management,Meal Voucher Value,cost,HIGH,ALL,IAS 37,Vendor Doc
+D15,Amadeus IROPs,3,distribution_gds,Amadeus,vendor,Order Management,Transfer Cost,cost,HIGH,ALL,IAS 37,Vendor Doc
+D15,Amadeus IROPs,3,distribution_gds,Amadeus,vendor,Order Management,Recovery Time,risk,HIGH,ALL,IAS 37,Vendor Doc
+D15,Amadeus IROPs,3,distribution_gds,Amadeus,vendor,Order Management,Bag Handling Cost,cost,HIGH,ALL,IAS 37,Vendor Doc
+D15,Amadeus IROPs,3,distribution_gds,Amadeus,vendor,Order Management,One-off Flight Cost,cost,MEDIUM,ALL,IAS 37,Vendor Doc
+D15,Amadeus IROPs,3,distribution_gds,Amadeus,vendor,Order Management,Self-Reaccommodation Flag,option,HIGH,ALL,IAS 37,Vendor Doc
+D15,Amadeus IROPs,3,distribution_gds,Amadeus,vendor,Order Management,EU261 Liability,risk,HIGH,ALL,IAS 37,Vendor Doc
+D16,GTAA Fees 2025 (YYZ),4,revenue_management,GTAA,airport,Flights,Landing Fee (CAD/tonne MTOW),cost,HIGH,CA,IFRS 16 / IAS 37,Airport Doc
+D16,GTAA Fees 2025 (YYZ),4,revenue_management,GTAA,airport,Flights,Airport Improvement Fee — Departing,cost,HIGH,CA,IFRS 16 / IAS 37,Airport Doc
+D16,GTAA Fees 2025 (YYZ),4,revenue_management,GTAA,airport,Flights,Airport Improvement Fee — Connecting,cost,HIGH,CA,IFRS 16 / IAS 37,Airport Doc
+D16,GTAA Fees 2025 (YYZ),4,revenue_management,GTAA,airport,Flights,AIF in lieu (per seat),cost,HIGH,CA,IFRS 16 / IAS 37,Airport Doc
+D16,GTAA Fees 2025 (YYZ),4,revenue_management,GTAA,airport,Flights,Aircraft Parking Fee,cost,HIGH,CA,IFRS 16 / IAS 37,Airport Doc
+D16,GTAA Fees 2025 (YYZ),4,revenue_management,GTAA,airport,Flights,Apron Fee,cost,HIGH,CA,IFRS 16 / IAS 37,Airport Doc
+D16,GTAA Fees 2025 (YYZ),4,revenue_management,GTAA,airport,Flights,Slot Holding Fee,option,HIGH,CA,IFRS 16 / IAS 37,Airport Doc
+D16,GTAA Fees 2025 (YYZ),4,revenue_management,GTAA,airport,Flights,Cost per Enplaned Passenger (CPE),market,HIGH,CA,IFRS 16 / IAS 37,Airport Doc
+D16,GTAA Fees 2025 (YYZ),4,revenue_management,GTAA,airport,Flights,MTOW Classification,cost,HIGH,CA,IFRS 16 / IAS 37,Airport Doc
+D16,GTAA Fees 2025 (YYZ),4,revenue_management,GTAA,airport,Flights,General Aviation Fixed Rate,cost,HIGH,CA,IFRS 16 / IAS 37,Airport Doc
+D16,GTAA Fees 2025 (YYZ),4,revenue_management,GTAA,airport,Flights,Inflation Adjustment Rate,market,HIGH,CA,IFRS 16 / IAS 37,Airport Doc
+D16,GTAA Fees 2025 (YYZ),4,revenue_management,GTAA,airport,Flights,Common Use Fee,cost,HIGH,CA,IFRS 16 / IAS 37,Airport Doc
+D17,PANYNJ Charges EWR,4,revenue_management,Port Authority NY/NJ,airport,Flights,Public Landing Area Charge,cost,HIGH,USA,FAA Grant Assurances,Airport Doc
+D17,PANYNJ Charges EWR,4,revenue_management,Port Authority NY/NJ,airport,Flights,Ramp and Apron Charge ($/15 min),cost,HIGH,USA,FAA Grant Assurances,Airport Doc
+D17,PANYNJ Charges EWR,4,revenue_management,Port Authority NY/NJ,airport,Flights,Aircraft Parking/Storage Charge,cost,HIGH,USA,FAA Grant Assurances,Airport Doc
+D17,PANYNJ Charges EWR,4,revenue_management,Port Authority NY/NJ,airport,Flights,Federal Inspection Space Charge,cost,HIGH,USA,FAA Grant Assurances,Airport Doc
+D17,PANYNJ Charges EWR,4,revenue_management,Port Authority NY/NJ,airport,Flights,Terminal Rental Rate ($/sq ft),cost,HIGH,USA,FAA Grant Assurances,Airport Doc
+D17,PANYNJ Charges EWR,4,revenue_management,Port Authority NY/NJ,airport,Flights,Gate Utilization Fee,cost,HIGH,USA,FAA Grant Assurances,Airport Doc
+D17,PANYNJ Charges EWR,4,revenue_management,Port Authority NY/NJ,airport,Flights,Passenger Facility Charge (PFC),cost,HIGH,USA,FAA Grant Assurances,Airport Doc
+D17,PANYNJ Charges EWR,4,revenue_management,Port Authority NY/NJ,airport,Flights,Lost Gatecard Penalty,risk,HIGH,USA,FAA Grant Assurances,Airport Doc
+D17,PANYNJ Charges EWR,4,revenue_management,Port Authority NY/NJ,airport,Flights,Non-Signatory Rate Premium,market,HIGH,USA,FAA Grant Assurances,Airport Doc
+D17,PANYNJ Charges EWR,4,revenue_management,Port Authority NY/NJ,airport,Flights,Tarmac Delay Contingency Cost,risk,HIGH,USA,FAA Grant Assurances,Airport Doc
+D17,PANYNJ Charges EWR,4,revenue_management,Port Authority NY/NJ,airport,Flights,International Arrivals Building Fee,cost,HIGH,USA,FAA Grant Assurances,Airport Doc
+D18,Heathrow CoU LHR,4,revenue_management,Heathrow Airport Ltd,airport,Flights,Maximum Allowable Yield (MAY/pax),market,HIGH,EU,IFRS 15 / IFRS 16,Airport Doc
+D18,Heathrow CoU LHR,4,revenue_management,Heathrow Airport Ltd,airport,Flights,Airport Charge per Passenger,income,HIGH,EU,IFRS 15 / IFRS 16,Airport Doc
+D18,Heathrow CoU LHR,4,revenue_management,Heathrow Airport Ltd,airport,Flights,K Factor (correction),market,HIGH,EU,IFRS 15 / IFRS 16,Airport Doc
+D18,Heathrow CoU LHR,4,revenue_management,Heathrow Airport Ltd,airport,Flights,AK Factor,market,HIGH,EU,IFRS 15 / IFRS 16,Airport Doc
+D18,Heathrow CoU LHR,4,revenue_management,Heathrow Airport Ltd,airport,Flights,CPI Adjustment (3.249% 2025),market,HIGH,EU,IFRS 15 / IFRS 16,Airport Doc
+D18,Heathrow CoU LHR,4,revenue_management,Heathrow Airport Ltd,airport,Flights,Efficiency Factor (X),cost,HIGH,EU,IFRS 15 / IFRS 16,Airport Doc
+D18,Heathrow CoU LHR,4,revenue_management,Heathrow Airport Ltd,airport,Flights,WACC (4.01% CAP3001),market,HIGH,EU,IFRS 15 / IFRS 16,Airport Doc
+D18,Heathrow CoU LHR,4,revenue_management,Heathrow Airport Ltd,airport,Flights,Airfield Charge per ATM,cost,HIGH,EU,IFRS 15 / IFRS 16,Airport Doc
+D18,Heathrow CoU LHR,4,revenue_management,Heathrow Airport Ltd,airport,Flights,Stand Charge (GBP/hour),cost,HIGH,EU,IFRS 15 / IFRS 16,Airport Doc
+D18,Heathrow CoU LHR,4,revenue_management,Heathrow Airport Ltd,airport,Flights,Remote Stand Discount,option,HIGH,EU,IFRS 15 / IFRS 16,Airport Doc
+D18,Heathrow CoU LHR,4,revenue_management,Heathrow Airport Ltd,airport,Flights,Terminal Drop-Off Charge,cost,HIGH,EU,IFRS 15 / IFRS 16,Airport Doc
+D18,Heathrow CoU LHR,4,revenue_management,Heathrow Airport Ltd,airport,Flights,SAF Incentive,option,HIGH,EU,IFRS 15 / IFRS 16,Airport Doc
+D18,Heathrow CoU LHR,4,revenue_management,Heathrow Airport Ltd,airport,Flights,H7 Regulatory Period,market,HIGH,EU,IFRS 15 / IFRS 16,Airport Doc
+D18,Heathrow CoU LHR,4,revenue_management,Heathrow Airport Ltd,airport,Flights,Other Regulated Charges (ORC),cost,HIGH,EU,IFRS 15 / IFRS 16,Airport Doc
+D18,Heathrow CoU LHR,4,revenue_management,Heathrow Airport Ltd,airport,Flights,Passenger Compensation Obligation,risk,HIGH,EU,IFRS 15 / IFRS 16,Airport Doc

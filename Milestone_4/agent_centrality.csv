@@ -1,0 +1,20 @@
+Agent,Function,Degree_Centrality,In_Degree,Out_Degree,Betweenness,PageRank
+RMS_Agent,Revenue Management,0.2222,0.1111,0.1111,0.0327,0.0588
+Execution_Engine,Revenue Management,0.1111,0.0556,0.0556,0.0294,0.0468
+GDS_Agent,Distribution / GDS,0.1667,0.0556,0.1111,0.0261,0.0615
+Crew_Recovery_Agent,Disruption Management,0.2222,0.1111,0.1111,0.0261,0.0889
+Crew_Scheduling_Agent,Workforce Management,0.1667,0.1111,0.0556,0.0196,0.0588
+Aircraft_Recovery_Agent,Disruption Management,0.1667,0.0556,0.1111,0.0098,0.0403
+Card_Network_Agent,Fraud / Payment,0.1111,0.0556,0.0556,0.0065,0.0403
+Payment_Clearance_Agent,Fraud / Payment,0.1111,0.0556,0.0556,0.0065,0.056
+ATPCO_Filing_Agent,Revenue Management,0.0556,0.0,0.0556,0.0,0.0218
+Responsible_Airline_Agent,Distribution / GDS,0.1111,0.0556,0.0556,0.0,0.0479
+Loyalty_Agent,Revenue Management,0.0556,0.0556,0.0,0.0,0.0468
+Interline_Settlement_Agent,Distribution / GDS,0.1667,0.1667,0.0,0.0,0.1363
+CDM_Airport_Agent,Distribution / GDS,0.0556,0.0,0.0556,0.0,0.0218
+Airport_Charge_Agent,Revenue Management,0.0556,0.0,0.0556,0.0,0.0218
+Passenger_Recovery_Agent,Disruption Management,0.1111,0.0556,0.0556,0.0,0.0596
+Transaction_Stream_Agent,Fraud / Payment,0.0556,0.0,0.0556,0.0,0.0218
+Coordinator_Agent,Disruption Management,0.1667,0.1667,0.0,0.0,0.1273
+Ground_Handler_Agent,Workforce Management,0.0556,0.0,0.0556,0.0,0.0218
+Schedule_Agent,Workforce Management,0.0556,0.0,0.0556,0.0,0.0218
